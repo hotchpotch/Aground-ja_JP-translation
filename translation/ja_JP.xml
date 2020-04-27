@@ -883,7 +883,7 @@
 		<text id="spirit_gem">[item=spirit_gem] を使ってｽﾋﾟﾘｯﾄを捕獲して欲しい.</text>
 		<text id="alter_gem">彼の[item=wyrm] 研究を終わらせる為に、もっと助けが必要です!</text>
 		<text id="oldone">魔法ｴﾈﾙｷﾞｰの源を見つけて欲しい</text>
-		<text id="minecart">wants to set up a [item=minecart] to make mining easier.</text>
+		<text id="minecart">採掘を簡単にするため、[item=minecart]を設置したい.</text>
 	</section>
 	<section id="vehicle">
 		<text id="dismount">降りる</text>
@@ -895,10 +895,10 @@
 		<text id="battery">ﾊﾞｯﾃﾘｰから充電</text>
 		<text id="explain">[color=770000]ﾋﾝﾄ:[/color] 乗り物や動物に乗っているときは、 [key=equipment] を押して餌や燃料を選ぶことができます。</text>
 		<text id="flight_height">この車両はそれ以上飛べない！</text>
-		<text id="deploy">Deploy</text>
-		<text id="pack_up">Pack Up</text>
-		<text id="boat_pack_up">If you pack up the boat now, you'll end up swimming with the fishes!</text>
-		<text id="in_use">Unable to operate vehicle: another player is already operating it!</text>
+		<text id="deploy">出荷</text>
+		<text id="pack_up">荷造り</text>
+    <text id="boat_pack_up">今ボートに詰め込むと、魚と一緒に泳ぐはめになるよ！</text>
+    <text id="in_use">車両を操作できない: 別のプレーヤがすでに操作している!</text>
 	</section>
 	<section id="npc">
 		<text id="talk">話す</text>
@@ -928,7 +928,7 @@
 		<text id="storehouse2">では、 [color=770000]倉庫[/color] を建ててくれる!？</text>
 		<text id="storehouse3">どう？大工さんも達成感を得られたでしょ！？生き残れる希望が見えたんじゃない？</text>
 		<text id="storehouse4">うん…実際、これは便利なものや。 たくさんの物を持ち運んで疲れてしまうことを避けることができる…これなら生きていくこともできるかもしれんのぅ…</text>
-		<text id="storehouse5">We can quickly drop off all that extra weight by using the Move All buttons, and use [key=quest] to toggle starred items - starred items will stay in your inventory when you hit Move All.</text>
+    <text id="storehouse5">すべて移動ﾎﾞﾀﾝを押すと余計な重いものをすぐに減らせ、[key=quest]を使用してｽﾀｰ付きｱｲﾃﾑを切り替えれるぞ。ｽﾀｰ付きｱｲﾃﾑは移動しないんじゃ。</text>
 		<text id="farmer">わしらは[object=farmer]と取引をするべきじゃ。奴がうまい食べ物を育てる手助けをしようぞ.</text>
 		<text id="miner">おめぇは[object=miner]が、地下から現れるのを見たか？彼女が何を欲しがっとるのか、確認したほうがえぇ。</text>
 		<text id="kitchen1">なぜ [color=770000]調理場[/color]を建てると思うんや? [item=meat]は食べられるが、調理すると、さらにうまくなるからや。</text>
