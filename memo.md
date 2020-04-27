@@ -4,18 +4,21 @@
 
 ## fnt ファイルの作成
 
-フォント元のファイルとして、無償で使える綺麗な bitmap フォントの TTF の [PixelMplus](http://itouhiro.hatenablog.com/entry/20130602/font) を使う。fnt と png の生成には [fontbm](https://github.com/vladimirgamalyan/fontbm) を使う。
+フォント元のファイルとして、無償で使える bitmap TrueType フォントの [美咲フォント](https://littlelimit.net/misaki.htm) を使う。fnt と png の生成には [fontbm](https://github.com/vladimirgamalyan/fontbm) を使う。
 
 また、ttf ファイルから利用できる文字一覧を取得するために、[ttf-chars.rb](https://gist.github.com/hotchpotch/c150199681482b2e5b7a7d1b5c4660fd) というスクリプトを作った。
 
-で、こんな感じで作る。残念ながらフォントスムージングはきかせられなさそうなので等倍を。
+で、こんな感じで作る。
 
 ```
-$ ruby ttf-chars.rb ./PixelMplus-20130602/PixelMplus10-Regular.ttf > pixel_mplus_chars.txt
-$ ./fontbm --font-file ./PixelMplus-20130602/PixelMplus10-Regular.ttf --font-size 10 --output ja_JP --data-format xml --chars-file pixel_mplus_chars.txt --texture-width=1024 --texture-height=1024
+$ ruby ttf-chars.rb ./misaki_ttf_2019-10-19/misaki_gothic_2nd.ttf > misaki_chars.txt
+$ ./fontbm --font-file ./misaki_ttf_2019-10-19/misaki_gothic_2nd.ttf --font-size 8 --output ja_JP --data-format xml --chars-file misaki_chars.txt --texture-width=1024 --texture-height=1024
 ```
 
-## Mac で生成する
+当初は [PixelMplus](http://itouhiro.hatenablog.com/entry/20130602/font) の 10px のフォントサイズで作ったが、10px だと場所によって文字がはみ出るので、8pxフォントである美咲フォントを利用した。
+
+
+## Mac で生成してうまく行かなかった記録
 
 Mac で、かつ文字数が多いとうまく動く無料の物が見つからなかった。ブラウザで利用できる [http://kvazars.com/littera/](http://kvazars.com/littera/) は文字数が多いためか固まるし、[FontBuilder](https://github.com/andryblack/fontbuilder) はうまく動く、かと思いきや、出力した fnt ファイルが Aground ではうまく動かない…。
 
