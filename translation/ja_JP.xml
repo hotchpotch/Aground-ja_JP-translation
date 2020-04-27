@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lang id="ja_JP" name="Japanese" version="1.5.3">
+	<section id="common">
+		<text id="blocked">効かない!</text>
+		<text id="resist">{element} リセット!</text>
+		<text id="effective">{element} 効果的!</text>
+		<text id="miss">ミス！</text>
+		<text id="dodged">回避!</text>
+		<text id="critical_hit">クリティカル!</text>
+		<text id="save">保存データ</text>
+		<text id="del_save">データ消去</text>
+		<text id="save_corrupt">データが壊れています! プレイヤーが存在しない世界にいます。</text>
+		<text id="fuel">燃料</text>
+		<text id="add_fuel">燃料追加</text>
+		<text id="add_rations">食糧追加</text>
+		<text id="add_feed">飼料追加</text>
+		<text id="all">全部</text>
+		<text id="equipment">装備</text>
+		<text id="capacity">持つ:</text>
+		<text id="health">体力:</text>
+		<text id="stamina">持久力:</text>
+		<text id="health_short">体力</text>
+		<text id="defense_short">防御</text>
+		<text id="power">力</text>
+		<text id="oxygen">酸素</text>
+		<text id="ok">Ok</text>
+		<text id="cancel">中止</text>
+		<text id="yes">はい</text>
+		<text id="no">いいえ</text>
+		<text id="accept">了解</text>
+		<text id="reject">拒否</text>
+		<text id="sell">売る</text>
+		<text id="buy">買う</text>
+		<text id="drop_item">どれだけ捨てますか？</text>
+		<text id="eat_item">どれだけ食べる？</text>
+		<text id="drink_item">どれだけ飲む？</text>
+		<text id="store_item">どれだけ保管？</text>
+		<text id="retrieve_item">どれくらい出す？</text>
+		<text id="sell_item">どれだけ売る？</text>
+		<text id="buy_item">どのくらい買う？</text>
+		<text id="requires">-- 材料 --</text>
+		<text id="repair_cost">-- 修理コスト --</text>
+		<text id="creates">-- 作る --</text>
+		<text id="repaired">{item} 修理.</text>
+		<text id="inventory">持ち物</text>
+		<text id="quests">ｸｴｽﾄ記録</text>
+		<text id="hut">小屋</text>
+		<text id="smelter">製錬所</text>
+		<text id="kitchen">調理場</text>
+		<text id="workshop">工房</text>
+		<text id="storehouse">倉庫</text>
+		<text id="dockhouse">桟橋小屋</text>
+		<text id="power_plant">発電所</text>
+		<text id="warehouse">倉庫</text>
+		<text id="farm">納屋</text>
+		<text id="stall">飼育小屋</text>
+		<text id="harvest">収穫</text>
+		<text id="harvest_all">全て収穫</text>
+		<text id="manage">管理</text>
+		<text id="feed">飼料</text>
+		<text id="lab">研究室</text>
+		<text id="wyrm_pen">竜の飼育小屋</text>
+		<text id="factory">工場</text>
+		<text id="synthesizer">合成機</text>
+		<text id="power_per_hit">攻撃力:</text>
+		<text id="stamina_per_hit">持久力:</text>
+		<text id="stamina_per_use">消耗:</text>
+		<text id="move">動く</text>
+		<text id="newgame">新規スタート</text>
+		<text id="continue">続きから</text>
+		<text id="options">ｵﾌﾟｼｮﾝ</text>
+		<text id="exit">終了</text>
+		<text id="forums">コミュ</text>
+		<text id="mods">Mods</text>
+		<text id="empty">空き</text>
+		<text id="empty_slot">&lt; 空き ｽﾛｯﾄ &gt;</text>
+		<text id="corrupt_slot">破損ｽﾛｯﾄ</text>
+		<text id="overwrite">上書きしてもいいですか？</text>
+		<text id="none">無し</text>
+		<text id="addition_slots">ﾌｨｰﾙﾄﾞ:</text>
+		<text id="placed">{item} 置く.</text>
+		<text id="level_up">ﾚﾍﾞﾙｱｯﾌﾟ!</text>
+		<text id="level">ﾚﾍﾞﾙ:</text>
+		<text id="experience">経験値:</text>
+		<text id="hotkey">ｱｲﾃﾑ選択</text>
+		<text id="set_hotkey">ﾎｯﾄｷｰ決定:</text>
+		<text id="retry">もう1度</text>
+		<text id="title">ﾀｲﾄﾙに戻る</text>
+		<text id="move_all">全て動かす</text>
+		<text id="add_animal">動物追加</text>
+		<text id="select_feed">飼料選択</text>
+		<text id="use_count">どれだけ使う？</text>
+		<text id="select_fertilizer">肥料選択</text>
+		<text id="muted">消音</text>
+		<text id="unmuted">音出</text>
+		<text id="storehouse_add">{npc}は{storehouse}に{item}を{count}追加しました</text>
+		<text id="auto_eat">体力を回復するために{item}を{count}使用しました</text>
+		<text id="auto_eat_stamina">{item}を{count}使って持久力を回復</text>
+		<text id="drop_all">全ての{item}を捨てますか？ 元には戻せませんよ？</text>
+		<text id="sign_message">[item=sign] ﾒｯｾｰｼﾞ:</text>
+		<text id="transform">どれだけ必要？ {into}?</text>
+		<text id="collect_complete">全て回収</text>
+		<text id="set_sticky">切替 [tile=sticky] ｱｲﾃﾑ付箋</text>
+		<text id="fishing_line">きた!？</text>
+		<text id="fishing_fail">外れた!</text>
+		<text id="fishing_hooked">まだ...</text>
+		<text id="fishing_pull">引け!</text>
+		<text id="craft">どれだけ作る？</text>
+		<text id="uncraft">どれだけ修復？</text>
+		<text id="coins">コイン</text>
+		<text id="broken">{item}が壊れた!</text>
+		<text id="damaged">{item}が壊れそう!</text>
+		<text id="rem_storehouse_items">持ち物のみ</text>
+		<text id="add_storehouse_items">倉庫を含む</text>
+		<text id="hungry">{item} は空腹です!</text>
+		<text id="not_hungry">{item} は空腹が解消されました.</text>
+		<text id="rename">{item} 名前決め:</text>
+		<text id="recharge">再充電</text>
+		<text id="recharge_batteries">バッテリー充電</text>
+		<text id="restore_power">全バッテリー充電!</text>
+		<text id="restore_power_partial">できるだけバッテリーを充電します。</text>
+		<text id="rations">食糧</text>
+		<text id="auto_feed">{item}に{list}を送りますか？</text>
+		<text id="auto_fuel">{item}に燃料として{list}を使う？</text>
+		<text id="retransform">{item} は壊れそう! 修理するには？{list}</text>
+		<text id="uses">使う</text>
+		<text id="enchantment">施術</text>
+		<text id="cooldown">クールダウン</text>
+		<text id="durability">耐久性</text>
+		<text id="damage">打撃</text>
+		<text id="capture">捕獲</text>
+		<text id="spirits">精神</text>
+		<text id="flight">飛行力:</text>
+		<text id="knockback">ノックバック:</text>
+		<text id="fight">戦闘</text>
+		<text id="run_away">逃げる</text>
+		<text id="complete">完成</text>
+		<text id="remove">除外</text>
+		<text id="time_manipulator">時間操作</text>
+		<text id="set_time">何時にしたいですか（24時間形式）？</text>
+		<text id="save_prompt_magic">魔法の説明の終わりです。 保存しますか？</text>
+		<text id="save_prompt_science">科学の説明は終わりです。保存しますか？</text>
+		<text id="credits">ｸﾚｼﾞｯﾄ</text>
+		<text id="order">ｹﾞｰﾑ購入!</text>
+		<text id="reset">ﾘｾｯﾄ</text>
+		<text id="exit_water">水から出る</text>
+		<text id="no_ask">もう聞かないで。</text>
+		<text id="out_of_date">[color=ff2222]警告![/color] ｱｯﾌﾟﾃﾞｰﾄ {version} が利用できます!</text>
+		<text id="select_dir">方向選択:\n\n[key=left][key=up][key=down][key=right]</text>
+		<text id="random">ﾗﾝﾀﾞﾑ</text>
+		<text id="efficiency">性能</text>
+		<text id="move_dir">動く [key=left][key=up][key=down][key=right]</text>
+		<text id="victory">勝利!</text>
+	</section>
+	<section id="stats">
+		<text id="view">状態表示</text>
+		<text id="health">最大体力</text>
+		<text id="stamina">最大持久力</text>
+		<text id="speed">速度</text>
+		<text id="endurance">耐久</text>
+		<text id="attack">攻撃</text>
+		<text id="range">範囲</text>
+		<text id="defense">防御</text>
+		<text id="elementDefense">ｴﾚﾒﾝﾀﾙ防御</text>
+		<text id="cut">切る</text>
+		<text id="spirit">精神</text>
+		<text id="mine">鉱山</text>
+		<text id="weight">重さ</text>
+		<text id="evasion">回避</text>
+		<text id="critical">会心</text>
+		<text id="fishing">釣り</text>
+		<text id="mine_speed">掘削速度</text>
+		<text id="sight">視力</text>
+		<text id="bargaining">交渉</text>
+		<text id="trap">罠</text>
+		<text id="time">{mod} ： {time}s</text>
+		<text id="max">{mod} ({current}/{max})</text>
+	</section>
+	<section id="stat.descriptions">
+		<text id="health">耐久値を増加させます。</text>
+		<text id="stamina">持久力の消費を抑えます。</text>
+		<text id="speed">移動速度を上げます</text>
+		<text id="endurance">体力の低下を抑えます</text>
+		<text id="attack">近接攻撃のダメージを増加させます。</text>
+		<text id="range">遠隔武器の射程距離を増加させます。</text>
+		<text id="defense">ダメージが減少します。</text>
+		<text id="cut">木を切る速度を増加させます。</text>
+		<text id="mine">固い地盤を掘削できます。</text>
+		<text id="weight">荷物の運搬能力を増加させます。</text>
+		<text id="evasion">敵のミスを誘います。</text>
+		<text id="critical">近接による会心率を増加させます。</text>
+		<text id="fishing">魚を捕えやすくします。</text>
+		<text id="mine_speed">掘削速度を上げます。</text>
+		<text id="sight">移動や採掘の際に、より多くの資源を出現させます。</text>
+		<text id="bargaining">アイテムの販売コストを増加させます。</text>
+		<text id="trap">網の捕縛量を増加させます。</text>
+	</section>
+	<section id="skill">
+		<text id="allocate">ｽｷﾙﾎﾟｲﾝﾄの割り当て</text>
+		<text id="points">ｽｷﾙﾎﾟｲﾝﾄ</text>
+		<text id="max">[color=770000]最大ｽｷﾙ</text>
+	</section>
+	<section id="actions">
+		<text id="drop">破棄</text>
+		<text id="place">置く</text>
+		<text id="use">使う</text>
+		<text id="craft">作る</text>
+		<text id="equip">装備</text>
+		<text id="unequip">非装備</text>
+		<text id="fire">火</text>
+		<text id="eat">食べる</text>
+		<text id="loot">探す</text>
+		<text id="feed">飼料</text>
+		<text id="feed_all">全飼料</text>
+		<text id="fuel_all">全燃料</text>
+		<text id="collect">回収</text>
+		<text id="open">開く</text>
+		<text id="carve">刻む</text>
+		<text id="switch">変更</text>
+		<text id="transform">変換</text>
+		<text id="repair">修理</text>
+		<text id="rename">名付</text>
+		<text id="fill">装填</text>
+		<text id="synthesize">合成</text>
+		<text id="enchant">施術</text>
+		<text id="setProjectile">装填</text>
+		<text id="enrage">怒り</text>
+		<text id="enrage_prompt">あなたと永久的に敵対することになりますが、[item=adult_dragon]を怒らせますか？</text>
+		<text id="enable_attack">攻撃する</text>
+		<text id="disable_attack">攻撃しない</text>
+		<text id="summon">呼ぶ</text>
+		<text id="uncraft">作らない</text>
+		<text id="set_time">時間設定</text>
+		<text id="reset_skills">ｽｷﾙ初期化</text>
+		<text id="build">建てる</text>
+		<text id="upgrade">ｱｯﾌﾟｸﾞﾚｰﾄﾞ</text>
+		<text id="plant">工事</text>
+		<text id="merge_coins">集金</text>
+	</section>
+	<section id="item.names">
+		<text id="wood">木材</text>
+		<text id="coal">石炭</text>
+		<text id="iron">鉄鉱石</text>
+		<text id="quartz">水晶</text>
+		<text id="gold">金鉱石</text>
+		<text id="diamond">ﾀﾞｲﾔﾓﾝﾄﾞ</text>
+		<text id="sulfur">硫黄</text>
+		<text id="oil">生油</text>
+		<text id="titanium">ﾁﾀﾆｳﾑ</text>
+		<text id="uranium">ｳﾗﾆｳﾑ</text>
+		<text id="iron_bar">鉄の延棒</text>
+		<text id="steel_bar">鋼の延棒</text>
+		<text id="gold_bar">金の延棒</text>
+		<text id="meat">お肉</text>
+		<text id="fruit">りんご</text>
+		<text id="wheat">小麦</text>
+		<text id="eggs">卵</text>
+		<text id="milk">牛乳</text>
+		<text id="sugar">砂糖</text>
+		<text id="steak">ステーキ</text>
+		<text id="bread">パン</text>
+		<text id="pie">パイ</text>
+		<text id="pancakes">パンケーキ</text>
+		<text id="hamburger">ハンバーガー</text>
+		<text id="cheese">チーズ</text>
+		<text id="pizza">ピザ</text>
+		<text id="omelette">オムレツ</text>
+		<text id="cheeseburger">チーズバーガー</text>
+		<text id="cake">ケーキ</text>
+		<text id="candy_apple">りんご飴</text>
+		<text id="dragonblood">竜の血</text>
+		<text id="stone_axe">石の斧</text>
+		<text id="stone_pickaxe">石ピッケル</text>
+		<text id="broken_pickaxe">壊れたピッケル</text>
+		<text id="coin_purse">小銭入れ</text>
+		<text id="iron_pickaxe">鉄のピッケル</text>
+		<text id="iron_sword">鉄の剣</text>
+		<text id="iron_armor">鉄の鎧</text>
+		<text id="steel_pickaxe">鋼のピッケル</text>
+		<text id="steel_sword">鋼の剣</text>
+		<text id="steel_armor">鋼の鎧</text>
+		<text id="titanium_armor">偉大な鎧</text>
+		<text id="bow">弓</text>
+		<text id="recurve_bow">湾曲弓</text>
+		<text id="arrow">矢</text>
+		<text id="ice_arrow">氷の矢</text>
+		<text id="fire_arrow">火の矢</text>
+		<text id="water_arrow">水の矢</text>
+		<text id="drain_arrow">吸血の矢</text>
+		<text id="backpack">ポーチ</text>
+		<text id="mega_backpack">カバン</text>
+		<text id="ultra_backpack">リュック</text>
+		<text id="magic_pickaxe">魔法のﾋﾟｯｹﾙ</text>
+		<text id="magic_sword">魔法の剣</text>
+		<text id="magic_backpack">魔法のｶﾊﾞﾝ</text>
+		<text id="magic_box">魔法の箱</text>
+		<text id="cloth">布</text>
+		<text id="net">網</text>
+		<text id="berries">ベリー</text>
+		<text id="red_berries">赤いベリー</text>
+		<text id="ice_berries">氷のベリー</text>
+		<text id="health_potion">体力上昇薬</text>
+		<text id="stamina_potion">持久上昇薬</text>
+		<text id="attack_potion">攻撃薬</text>
+		<text id="defense_potion">防御薬</text>
+		<text id="speed_potion">速度薬</text>
+		<text id="endurance_potion">走薬</text>
+		<text id="rat">ねずみ</text>
+		<text id="pig">ぶた</text>
+		<text id="wyrm">ウィルム</text>
+		<text id="cocoon">繭</text>
+		<text id="dragon">竜の赤ちゃん</text>
+		<text id="young_dragon">幼い竜</text>
+		<text id="adult_dragon">成竜</text>
+		<text id="cockatiel">オウム</text>
+		<text id="wolf">オオカミ</text>
+		<text id="cat">ねこ</text>
+		<text id="boat">船</text>
+		<text id="fence">柵</text>
+		<text id="torch">たいまつ</text>
+		<text id="trap">罠</text>
+		<text id="workbench">作業台</text>
+		<text id="steel_workbench">鋼の作業台</text>
+		<text id="anvil">金床</text>
+		<text id="chest">チェスト</text>
+		<text id="jakolantern">ｼﾞｬｯｸｵｰﾗﾝﾀﾝ</text>
+		<text id="sign">標識</text>
+		<text id="area_name_sign">名札</text>
+		<text id="rusty_axe">錆びた斧</text>
+		<text id="cotton">木綿</text>
+		<text id="pumpkin">かぼちゃ</text>
+		<text id="chicken">鶏</text>
+		<text id="cow">牛</text>
+		<text id="fishing_rod">釣り竿</text>
+		<text id="toothfish">アイナメ</text>
+		<text id="rockfish">メバル</text>
+		<text id="coral_cod">ハタ</text>
+		<text id="fertilizer">肥料</text>
+		<text id="yeti_fur">凍の毛皮</text>
+		<text id="dark_fur">陰の毛皮</text>
+		<text id="fire_gem">火の宝石</text>
+		<text id="water_gem">水の宝石</text>
+		<text id="earth_gem">地の宝石</text>
+		<text id="ice_gem">氷の宝石</text>
+		<text id="plant_gem">地の宝石</text>
+		<text id="buckler">盾</text>
+		<text id="kite_shield">騎士の盾</text>
+		<text id="ice_shield">施術された盾</text>
+		<text id="snowman">雪だるま</text>
+		<text id="thunder_axe">古代の斧</text>
+		<text id="fire_tusk">火の牙</text>
+		<text id="silicon">シリコン</text>
+		<text id="refined_oil">精製油</text>
+		<text id="battery">バッテリー</text>
+		<text id="drill">ドリル</text>
+		<text id="revolver">ピストル</text>
+		<text id="shotgun">ショットガン</text>
+		<text id="bullet">銃弾</text>
+		<text id="ice_bullet">氷の銃弾</text>
+		<text id="fire_bullet">火の銃弾</text>
+		<text id="water_bullet">水の銃弾</text>
+		<text id="drain_bullet">吸血の銃弾</text>
+		<text id="shell">砲玉</text>
+		<text id="tank_shell">砲弾</text>
+		<text id="ice_shell">氷の砲弾</text>
+		<text id="fire_shell">火の砲弾</text>
+		<text id="water_shell">水の砲弾</text>
+		<text id="drain_shell">吸血の砲弾</text>
+		<text id="chainsaw">ﾁｪｰﾝｿｰ</text>
+		<text id="fire_chainsaw">火のﾁｪｰﾝｿｰ</text>
+		<text id="ice_chainsaw">氷のﾁｪｰﾝｿｰ</text>
+		<text id="water_chainsaw">水のﾁｪｰﾝｿｰ</text>
+		<text id="plant_chainsaw">地のﾁｪｰﾝｿｰ</text>
+		<text id="drain_chainsaw">吸血のﾁｪｰﾝｿｰ</text>
+		<text id="minecart">トロッコ</text>
+		<text id="rail">レール</text>
+		<text id="map">地図</text>
+		<text id="shovel">シャベル</text>
+		<text id="crowbar">鉄の棒</text>
+		<text id="landmine">地雷</text>
+		<text id="alter_gem">改の宝石</text>
+		<text id="focus_gem">焦点の宝石</text>
+		<text id="spirit_gem">魂の宝石</text>
+		<text id="blood_gem">血の宝石</text>
+		<text id="baby_cannon">小さな砲台</text>
+		<text id="dragonflame">竜の炎</text>
+		<text id="wyrm_drill">ウィルムドリル</text>
+		<text id="dragon_armor">竜の鎧</text>
+		<text id="ice_sword">氷の剣</text>
+		<text id="fire_sword">火の剣</text>
+		<text id="water_sword">水の剣</text>
+		<text id="plant_sword">地の剣</text>
+		<text id="drain_sword">吸血の剣</text>
+		<text id="goggles">魂のｺﾞｰｸﾞﾙ</text>
+		<text id="furnace">炉</text>
+		<text id="campfire">焚火</text>
+		<text id="bandage">包帯</text>
+		<text id="tent">テント</text>
+		<text id="dragonsword">竜の剣</text>
+		<text id="silk">絹</text>
+		<text id="lantern">ランタン</text>
+		<text id="headlamp">ﾍｯﾄﾞﾗﾝﾌﾟ</text>
+		<text id="plant_eye">植物の芽</text>
+		<text id="plant_bag">植物のｶﾊﾞﾝ</text>
+		<text id="jetpack">ｼﾞｪｯﾄﾊﾟｯｸ</text>
+		<text id="shadow_cape">陰の肩掛け</text>
+		<text id="golem">ゴーレム</text>
+		<text id="earth_armor">大地の鎧</text>
+		<text id="earth_helm">大地の兜</text>
+		<text id="earth_hammer">大地のハンマー</text>
+		<text id="diode_wolf">光るオオカミ</text>
+		<text id="steel_wyrm">機械竜</text>
+		<text id="cyborg_body">鋼鉄の体</text>
+		<text id="cyborg_back">鋼鉄の裏</text>
+		<text id="cyborg_eye">鋼鉄の眼</text>
+		<text id="machine_gun_arm">サイコガン</text>
+		<text id="electric_eel">電気ウナギ</text>
+		<text id="horn">角</text>
+		<text id="frost_shield">氷の盾</text>
+		<text id="ice_heart">氷の心臓</text>
+		<text id="owl">フクロウ</text>
+		<text id="dismantle">解体</text>
+		<text id="hut_blueprint">小屋の設計図</text>
+		<text id="storehouse_blueprint">倉庫の設計図</text>
+		<text id="kitchen_blueprint">調理場の設計図</text>
+		<text id="kitchen_upgrade">調理場のｱｯﾌﾟｸﾞﾚｰﾄﾞ</text>
+		<text id="smelter_blueprint">製錬所の設計図</text>
+		<text id="workshop_blueprint">工房の設計図</text>
+		<text id="farm_blueprint">農場の設計図</text>
+		<text id="pen_blueprint">飼育小屋の設計図</text>
+		<text id="lab_blueprint">研究所の設計図</text>
+		<text id="wyrm_pen_blueprint">ウィルムの飼育小屋の設計図</text>
+		<text id="dock_blueprint">桟橋の設計図</text>
+		<text id="wheat_seed">小麦の種</text>
+		<text id="orchard_seed">りんごの種</text>
+		<text id="sugar_seed">ｻﾄｳｷﾋﾞの種</text>
+		<text id="cotton_seed">木綿の種</text>
+		<text id="pumpkin_seed">かぼちゃの種</text>
+		<text id="tree_seed">樹木の種</text>
+		<text id="conifer_seed">針葉樹の種</text>
+		<text id="bush_seed">ベリーの種</text>
+		<text id="red_bush_seed">赤いベリーの種</text>
+		<text id="ice_bush_seed">氷のベリーの種</text>
+		<text id="helium_sac">ヘリウム袋</text>
+		<text id="steel_axe">鋼の斧</text>
+		<text id="spider">蜘蛛</text>
+	</section>
+	<section id="item.descriptions">
+		<text id="boat">世界を帆走する。</text>
+		<text id="fence">敵を追い払う。</text>
+		<text id="furnace">鉱石を製錬。</text>
+		<text id="campfire">料理 [item=steak].</text>
+		<text id="magic_box">全て格納</text>
+		<text id="craft">制作物</text>
+		<text id="repair">ｱｲﾃﾑを修復.</text>
+		<text id="freeze">敵を凍らせる。</text>
+		<text id="burn">燃やす</text>
+		<text id="drain">吸血</text>
+		<text id="undrain">出血減退</text>
+		<text id="transform_other">ｱｲﾃﾑを変換します。</text>
+		<text id="fill">穴を埋める。</text>
+		<text id="collect_rail">ﾚｰﾙとｹｰﾌﾞﾙを引き上げます。</text>
+		<text id="storehouse">ｱｲﾃﾑを格納します。</text>
+		<text id="sign">ﾒｯｾｰｼﾞを表示します。</text>
+		<text id="view_hidden">魂を明らかにする。</text>
+		<text id="tent">休憩で回復[tile=stamina] [color=006600]持久力[/color].</text>
+		<text id="spawn">出現 {item}.</text>
+		<text id="light">装備時に周囲を照らします。</text>
+		<text id="cost_per_s">{value} 毎秒.</text>
+		<text id="cost_per_s_daylight">明け方は、{value} 毎秒.</text>
+		<text id="cost_per_s_darkness">暗闇は、{value} 毎秒.</text>
+		<text id="cost_per_s_day">昼間は、{value} 毎秒.</text>
+		<text id="cost_per_s_night">夜間は、{value} 毎秒.</text>
+		<text id="cost_per_s_injured">負傷　{value} 毎秒.</text>
+		<text id="cost_per_s_damaged">いっぱいじゃない場合、{value} 毎秒.</text>
+		<text id="cost_per_s_undamaged">満杯の場合、{value} 毎秒.</text>
+		<text id="hide">着用者を隠す。</text>
+		<text id="critical">常に会心。</text>
+		<text id="max_weight">最大重量</text>
+		<text id="reflect">ﾀﾞﾒｰｼﾞを反映する</text>
+		<text id="fires">火 {projectile}秒</text>
+		<text id="cocoon">竜の飼育小屋の [color=770000]扉[/color].</text>
+		<text id="builds">建てる</text>
+		<text id="upgrades">ｱｯﾌﾟｸﾞﾚｰﾄﾞ</text>
+		<text id="dismantle">[tile=blueprint.ico] [color=770000]設計図[/color]で作られた構造物を解体します.</text>
+		<text id="collect">地上のアイテムを収集します。</text>
+		<text id="plants">植物</text>
+		<text id="area_name_sign">島の名前を変更できます。</text>
+		<text id="equipOn">装備する</text>
+		<text id="underwater">水中で使用できます。</text>
+		<text id="passTile">タイルを通過します。</text>
+		<text id="leftRight">前後に発砲します。</text>
+		<text id="element.resist">エレメンタル攻撃に抵抗。</text>
+		<text id="pierce">敵を突き抜けます。</text>
+	</section>
+	<section id="achievement.names">
+		<text id="hut">休憩所</text>
+		<text id="boar">手軽なお肉</text>
+		<text id="storehouse">無限の空間</text>
+		<text id="farm">農業経営</text>
+		<text id="orchard">りんご</text>
+		<text id="smelter">鍛冶</text>
+		<text id="kitchen">食欲</text>
+		<text id="backpack">持ち運ぶ</text>
+		<text id="workshop">工作の時間</text>
+		<text id="wyrm">ウィルム殺し</text>
+		<text id="golem">石人形</text>
+		<text id="diamond">輝く石</text>
+		<text id="market">売買</text>
+		<text id="bigpack">いっぱい運ぶ</text>
+		<text id="capture_wyrm">ウィルムの捕獲</text>
+		<text id="pen">豚小屋</text>
+		<text id="pizza">うーん、ﾁｰｽﾞ</text>
+		<text id="dock">桟橋</text>
+		<text id="boat">帆を立てろ</text>
+		<text id="lab">実験</text>
+		<text id="wyrm_pen">無限の血</text>
+		<text id="dragon">竜の飼育</text>
+		<text id="powerplant">ﾊﾟﾜｰｱｯﾌﾟ</text>
+		<text id="factory">産業化</text>
+		<text id="elevator">昇降</text>
+		<text id="bandits">正義？</text>
+		<text id="diode_wolf">驚き</text>
+		<text id="mirrows">人間観察</text>
+		<text id="medicom">全物語</text>
+		<text id="electric_eel">充電する</text>
+		<text id="full_cyborg">ｻｲﾎﾞｰｸﾞ創造</text>
+		<text id="labyrinth">迷宮</text>
+		<text id="dragon_flight">竜の捕獲</text>
+		<text id="wyrm_queen">女王殺し</text>
+		<text id="synthesizer">合成ｽﾃｰｷ</text>
+		<text id="forge">先を鍛える</text>
+		<text id="enchanted_chainsaw">妙なﾁｪｰﾝｿｰ</text>
+		<text id="elemental">ｴﾚﾒﾝﾀﾘｰ</text>
+		<text id="purple_tree">おしゃべり</text>
+		<text id="full_dragon">竜の主</text>
+		<text id="time_manipulator">巻き戻し</text>
+		<text id="oldone">敵に向かう</text>
+		<text id="blueprints">設計図</text>
+		<text id="skills">能力</text>
+		<text id="golemech">ｽﾏｯｼｬｰ</text>
+	</section>
+	<section id="achievement.descriptions">
+		<text id="hut">建築： [color=ff2222]小屋[/color].</text>
+		<text id="boar">倒す： [color=ff2222]猪[/color].</text>
+		<text id="storehouse">建築： [color=ff2222]倉庫[/color].</text>
+		<text id="farm">建築： [color=ff2222]農場[/color].</text>
+		<text id="orchard">追加： [color=ff2222]農場[/color]に[color=ff2222]果樹園[/color].</text>
+		<text id="smelter">建築： [color=ff2222]製錬所[/color].</text>
+		<text id="kitchen">建築： [color=ff2222]調理場[/color].</text>
+		<text id="backpack">入手： [color=ff2222]ポーチ[/color].</text>
+		<text id="workshop">建築： [color=ff2222]工房[/color].</text>
+		<text id="wyrm">倒す： [color=ff2222]ウィルム[/color].</text>
+		<text id="golem">倒す： [color=ff2222]ゴーレム[/color].</text>
+		<text id="diamond">掘る： [color=ff2222]ダイヤモンド[/color].</text>
+		<text id="market">建築： [color=ff2222]市場[/color].</text>
+		<text id="bigpack">購入： [color=ff2222]カバン[/color].</text>
+		<text id="capture_wyrm">今何をしているのか？</text>
+		<text id="pen">追加： [color=ff2222]農場[/color]に[color=ff2222]飼育小屋[/color].</text>
+		<text id="pizza">料理： [color=ff2222]ピザ[/color].</text>
+		<text id="dock">建築： [color=ff2222]桟橋[/color].</text>
+		<text id="boat">建築： [color=ff2222]船[/color].</text>
+		<text id="lab">建築： [color=ff2222]研究所[/color].</text>
+		<text id="wyrm_pen">建築： [color=ff2222]ウィルムの飼育小屋[/color].</text>
+		<text id="dragon">孵化： [color=ff2222]竜[/color]の[color=ff2222]繭[/color].</text>
+		<text id="powerplant">建築： [color=ff2222]発電所[/color].</text>
+		<text id="factory">建築： [color=ff2222]工場[/color].</text>
+		<text id="elevator">建築： [color=ff2222]エレベーター[/color].</text>
+		<text id="bandits">解決： [color=ff2222]盗賊[/color] 問題.</text>
+		<text id="diode_wolf">倒す： [color=ff2222]光るオオカミ[/color].</text>
+		<text id="mirrows">ﾐﾛｰｽﾞの撃退に成功.</text>
+		<text id="medicom">全ての記録を読む.</text>
+		<text id="electric_eel">捕獲： [color=ff2222]電気ウナギ[/color].</text>
+		<text id="full_cyborg">ｻｲﾎﾞｰｸﾞ歯車を入手.</text>
+		<text id="labyrinth">迷宮を完成.</text>
+		<text id="dragon_flight">飛ぶ： [color=ff2222]竜[/color].</text>
+		<text id="wyrm_queen">倒す： [color=ff2222]ウィルムの女王[/color].</text>
+		<text id="synthesizer">起動： [color=ff2222]合成機[/color].</text>
+		<text id="forge">起動： [color=ff2222]鍛冶[/color].</text>
+		<text id="enchanted_chainsaw">施術： [color=ff2222]ﾁｪｰﾝｿｰ[/color].</text>
+		<text id="elemental">すべてのｴﾚﾒﾝﾄの精神を捕獲.</text>
+		<text id="purple_tree">切る： [color=ff2222]紫の樹[/color].</text>
+		<text id="full_dragon">竜の装備をすべて入手.</text>
+		<text id="time_manipulator">起動： [color=ff2222]時間操作[/color].</text>
+		<text id="oldone">倒す： [color=ff2222]太古の...[/color].</text>
+		<text id="blueprints">建築： [color=ff2222]設計図[/color]で建造物.</text>
+		<text id="skills">500以上の[color=ff2222]ｽｷﾙﾎﾟｲﾝﾄ[/color]でｱｯﾌﾟｸﾞﾚｰﾄﾞ.</text>
+		<text id="golemech">倒す： [color=ff2222]機械ｺﾞｰﾚﾑ[/color].</text>
+	</section>
+	<section id="structure">
+		<text id="wheat">小麦畑</text>
+		<text id="orchard">果樹園</text>
+		<text id="sugar">ｻﾄｳｷﾋﾞ畑</text>
+		<text id="cotton">木綿畑</text>
+		<text id="pumpkin">かぼちゃ畑</text>
+		<text id="add_field">農場拡大</text>
+		<text id="add_stall">飼育小屋を建てる</text>
+		<text id="pen">飼育小屋</text>
+		<text id="produces">-- ﾌﾟﾛﾃﾞｭｰｽ --</text>
+		<text id="slots">-- ｽﾛｯﾄ --</text>
+		<text id="plant">植え替え</text>
+		<text id="fertilizer">肥料</text>
+		<text id="activate_fail">足りていません</text>
+		<text id="search_fail">無関心</text>
+		<text id="get_pumpkin_seeds">いくつか [item=pumpkin_seed]を見つけました!</text>
+		<text id="sail_boat">船</text>
+		<text id="manage_storage">貯蔵管理</text>
+		<text id="elevator">ｴﾚﾍﾞｰﾀｰ</text>
+		<text id="overweight">[tile=boat.ico] 船が重すぎて走れない!</text>
+		<text id="rest_boat">船で休む</text>
+		<text id="activate">これを作るために {item} を使いますか?</text>
+		<text id="enchant_recipe">施術解明:\n{enchant} + {items} = {creates}.</text>
+		<text id="enchant_added">[color=770000]鍛冶[/color]に施術ﾚｼﾋﾟを追加.</text>
+		<text id="place_in_lair">{item} が必要.</text>
+		<text id="golem_factory">建築物にすべての力が注がれている...</text>
+		<text id="golemech">機械ｺﾞｰﾚﾑを建造</text>
+		<text id="build">{structure} を建築しますか？</text>
+		<text id="dismantle">{structure} を解体しますか？</text>
+		<text id="dragon_lair">竜の巣:</text>
+		<text id="change_appearance">外観を変更する</text>
+		<text id="forge">鍛冶を起動する.</text>
+		<text id="synthesizer">合成機を起動する.</text>
+	</section>
+	<section id="structure.tooltip">
+		<text id="hut">小屋で休む</text>
+		<text id="storehouse">倉庫に入る</text>
+		<text id="workshop">工房で作業</text>
+		<text id="smelter">鉱石の製錬</text>
+		<text id="kitchen">調理場で料理</text>
+		<text id="farm">農場に入る</text>
+		<text id="food_market">食品売り手との取引</text>
+		<text id="weaps_market">武器販売店との取引</text>
+		<text id="mineral_market">鉱石商人との貿易</text>
+		<text id="dockhouse">整備工場に入る</text>
+		<text id="boat">船に入る</text>
+		<text id="lab">混合薬</text>
+		<text id="pen">飼育小屋を管理</text>
+		<text id="cage">カゴを管理</text>
+		<text id="summon_alchemist">錬金術師を召喚</text>
+		<text id="dragon_lair2">竜の飼育</text>
+		<text id="raise_into">{into}が育った</text>
+		<text id="fly_dragon">竜飛行</text>
+		<text id="activate">起動</text>
+		<text id="enter">入る</text>
+		<text id="tent">ﾃﾝﾄで休む</text>
+		<text id="search">探す</text>
+		<text id="power_plant">発電所を運転</text>
+		<text id="inn">宿に入る</text>
+		<text id="elevator">ｴﾚﾍﾞｰﾀｰを呼ぶ</text>
+		<text id="warehouse">倉庫に入る</text>
+		<text id="factory">工場を運転</text>
+		<text id="golemech">ｺﾞｰﾚﾑ工場を停止</text>
+		<text id="golemech2">警報: 制御不能.</text>
+		<text id="read">読む</text>
+		<text id="operate">運転</text>
+		<text id="operate_self">自分で運転</text>
+		<text id="operate_other">動物を操作</text>
+		<text id="crop">収穫</text>
+		<text id="stall">飼育小屋管理</text>
+	</section>
+	<section id="object.tooltip">
+		<text id="bush">摘む</text>
+		<text id="tree">木を切る</text>
+		<text id="enemy">攻撃</text>
+		<text id="collect">収集 {item}</text>
+		<text id="open">開く {item}</text>
+		<text id="harvest">収穫 {item}</text>
+		<text id="use">使う {item}</text>
+	</section>
+	<section id="equipment">
+		<text id="weapon">利き手:</text>
+		<text id="shield">補助の手:</text>
+		<text id="pickaxe">採掘:</text>
+		<text id="armor">鎧:</text>
+		<text id="head">頭装備:</text>
+		<text id="back">収納:</text>
+		<text id="familiar">ペット:</text>
+		<text id="attack">武器:</text>
+		<text id="engine">動力:</text>
+	</section>
+	<section id="capture">
+		<text id="caught">捕まえた!</text>
+		<text id="fail">壊れた!</text>
+		<text id="almost">もう少し!</text>
+	</section>
+	<section id="warning">
+		<text id="weight">重量ｵｰﾊﾞｰ!</text>
+		<text id="stamina">持久力が無くて体力が低下!</text>
+		<text id="oxygen">酸素が無くて体力が低下!</text>
+		<text id="growing">まだ成長中！</text>
+		<text id="additions">ｽﾛｯﾄは残っていません！</text>
+		<text id="durability">傷ついて使用できない！</text>
+		<text id="focus">ｸﾘｯｸして見る</text>
+		<text id="ingredients">十分な食材を持っていません。</text>
+		<text id="place_surface">上面にｵﾌﾞｼﾞｪｸﾄを配置できない.</text>
+		<text id="place_overlap">ｵﾌﾞｼﾞｪｸﾄの上にｵﾌﾞｼﾞｪｸﾄは置けない.</text>
+		<text id="place_no_room">ｵﾌﾞｼﾞｪｸﾄを置くには、もっと広くないといけない.</text>
+		<text id="no_place">ここには置けない!</text>
+		<text id="no_use">ここでは使えない!</text>
+		<text id="structure_surface">上面には建築できない.</text>
+		<text id="structure_underwater">これは水中では建築できない.</text>
+		<text id="structure_water">これは水上にしか建築できません.</text>
+		<text id="structure_tile">建築するには、もっと広くないといけない.</text>
+		<text id="structure_overlap">建築物の上に建築はできません.</text>
+		<text id="structure_barn">納屋がないと作れない.</text>
+		<text id="structure_adjacent">これは、{structure}の隣に構築する必要があります.</text>
+		<text id="structure_adjacent_left">これは、{structure}の左側に構築する必要があります.</text>
+		<text id="structure_adjacent_right">これは、{structure}の右側に構築する必要があります.</text>
+		<text id="structure_coast">これは、何もない海岸の隣に建築しないといけない.</text>
+		<text id="structure_vehicle">車の中からは作れない.</text>
+		<text id="plant_structure">作物や建造物の上には植えられない.</text>
+		<text id="plant_grass">肥えた土の上にだけ植えることができます.</text>
+		<text id="plant_barn">納屋がないと作物を植えられません.</text>
+		<text id="plant_vehicle">車の中には植えられない.</text>
+		<text id="no_effect">何の効果もありません。</text>
+		<text id="drop_instead">代わりに捨てる？</text>
+		<text id="cannot_fire">{weapon}無しで、{projectile}は、発射できない.</text>
+		<text id="no_projectiles">{weapon}不可: {projectile}が無い.</text>
+		<text id="max_items">これ以上アイテムを追加できない！</text>
+		<text id="max_fuel">それ以上の燃料は追加できない！</text>
+		<text id="max_rations">もう食料を加えられない！</text>
+		<text id="max_feed">これ以上飼料は追加できない！</text>
+		<text id="max_coins">これ以上ｺｲﾝを持てない！</text>
+		<text id="send_bug_report">何かが間違っていた！ ﾊﾞｸﾞﾚﾎﾟｰﾄを送信しますか？</text>
+		<text id="not_powered">電力不足!</text>
+		<text id="power">ﾊﾞｯﾃﾘｰ残量が足りません！</text>
+		<text id="rations">旅のための十分な食糧がありません！</text>
+		<text id="fuel">燃料が足りません！</text>
+		<text id="no_item">ここに{item}は、無い.</text>
+		<text id="item_hungry">{item} は、旅をするには空腹すぎます!</text>
+		<text id="no_fill">ここは、埋められない!</text>
+		<text id="load_fail">ﾌｧｲﾙが見つからない為、ｹﾞｰﾑを読み込めませんでした。 再ｲﾝｽﾄｰﾙする必要があります。</text>
+		<text id="load_fail_js">ﾌｧｲﾙが見つからない為、ｹﾞｰﾑを読み込めませんでした。ﾍﾟｰｼﾞを再読み込みするには、 Shift+Refresh を試してください.</text>
+		<text id="incomplete">これは未実装です。 ｱｯﾌﾟﾃﾞｰﾄを待つ必要があります。</text>
+		<text id="no_pickaxe">あなたはもはやピックアックスが装備されていないので、カメラは動かされました。 あなたは[キー=機器]を押すことによってピックアックスを装備し、機器を管理することができます。</text>
+		<text id="sleep_flying">飛行中に眠ることはできません！</text>
+		<text id="sleep_underwater">水中で寝ることはできません！</text>
+		<text id="sleep_vehicle">車中では寝ることはできません！</text>
+		<text id="flight_weight">{item}で飛ぶには、重すぎます!</text>
+		<text id="overweight">移動するには、重すぎます！</text>
+		<text id="no_equip">{item}を装備することはできない.</text>
+		<text id="no_structure">解体する物がありません</text>
+		<text id="no_upgrade">ｱｯﾌﾟｸﾞﾚｰﾄﾞする物がありません</text>
+		<text id="no_blueprint">設計図がありません</text>
+		<text id="one_structure">これは、島に１つしか建築できません.</text>
+		<text id="no_use_vehicle">車中では、できません.</text>
+		<text id="no_use_underwater">水泳中では、できません.</text>
+	</section>
+	<section id="market">
+		<text id="closed">夜になった.</text>
+		<text id="restock">すぐに新しい在庫が必要です！</text>
+		<text id="no_power">しんじられない、[color=770000]発電所[/color] が停止した! どうすればいいの?</text>
+	</section>
+	<section id="quests">
+		<text id="new">新しいｸｴｽﾄ!</text>
+		<text id="none">今はｸｴｽﾄがありません.</text>
+		<text id="unknown_reqs">???</text>
+		<text id="requires">-- 要件 --</text>
+		<text id="complete">-- 完了 --</text>
+		<text id="hut">小屋を建てる</text>
+		<text id="storehouse">倉庫を建てる</text>
+		<text id="storehouse2">倉庫を建てる</text>
+		<text id="smelter">製錬所</text>
+		<text id="workshop">工房</text>
+		<text id="kitchen">調理場を建てる</text>
+		<text id="kitchen2">調理場をｱｯﾌﾟｸﾞﾚｰﾄﾞ</text>
+		<text id="farm">農場を建てる</text>
+		<text id="orchard">りんごの種</text>
+		<text id="market">市場を建てる</text>
+		<text id="market2">市場を建てる</text>
+		<text id="dock">桟橋を建てる</text>
+		<text id="dock2">桟橋を建てる</text>
+		<text id="pen">豚小屋を建てる</text>
+		<text id="boat">船を作る</text>
+		<text id="lab">魔法物資</text>
+		<text id="wyrm_pen">ウィルムの飼育小屋</text>
+		<text id="hatch_dragons">竜の孵化</text>
+		<text id="thunder_axe">魔法の斧</text>
+		<text id="hunt">猪を狩る</text>
+		<text id="fence">フェンス</text>
+		<text id="wolf">ｵｵｶﾐの子犬</text>
+		<text id="powerplant">発電所の修理</text>
+		<text id="factory">工場を建てる</text>
+		<text id="elevator">ｴﾚﾍﾞｰﾀｰを建てる</text>
+		<text id="mirrows">ﾐﾛｰｽﾞと対峙</text>
+		<text id="mirrows2">ﾐﾛｰｽﾞを説得</text>
+		<text id="fisherman_cat">ﾍﾟﾘを見つける</text>
+		<text id="bandits">盗賊を倒す</text>
+		<text id="boars">猪共を倒す</text>
+		<text id="wyrm_hive">ウィルムの巣</text>
+		<text id="find_wyrm_hive">ウィルムの巣を見つける</text>
+		<text id="spirit_gem">精神力</text>
+		<text id="alter_gem">ウィルムを研究</text>
+		<text id="oldone">魔法ｴﾈﾙｷﾞｰ</text>
+	</section>
+	<section id="quest.description">
+		<text id="hut">嵐から避難するために [color=550000]小屋[/color] を建てる必要がある.</text>
+		<text id="storehouse">[color=550000]倉庫[/color]を建てたいと思う.</text>
+		<text id="storehouse2">すべてのｱｲﾃﾑを保管する [color=550000]倉庫[/color] を建設する.</text>
+		<text id="smelter">[color=550000]製錬所[/color] で鉱石を求めている.</text>
+		<text id="workshop">[color=550000]工房[/color] で、ﾒﾀﾙﾂｰﾙの制作を求めている.</text>
+		<text id="kitchen">食糧のために[color=550000]調理場[/color] で料理を行う.</text>
+		<text id="kitchen2">[color=550000]調理場[/color] で　[item=cheese]作りを求めている.</text>
+		<text id="farm">栽培のために [color=550000]農場[/color] を建設したい.</text>
+		<text id="orchard">[color=550000]果樹園[/color]を作るために [item=fruit] を使いたい .</text>
+		<text id="market">商売のために [color=550000]市場[/color] を建てたい.</text>
+		<text id="market2">[color=550000]桟橋[/color]に商人を誘致するための [color=550000]市場[/color] を建てます.</text>
+		<text id="dock">[color=550000]桟橋[/color] から世界を旅したい.</text>
+		<text id="dock2">[color=550000]桟橋[/color] を作り、他の生存者を探しましょう.</text>
+		<text id="pen">家畜に [color=550000]飼育小屋[/color] を追加したい.</text>
+		<text id="boat">世界に船出する時です！ [tile=boat.ico] 船を [color=550000]桟橋[/color]に作りましょう.</text>
+		<text id="lab">[item=wyrm] を倒して [item=dragonblood]を入手してください.</text>
+		<text id="wyrm_pen">[item=wyrm]を実験したい.</text>
+		<text id="hatch_dragons">[item=adult_dragon] に勝つために、[item=dragon]を孵化させたい.</text>
+		<text id="thunder_axe">[item=rusty_axe]を修復したい.</text>
+		<text id="hunt">武器を使う練習をして欲しい。</text>
+		<text id="fence">問題解決するために [item=fence]を追加したい.</text>
+		<text id="wolf">ｵｵｶﾐの子犬を飼いたい.</text>
+		<text id="powerplant">[color=550000]発電所[/color]を修理するためには、[item=titanium] が必要です.</text>
+		<text id="factory">機械を作る為の[color=550000]工場[/color]を建設したい.</text>
+		<text id="elevator">鉱石を運ぶ[color=550000]ｴﾚﾍﾞｰﾀｰ[/color]を建設したい.</text>
+		<text id="mirrows">あなたには彼のために、ﾐﾛｰｽﾞと交渉をして欲しい.</text>
+		<text id="mirrows2">ﾐﾛｰｽﾞの心を動かすために特別な何かを見つけて欲しい。</text>
+		<text id="fisherman_cat">[item=toothfish]が好きな [item=cat] を見つけて欲しい.</text>
+		<text id="bandits">商人は、商品を盗んだ盗賊を倒してくれる事を望んでいます。</text>
+		<text id="wyrm_hive">[item=wyrm]の秘密を見つけて欲しい.</text>
+		<text id="spirit_gem">[item=spirit_gem] を使ってｽﾋﾟﾘｯﾄを捕獲して欲しい.</text>
+		<text id="alter_gem">彼の[item=wyrm] 研究を終わらせる為に、もっと助けが必要です!</text>
+		<text id="oldone">魔法ｴﾈﾙｷﾞｰの源を見つけて欲しい</text>
+	</section>
+	<section id="vehicle">
+		<text id="dismount">降りる</text>
+		<text id="vehicle">車</text>
+		<text id="fly">上に動くと飛行する.</text>
+		<text id="overweight">車は移動するには重すぎます！</text>
+		<text id="manage_items">ｱｲﾃﾑ管理</text>
+		<text id="manage_player">自己管理</text>
+		<text id="battery">ﾊﾞｯﾃﾘｰから充電</text>
+		<text id="explain">[color=770000]ﾋﾝﾄ:[/color] 乗り物や動物に乗っているときは、 [key=equipment] を押して餌や燃料を選ぶことができます。</text>
+		<text id="flight_height">この車両はそれ以上飛べない！</text>
+	</section>
+	<section id="npc">
+		<text id="talk">話す</text>
+		<text id="grab">つかむ</text>
+		<text id="builder">大工</text>
+		<text id="miner">採掘師</text>
+		<text id="farmer">農民</text>
+		<text id="trader">商人</text>
+		<text id="alchemist">錬金術師</text>
+		<text id="hunter">狩人</text>
+		<text id="mechanic">技工士</text>
+		<text id="innkeeper">宿主</text>
+		<text id="fisherman">漁師</text>
+	</section>
+	<section id="builder">
+		<text id="intro">おめぇさんは本当に生き残れると思っとるんか？ それは絶望的だと思うがのぉ...</text>
+		<text id="introduce1">生き残るためには、収集した資源を大切に保管できる建物が必要なんだけど…作れないかな？</text>
+		<text id="introduce2">ﾌｰﾑ... [var=quest.storehouse.wood] [item=wood] と [var=quest.storehouse.berries] [item=berries]...があれば、 [color=770000]倉庫[/color]を作れるかもしれんなぁ.</text>
+		<text id="accept1">わかった！すぐに集めるよ！</text>
+		<text id="accept2">ほんなら、 [item=stone_axe]をおめぇさんにやろう.</text>
+		<text id="stamina">疲れたらｹﾞｰﾑを保存して、 [tile=stamina] [color=006600]持久力[/color]を回復する為に、 [color=770000]小屋[/color] で休むとえぇ.</text>
+		<text id="wood">わしの古い [item=stone_axe]はどうや？ 木の下で[key=attack]を押して何度か切ることで、木を倒せるからな.</text>
+		<text id="hint1">収集したｱｲﾃﾑは、全部持ち物に入るんや。 [key=inventory]を押すと、確認できるでな.</text>
+		<text id="hint2">もし、[tile=stamina] [color=006600]持久力[/color] を使い果たすと、 [tile=health] [color=770000]体力[/color]が徐々に減り、[tile=health] [color=770000]体力[/color]が無くなると おめぇさんは死ぬじゃろう...</text>
+		<text id="hint3">せやから、 [item=berries]や、[item=fruit] 、 [item=meat]などを、たくさん食べるとええで.持ち物を開いて選択することで食べるんや.</text>
+		<text id="storehouse1">全部集めたのか？ よくやった!!</text>
+		<text id="storehouse2">では、 [color=770000]倉庫[/color] を建ててくれる!？</text>
+		<text id="storehouse3">どう？大工さんも達成感を得られたでしょ！？生き残れる希望が見えたんじゃない？</text>
+		<text id="storehouse4">うん…実際、これは便利なものや。 たくさんの物を持ち運んで疲れてしまうことを避けることができる…これなら生きていくこともできるかもしれんのぅ…</text>
+		<text id="farmer">わしらは[object=farmer]と取引をするべきじゃ。奴がうまい食べ物を育てる手助けをしようぞ.</text>
+		<text id="miner">おめぇは[object=miner]が、地下から現れるのを見たか？彼女が何を欲しがっとるのか、確認したほうがえぇ。</text>
+		<text id="kitchen1">なぜ [color=770000]調理場[/color]を建てると思うんや? [item=meat]は食べられるが、調理すると、さらにうまくなるからや。</text>
+		<text id="kitchen2">[color=770000]調理場[/color]を建築するには、 [var=quest.kitchen.wood] [item=wood] と [var=quest.kitchen.coal] [item=coal] が必要や。</text>
+		<text id="kitchen3">おめぇさんは、材料を全部持っとるんか？では、[color=770000]調理場[/color] を建てようかの!</text>
+		<text id="kitchen4">[item=wood] か [item=coal] があれば、[color=770000]調理場[/color]で料理できるじゃろ。</text>
+		<text id="kitchen5">いくつかの[item=cheese]をわしが欲しがっていることを知っとるか？</text>
+		<text id="kitchen6">[var=quest.kitchen2.wood] [item=wood] と [var=quest.kitchen2.steel_bar] [item=steel_bar]で、[color=770000]調理場[/color]をｱｯﾌﾟｸﾞﾚｰﾄﾞすれば[item=cheese] と新しい料理のﾚｼﾋﾟを得られるんや.</text>
+		<text id="kitchen7">おめぇさんは、材料を全部持っとるな？では、[color=770000]調理場[/color]をｱｯﾌﾟｸﾞﾚｰﾄﾞしようかの!</text>
+		<text id="kitchen8">新しいレシピのいくつかを試してみるとええ！ 食文化の発展を感じられるじゃろ！？</text>
+		<text id="farm">腹が減ったのぅ... おめぇさんが[color=770000]農場[/color]を建ててくれると、わしゃ信じとる！</text>
+	</section>
+	<section id="farmer">
+		<text id="introduce1">あんたに会えてわしゃうれしい。 あんたに会えるまで一人で老いていくのだと思とった。</text>
+		<text id="introduce2">わしのこれまでの農業の経験で、あんたを助けることができると思うとるよ。 皆を守るためには、良い食べ物が必要やでなぁ。</text>
+		<text id="introduce3">[color=770000]農場[/color]を建築して運営してはどうじゃろか?</text>
+		<text id="farm1">すんばらしい！ほんなら、これから納屋を建てて [item=wheat_seed]を植えるでな!</text>
+		<text id="farm2">今 [color=770000]農場[/color]で作物を育てとるんよ。しばらくしてから収穫に来るとえぇ。作物で[tile=stamina] [color=006600]持久力[/color]を回復できるでな. それまでの間は、この [item=bread] を食べるとよか.</text>
+		<text id="farm3">木を切る事で [item=wood] を得られるんよ.</text>
+		<text id="farm4">もっと拡張したいなら種を植えればよか! 納屋で既存の作物を管理し、除去することもできるでよ！</text>
+		<text id="farm5">見んしゃい、この素晴らしい[color=770000]農場[/color]を! もっと拡張したいならもっと種を作らんとあかんな。</text>
+		<text id="kitchen">生の [item=wheat] は美味ない...[object=builder] は、 [color=770000]調理場[/color]を建てて料理をする事を提案しちょる.</text>
+		<text id="pen1">[color=770000]農場[/color]には 家畜が足らん。 [color=770000][tile=boar] 猪[/color] を [item=net]で捕獲できんもんかのぉ?</text>
+		<text id="pen2">[var=quest.pen.pig] [item=pig] と [var=quest.pen.wood] [item=wood]に[color=770000]飼育小屋[/color]を追加しといたで.</text>
+		<text id="pen3">こんなにもｼﾞｭｰｼｰな [item=pig] のような物を見たことがあるやろか？</text>
+		<text id="pen4">飼育小屋で[item=meat] と [item=milk]が獲れるんじゃ!</text>
+		<text id="pen5">ここに [item=pen_blueprint] があるんで、もっと多くの飼育小屋を作ることができるとよ!</text>
+		<text id="pig">どうやって [item=pig]を捕獲しよか? 地面に [item=net]を置き、傷ついた [color=770000][tile=boar] 猪[/color] を誘い込めれば、運が良けりゃ捕獲に成功して、家畜にできるんやなかろうか!</text>
+		<text id="kitchen2">[item=pig]から搾乳して牛乳をとれるけんど、実際に使うことができるとは [item=cheese]や。そんために [object=builder] と [color=770000]調理場[/color]のｱｯﾌﾟｸﾞﾚｰﾄﾞについて話せばよか.</text>
+		<text id="halloween">あんたが気にいるとえぇが...収穫祭のために、わしがちょっと細工した[item=jakolantern]を[color=770000]倉庫[/color]に入れといたで.</text>
+		<text id="add_sugar">この農場はだいぶ大きいなっとる！わしゃぁ、祝うために [item=sugar_seed]をみつけてきたとよ! [item=sugar]の畑に植えてみてくれんか？</text>
+		<text id="add_cotton">わしゃあ、この前、[color=770000]桟橋[/color]で商人と会うてのぅ... [item=cotton_seed]を手に入れたんじゃ!</text>
+		<text id="orchard1">この島には、たくさんの[item=fruit] があるとよ。ほんでそれらの十分なほどの種がありゃぁ、[color=770000]果樹園[/color]ができるじゃろ!？</text>
+		<text id="orchard2">よかぁ！ こんだけ[item=fruit] がありゃぁ、[color=770000]果樹園[/color]を作るのに十分な[item=orchard_seed]が獲れるじゃろ！</text>
+		<text id="orchard3">[color=770000]果樹園[/color]に十分なほど [item=fruit]が実っとったら 知らせておくれ！</text>
+		<text id="orchard4">種は十分な空きスペースがありゃあ、土に植えることができるとよ。ここにゃ、[item=orchard_seed]を植えるとよか!</text>
+		<text id="orchard5">[color=770000]納屋[/color]で種を使って作物を変更することができるとよ。新しい種を作りたか時は、わしに言うてくれ！</text>
+		<text id="snowman">初めての雪がここにあるんじゃが、これを祝いの品にするため、 [item=ice_berries]を使って[item=snowman] をつくったんじゃ!魔法みたいじゃろ？</text>
+		<text id="sign1">どうじゃね?この島にも故郷のように愛着が湧いてきたんやなかかね？どうじゃろう、この島に名前を付けてみたら？</text>
+		<text id="sign2">この島の名前を変更するなら、 [item=area_name_sign] を使うとえぇ!</text>
+	</section>
+	<section id="miner">
+		<text id="introduce1">ああ、ねえ。 他の生存者がいたことに気付かなかったわ。</text>
+		<text id="introduce2">私は地下にいたの。足元にも道があるのよ？</text>
+		<text id="introduce3">もし地下に行きたいのなら、余ってる私のﾋﾟｯｹﾙをあげるわ。</text>
+		<text id="smelter">どう？採掘してる？採掘で得られた鉱石は、溶かして延べ棒にするべきね。そのために、 [color=770000]製錬所[/color] を建てましょう！</text>
+		<text id="accept1">引き受けてくれてありがとう！十分な[item=coal]を集めたら、私に教えてね!</text>
+		<text id="smelter1">すぐに[color=770000]製錬所[/color] を建てましょう!</text>
+		<text id="smelter2">[color=770000]製錬所[/color] は燃料を使って鉱石を溶かして延べ棒にできるの。そして、燃料である、たくさんの [item=coal] があるわ！</text>
+		<text id="hint1">さて、あなたはどんな鉱石を見つけられるかしら？ [key=down]を押して、早速探してきてね!</text>
+		<text id="hint2">鉱石はすごく重いわ。こまめに[color=770000]倉庫[/color] に入れておくことをおｽｽﾒするわ.</text>
+		<text id="hint3">地下深くまで進むのは簡単よ。でも、帰ってくるまでに必要な [tile=stamina] [color=006600]持久力[/color] を残しておかないと大変よ.</text>
+		<text id="hint4">深く潜るほど、価値のある鉱石に巡り合えるわ。</text>
+		<text id="hint5">地下深くまで潜る場合は、必ず [item=torch]を持参しなさい。でも気を付けて、装備していたら明るいけれど、最終的には燃え尽きて消えるから。</text>
+		<text id="hint6">[item=torch]が必要なら作りましょうか？</text>
+		<text id="workshop1">金属の延棒から道具を作りたいのなら、[color=770000]工房[/color] はどうかしら？[var=quest.workshop.iron_bar] [item=iron_bar]と [var=quest.workshop.wood] [item=wood]で作れるわよ？</text>
+		<text id="workshop2">いいわね！ それじゃぁ、[color=770000]工房[/color] を作るわ!</text>
+		<text id="workshop3">[color=770000]工房[/color]では、材料を使って道具やアイテムをすぐに作れるの。</text>
+		<text id="workshop4">[color=770000]製錬所[/color]で[item=iron_bar]を作るには、[item=iron] を地下から見つけてくる必要があるわ。</text>
+		<text id="torch">[item=iron]はかなり地下深くにあるの。[item=torch]を装備して地下を探してみて。もし [item=torch]が燃え尽きたら、また私に声をかけてね。</text>
+		<text id="smelter3">[item=iron]が2つ以上揃ってれば、[color=770000]製錬所[/color]のﾒﾆｭｰから[item=iron_bar]を選んだら、燃料が残っている限り自動的に製錬されるわ。</text>
+		<text id="smelter4">[color=770000]製錬所[/color]は、原料が多いほど、多くの作業が実行できるわ。</text>
+		<text id="pick">[color=770000][tile=stone] 石[/color]で [item=gold]を採掘するには、[item=iron_pickaxe] か [item=steel_pickaxe] を [color=770000]工房[/color]で作ることが必要よ！</text>
+		<text id="equip1">[color=770000][tile=stone] 石[/color]で [item=gold]を採掘するには、[item=iron_pickaxe] か [item=steel_pickaxe]　を装備する必要があるわ。[key=equipment]を押して、忘れずに装備してね。</text>
+		<text id="equip2">[key=equipment]を押して装備の画面を開くと、装備やﾋﾟｯｹﾙを管理できるわ。</text>
+		<text id="hotkey">[color=770000]ホットキー[/color] にアイテムを登録するのなら、\n 持ち物画面でアイテムを[key=hotkey1], [key=hotkey2], [key=hotkey3] か [key=hotkey4] でクリックしてね。</text>
+	</section>
+	<section id="trader">
+		<text id="steal">[item={item}] が[color=770000]倉庫[/color]から盗まれた!</text>
+		<text id="caught">泥棒を捕まえた！　赤い服を着た女だ！</text>
+		<text id="introduce1">この島で生きていくからには、盗まれることは常に覚悟しないといけない！</text>
+		<text id="introduce2">ちょっと待ってくれ！確かにアタシはいくつかの物を借りたかもしれない…だが、アタシは、他の島々の商人と顔見知りなんだ。だから、その商人とあんた達をつないでやれるかもしれない！それで勘弁してくれない？</text>
+		<text id="introduce3">商人？ それらの島には、他にも生存者がいますか？</text>
+		<text id="introduce4">あぁ！しかし、この島に来るように説得するには、[var=quest.market.gold_bar] [item=gold_bar]が、必要だ。</text>
+		<text id="introduce5">盗人に、「はい、そうですか」と、[var=quest.market.gold_bar] [item=gold_bar]を渡せると思うか？</text>
+		<text id="introduce6">それは…そうだな…だが、これはお前たちにもﾁｬﾝｽだろ？この島で貿易を始めるﾋﾞｼﾞﾈｽﾁｬﾝｽじゃないか！[var=quest.market.gold_bar] [item=gold_bar]で、それが叶うんだ。信じる価値はあるんじゃないか？</text>
+		<text id="introduce7">なるほど。だが、その島に他に生存者がいるなら、悪い奴らだっているだろう…そいつらを[var=quest.market.gold_bar] [item=gold_bar]で雇って、この島を襲うこともできるんじゃないか？少し考えさせてくれ…</text>
+		<text id="introduce8">すまないが、私は泥棒の言うことを信じることはできない…この島を奪われるわけにはいかない。</text>
+		<text id="introduce9">この島だけで一生を終えるっていうのか？あんたは、このﾋﾞｼﾞﾈｽﾁｬﾝｽを逃したことをきっと後悔するぞ。</text>
+		<text id="market1">交渉成立だ! これからいろんな島との多くのより良い取引が始まるんだ！</text>
+		<text id="market2">では、これを… [item=coin_purse]。 売買に使用するｺｲﾝを保管する必要があるな。それと、できるだけ多くの物を流通させるために、早めに[item=mega_backpack]を購入したほうが良い。動けなくなると困るからな！</text>
+		<text id="market3">[color=770000]市場[/color]では、商品を売ってｺｲﾝにするんだ。ｺｲﾝは、商人から商品を買うために使うんだよ。</text>
+		<text id="market4">[color=770000]市場[/color]では、新商品が並ぶこともあるので、手に入れたいものが見つからなくて困った時や、在庫が無くなった時などに確認してみるといいよ。</text>
+		<text id="market5">[item=gold_bar]を作成するには、地下深くの[item=gold]を採掘して、製錬しなきゃいけないよ。[object=miner]から、地下深くを採掘するためのﾋﾝﾄを聞けるかもよ。</text>
+		<text id="dock1">世界の果てを見たくないかい？[color=770000]桟橋[/color]を建てて、そこから夢の実現を始めないか？</text>
+		<text id="dock2">桟橋を建てるには、 [var=quest.dock.coins] [color=770000][tile=coin_purse.ico] ｺｲﾝ[/color], [var=quest.dock.wood] [item=wood], [var=quest.dock.cloth] [item=cloth] と [var=quest.dock.net] [item=net]が必要です。</text>
+		<text id="dock3">お見事！ [color=770000]桟橋[/color] が建てられたね!</text>
+		<text id="dock4">[color=770000]桟橋[/color]に[tile=boat.ico]船を作れば、いよいよ世界の果てに出航だ！</text>
+		<text id="dock5">[color=770000]桟橋[/color]に必要なのは、 [var=quest.dock.coins] [color=770000][tile=coin_purse.ico] ｺｲﾝ[/color], [var=quest.dock.wood] [item=wood], [var=quest.dock.cloth] [item=cloth] と [var=quest.dock.net] [item=net]か…。</text>
+		<text id="accept">引き受ける</text>
+		<text id="reject">送り出す</text>
+		<text id="sail">なんて美しい日なんだろう…出航に相応しいじゃない？</text>
+		<text id="pirate">今までありがとう！全部盗んだ！？誰もそんなことするわけないじゃないか。</text>
+	</section>
+	<section id="alchemist">
+		<text id="introduce1">この惑星にはまだ見たことのない多くのものがあるんだよ。 ボクは実験をして、魔法を発見したんだ！</text>
+		<text id="introduce2">ボクはたくさんの資料を探してるんだー。 もしも、キミが[item=wyrm]に出会ったら、それを捕まえて[item=dragonblood]を与えて、くれないかな？そうしたら、キミに良いものをあげるよ。</text>
+		<text id="lab1">これは大変な事がわかったよ！！ まだ言えないんだけど、すぐに研究室を立ち上げて欲しい！</text>
+		<text id="lab2">キミの報酬？ ボクの研究室に資料を持ってきてくれたら、魔法の薬を作ってあげるよ。</text>
+		<text id="lab3">急いで！ ボクの研究は、キミが[item=dragonblood]を見つけるまで止まったままなんだ！</text>
+		<text id="pen1">ボクには、たくさんの[item=dragonblood]が必要なんだ！ ボクに[var=quest.wyrm_pen.wyrm]  の[item=wyrm] を送ってくれたら、実験で[item=dragonblood]を供給できるんだけど…</text>
+		<text id="pen2">うれしいよ！ ボクは魔法を唱えながら踊っちゃうかも！</text>
+		<text id="pen3">ボクの華麗な発明 -  [color=770000]ウィルムの飼育小屋[/color]を見てくれ！ これは単なる飼育小屋じゃないぞ…[item=dragonblood]を無限に供給できる装置なんだ！</text>
+		<text id="wyrm">ウィルムを十分に弱らせた場合、[item=net]で[item=wyrm]を捕まえることができると思うんだ。　いいかい？絶対に殺しちゃダメだよ？生け捕りにするんだ！</text>
+		<text id="dragon1">[item=wyrm] 達をもっと研究しなきゃいけない！ ウィルムは何を食べるんだろう？ なぜウィルムは竜じゃないのに[item=dragonblood]を吐き出すんだろう？ [item=wyrm]を[color=770000] ウィルムの飼育小屋 [/color]に入れてみて、何が起こるか見てみよう！</text>
+		<text id="dragon2">ボクは発見した！ [item=wyrm] 達は[item=dragon] に変態するんだ！ …でも、だとしたら、なぜ、この島には[item=adult_dragon]の数が少ないのかな？</text>
+		<text id="dragon3">ボクは山のどこかに竜の隠された巣があると思うんだ！　キミがそれを見つけたら、ボクを呼んで欲しい...おそらく、謎に関する手掛かりを、そこで発見することができると思うから。</text>
+		<text id="dragon4">あっ！？　[item=adult_dragon]！！ 竜が何を話すのか、少し様子を見よう。ボクがキミのために竜の話を通訳してあげるよ。</text>
+		<text id="dragon5">「私を眠りから目覚めさせた、あなたは誰ですか？」</text>
+		<text id="dragon6">ボクは真実と魔法の探求者だよ。 ボクに教えて欲しい - なぜこの世界には竜が残っていないのですか？</text>
+		<text id="dragon7">「昔はたくさんいた…… 我々は皆で真実と魔法を探求していた… しかし、彼らは私のことを裏切った。」</text>
+		<text id="dragon8">おそらく、ボクたちはあなたを助けることができると思うんだ！ ボクたちが求めるのはあなたの…竜の知識です。</text>
+		<text id="dragon9">「お前は私を助けることができると言うのか？ ならば、それを証明せよ。 お前が[var=quest.hatch_dragons.dragon] [item=dragon]を孵化して私のもとに連れてくることができれば、それから話をしてやろう。 それができないと言うのなら、立ち去れ！」</text>
+		<text id="dragon10">「お前が私を裏切ることは知っていた！ 私の怒りを味わうがいい！！」</text>
+		<text id="dragon11">ボクは[item=dragon]孵化して育てるまで、竜をもう一度目覚めさせるべきではないと思うんだ…</text>
+		<text id="dragon12">「お前が私の望みを成し遂げたのか？ 私の未来にもまだ希望があるようだ…」</text>
+		<text id="dragon12_a">これで望みは叶えた！ ボクにキミの知ってる魔法の秘密を教えてくれる？</text>
+		<text id="dragon13">「すまない…残念ながら、私はお前が求める秘密を知らない。 古い者たちが魔法で私たちを生みだし、私たちを隠れて育てるためにここ（竜の巣）を建てたのだ」</text>
+		<text id="dragon14">「しかし、答えは東にある島にあるやもしれぬ。 お前が旅立つ準備ができたら、この巣穴に戻り、私に会いに来るがいい。お前を運んでやろう」</text>
+		<text id="dragon15">別の竜の巣があるのかい！？ 魔法で他にも育てられた竜がいた…！　なら、ボクが魔法でこの隠れ家を再び機能できるようにする？　できるのだろうか…？</text>
+		<text id="dragon16">ボクはまた、[color=770000] ウィルムの飼育小屋 [/color]をここに作ったよ。 でも、[item=dragonblood]を収穫することを期待しないでね。ボクはもっと重要なことを研究するために作ったんだ。</text>
+		<text id="call_dragon">どこに竜達は消えたんだ？ ボクはここで消えた竜を呼ぶよ - 見失わないように注意してね。</text>
+		<text id="lair1">そうか！ この巣は人工的で、魔法によって作られているんだ！ 竜を育てるために！</text>
+		<text id="lair2">ボクはそれを起動できると思う...</text>
+		<text id="lair3">できた！ 完成だ！ この隠れ家で、自分の竜を育てることができるよ。 隠れ家は東を指しているようだけど、その方向に竜を飛ばして探せば、もっと竜を発見することができるはずだ。</text>
+		<text id="axe1">ボクが[item=rusty_axe]を見てみよう...錆が邪魔をして難しいけど、ボクがこれの真の姿を突き止めてあげるよ！</text>
+		<text id="axe2">ここに古代の魔法があるけど、それは壊れているみたい。 ボクに正しい魔法の材料を持ってきたら、たぶん修理することができるよ..</text>
+		<text id="axe3">これは[item=fire_tusk] ...キミはどんな種類のクリーチャーを倒して手に入れたんだい？ それは[item=rusty_axe]と共鳴しているみたいだ…それはおそらくボクたちが探していた魔法の成分だよ！</text>
+		<text id="axe4">やったぞ！ [item=thunder_axe] は一体誰が作ったんだろう！？…もっと作りたいなら、実験室にレシピを追加しておいたよ。</text>
+		<text id="shadow_cape1">ボクが[item=dark_fur]を見てあげるよ！ ……これは…霊の世界と生きている世界との間に存在するように見える……</text>
+		<text id="shadow_cape2">もう少し研究しなければいけないけど、ボクはそれを、他の生物の目から姿を隠すことができる[item=shadow_cape]に簡単に作り変えることができるよ。 そのレシピを実験室に加えたよ。</text>
+		<text id="magic_intro1">この島には魔力があふれている。ここはボクがいるべき場所なんだ！</text>
+		<text id="magic_intro2">ボクはこの種類の魔法を以前に見たことがある。 これらの構造は部分的に有機的であり、すべて冬眠している。 彼らは目を覚めさせる必要があるね。</text>
+		<text id="magic_intro3">ボクはすでにこの紫色の部屋を起動させる方法を知っているが、他の構造も絡んでいるから……もっと多くの研究をしないといけない。</text>
+		<text id="magic_intro4">これは、操作の良い基盤でなければなりません。 私はいくつかの電源を設定します。</text>
+		<text id="wyrm1">他の構造物を起動する手がかりは、[item=wyrm]かもしれないよ？</text>
+		<text id="wyrm2">キミはこの島のを巡って、その秘密を探ってきて欲しい。ボクはこれらの痕跡の一部を解析するから。</text>
+		<text id="wyrm3">心配しないでいいよ。キミは前に[item=wyrm]を捕獲したじゃないか。 同じことをすればいいんだよ！</text>
+		<text id="wyrm4">あれは何だ？ ウィルムの女王がいたのかい？ それは無関係じゃないはずだ、キミが見つけた[item=spirit_gem]を見てよ！ ボクはこれが突破口を作るために必要なものだと確信してるんだ！</text>
+		<text id="wyrm5">ここで、[item=goggles]を試してみてよ。 精霊はボクが発明するのを助けてくれたんだ。そして、彼らがこれらの構造物にある秘密を教えてはくれなかったけど、彼らはボクたちが見逃しているモノを教えてくれるかもしれない。</text>
+		<text id="wyrm6">キミは東の島の[item=wyrm]を調査すべきです。ここでじゃないよ！ ボクはすでにここでの[item=wyrm]研究を終えたんだ！</text>
+		<text id="sleep">ボクには、これを勉強するのにもっと時間が必要だ。 なぜキミは紫色の部屋に入れないんだい？</text>
+		<text id="forest">その森は東に行くほど危険を感じる。 ボクは[item=fence]を設置したけど、それを越えることはお勧めしないよ。</text>
+		<text id="elementals1">ボクは[item=spirit_gem]が火または水の精霊を捕らえ、[item=fire_gem]または[item=water_gem]という宝石に変化することを確認したんだ。 精霊が注入された宝石で、構造物を起動できるはずだ。</text>
+		<text id="elementals2">精霊を見つけるのに困っているのかい？ 彼らは肉眼では見えないけど、ボクの[item=goggles]で、その姿を見ることができるよ！</text>
+		<text id="elementals3">[item=spirit_gem]は、トラップのように置くことができるよ。</text>
+		<text id="spirit_gem">今、すべての構造物が起動中になったよ！ ボクたちが研究を続ける前に、一度「紫色の部屋」で休憩を取るべきだとボクは思うよ！</text>
+		<text id="magic_farm1">何を待ってるの？ 青い構造物は[item=water_gem]を使って起動してね！</text>
+		<text id="magic_farm2">青い構造物は魔法の合成機だよ！ それは魔法からアイテムを作成することができるんだ！</text>
+		<text id="magic_farm3">合成機に魔力を供給するには、[item=focus_gem]を使用するんだよ。</text>
+		<text id="magic_farm4">青い構造物に魔力を供給するためには、[item=water_gem]が必要みたい！ 水の精霊を取り込むには[item=spirit_gem]を使用するんだよ！</text>
+		<text id="magic_forge1">何を待ってるの？ 赤い構造物は[item=fire_gem]を使って起動できるんだよ！</text>
+		<text id="magic_forge2">赤い構造物は古代の魔法の鍛冶場です。 それはアイテムに魔法を施術することができるんだ！</text>
+		<text id="magic_forge3">鍛冶場でさまざまなアイテムと魔法の材料の組み合わせを試してみてね - キミは何か素晴らしいものを生み出すかもしれないよ！</text>
+		<text id="magic_forge4">赤い構造物に魔力を与えるためには、[item=fire_gem]が必要みたい！ 火の精霊を取り込むには[item=spirit_gem]を使用してね！</text>
+		<text id="alter_gem1">ボクは[item=wyrm]の秘密を解読しようとしてるんだ。</text>
+		<text id="alter_gem2">キミがボクに[var=quest.alter_gem.wyrm] [item=wyrm]、[var=quest.alter_gem.fire_tusk] [item=fire_tusk]、[var=quest.alter_gem.yeti_fur] [item=yeti_fur]を持ってきてくれれば、研究を終えることができそうだ。</text>
+		<text id="alter_gem3">やったぞ！ ボクは[item=alter_gem]を作成したよ！ これで、[item=wyrm]を使用可能な機器（おそらく他の生き物）に変えることができるんだ！</text>
+		<text id="alter_gem4">ボクたちはこの魔法の枝を探索し続ける必要があるんだ！ この[item=alter_gem]を持って、[item=wyrm]でそれを使ってください！ さらに[item=alter_gem]が必要な場合のために、合成機にレシピを追加しておいたよ。</text>
+		<text id="alter_gem5">[item=alter_gem]を使うには、、持ち物画面でそれを選択し、変換を選択して、変換するクリーチャーを選択します。</text>
+		<text id="alter_gem6">他のクリーチャーと[item=alter_gem]を試してみるのを怖がらないで。[item=dragon]のようになることもあるかもしれないけど、 ボクはそれを敢えて示唆するんだ -  [item=adult_dragon] ?!</text>
+		<text id="alter_gem7">[item=alter_gem]が不足してるのかい？ 深い地下で探すか、合成機で作成することができるよ。</text>
+		<text id="alter_gem8">十分に餌を与えられた生き物で[item=alter_gem]を使うことを忘れないでね。 飢えた生き物では、長く変身しないから！</text>
+		<text id="first1">あなたは皆と一緒にこの惑星に墜落して来たのではないのですか？</text>
+		<text id="first2">違うよ。ボクは植民地化プログラムのための偵察任務の一員としてこの惑星に派遣されたんだ。</text>
+		<text id="first3">派遣されたのは、ボクを含めて4人いたんだ。 しかし、他の3人は来てすぐに死亡し、ボクはこの惑星が呪われていることを知っったんだ…</text>
+		<text id="first4">ボクは学んでいた魔法を使い、生き延びた。 ボクがその時に[item=goggles]を持っていれば、事態は変わっていたかもしれない。</text>
+		<text id="first5">彼らはここにいたのですか？ お先にどうぞ？</text>
+		<text id="first6">はい。 私は彼らが私の魔法を嫉妬していたと信じています。 それとも怖い？ 確かに言うのは難しい...</text>
+		<text id="second1">10年前にこの惑星で彼らと会った？ 人類を滅ぼそうとし、地球を破壊しようとする前です。</text>
+		<text id="second2">正しい。 私はそれらに遭遇した最初の人であり、最初は彼らを殺そうとした.</text>
+		<text id="second3">ボクは戦争を止めるために何ができたのか分からない。 彼らは突然生物兵器で飛来し、言葉を使わずに攻撃した。</text>
+		<text id="second4">彼らとコミュニケーションする方法があれば...</text>
+		<text id="second5">おそらく今のボクの魔力であれば、翻訳魔法を使って、彼らとコミュニケーションをとることができるかもしれない。</text>
+		<text id="second6">しかし、うまくいけば、私たちは彼らをもう一度遭遇することはないでしょう。</text>
+		<text id="oldone1">ボクは最近、魔法のエネルギーの中でいくつかの非常に奇妙な信号を感じとっているんだ。 それは何も影響しないかもしれないし、それは前兆の一つかもしれない。</text>
+		<text id="oldone2">それを見つけたらすぐにボクを召喚して。 それが本当に前兆の1つであれば、ボクたち皆が、重大な危険にさらされていることになる。</text>
+		<text id="oldone3">さて、ボクの翻訳がうまくいくか見てみよう！</text>
+		<text id="oldone4">あなたは誰ですか、あなたはここで何をしていますか？</text>
+		<text id="oldone5">何を言っているんだ？ これは我の家、我の惑星だ！ 貴様らは侵入者だ！</text>
+		<text id="oldone6">あなたの身体には複数のオーラが重なっていて、ぼんやりと馴染んでいるように見える...そのオーラは何ですか？</text>
+		<text id="oldone7">貴様が「オーラ」と呼ぶものは、おそらく我の愚かな兄弟達だ。 我はずっと前から、兄弟達の帰還を諦めていた。我は永遠の孤独を覚悟していた。</text>
+		<text id="oldone8">あなたの魔法について教えてもらえますか？ これらの魔法のエネルギーの信号は何ですか？ なぜあなたは竜を作り上げましたか？</text>
+		<text id="oldone9">黙れ！ 我は貴様らが喜ぶことなど何も教えぬ！ 我はとても寛容だった。 さもなければ、貴様らはずっと前に死んでいただろう。</text>
+		<text id="oldone10">しかし、今私は彼らが正しいことが一つあることを知っています。 あなたとあなたの種類がなければ、宇宙はより良くなるでしょう！</text>
+		<text id="oldone11">あなたは私を妨害することを後悔します！</text>
+		<text id="oldone12">No!</text>
+		<text id="oldone13">何が間違っている、私たちは勝利しませんでしたか？</text>
+		<text id="oldone14">私たちは遅すぎました！ それは信号を送りました。 彼らは私たちがこの惑星にいることを知っています！</text>
+		<text id="oldone15">私たちができるすべての魔法を学ばなければなりません。 さもなければ私達はすべて運命にある。</text>
+		<text id="oldone16">あなたは私が期待していた以上の魔法に熟達しています！ これは許されません、私たちは魔法を使うべきです。</text>
+		<text id="oldone17">それは信号を送信しています！ 彼らがそれを聞くなら、彼らは来るでしょう！ 私はこれをすぐに終わらせなければならない</text>
+		<text id="oldone18">何が起こった？ 大丈夫ですか？</text>
+		<text id="oldone19">いいえ... [pause=4]信号が送信されました... [pause=4]そして私の生命力は完全に排水されました...</text>
+		<text id="oldone20">それはあなた次第です... [pause= 4]急いでください... [pause= 4]答えを見つけてください...彼らの魔法を使う...</text>
+		<text id="oldone_tips1">私は守備の壁と癒しの魔法を設定します。 それが攻撃されている間私の後ろにいて、それが過負荷になったときにそれを打つ。</text>
+		<text id="oldone_attack">[tile=alchemist anim=alchemist.idle]今すぐ攻撃しよう！</text>
+		<text id="oldone_beam">私は魔法のエネルギースパイクを検出しています！ 私の障壁がこの攻撃を阻止できるとは思わない！</text>
+		<text id="return1">あなたはここで何をしているの？！</text>
+		<text id="return2">私は東部の島のサンプルを分析するために研究所を利用しています。</text>
+		<text id="return3">つまり、どうしてここに戻ってきたのですか？</text>
+		<text id="return4">私はどこにでも同じように！ テレポート。 明らかに。 今、私の迷惑を止め、分析を終わらせる必要があります。</text>
+		<text id="muttering">宝石の合成...ネストされた甲羅...進化無期限... [font=drachenklaue]mumbo jumbo[/font] ...</text>
+		<text id="oldone_choice">あなたはこのクリーチャーにはマッチしない。 私たちが生き残るためには、計画が必要です！</text>
+		<text id="work_together">共に働く</text>
+		<text id="alchemist_fight">錬金術師の戦いをさせて</text>
+		<text id="battle">後ろに立ちます！ この戦いは未経験者のためではありません！</text>
+	</section>
+	<section id="player">
+		<text id="storm1">さ、寒い…[pause=1] つ、疲れた…[pause=1] ひ、避難所を…避難所を作らないと…ここに材料は…あっ!…木がある！…これで…</text>
+		<text id="storm2">[color=770000]小屋[/color]を建築できるかもしれない… [var=quest.hut.wood] [item=wood] だけ集めれば…</text>
+		<text id="storm3">私は疲れ切っていて、 [tile=stamina][color=006600]持久力[/color]がいつもよりも速く減ってしまうが、[item=wood]を！[item=wood] を集めて [color=770000]小屋[/color]を作るまでは…なんとか...</text>
+		<text id="storehouse1">この斧は使えるかも…これで資源を蓄える[color=770000]倉庫[/color]を建てることができた.</text>
+		<text id="storehouse2">私は[var=quest.storehouse.wood] [item=wood] と [var=quest.storehouse.berries] [item=berries]で、倉庫が作れると信じている.</text>
+		<text id="storehouse3">よかった！ この倉庫を建てましょう！</text>
+		<text id="storehouse4">完璧。 今私はあまりにも多くの疲れを避けることができます。</text>
+		<text id="dock1">泥棒が他の生存者について真実を伝えているのだろうか？</text>
+		<text id="dock2">おそらく私は[color=770000]桟橋[/color]を構築し、それらを見つけて見つける必要があります。 それは[var=quest.dock2.wood] [item=wood]と[var=quest.dock2.steel_bar] [item=steel_bar]を取ります。</text>
+		<text id="dock3">さて、これを手に入れよう[color=770000]桟橋[/色]が建てられました！</text>
+		<text id="market1">多分私は[color=770000]市場[/color]を構築した場合、私はこのドックにトレーダーを引き付けるだろう。 私は[var=quest.market2.gold_bar] [item=gold_bar].</text>
+		<text id="market2">それは私が[color=770000]市場[/color]のために必要なすべてです！</text>
+		<text id="market3">本当にそこにトレーダーがいたようですね！ 彼らは私に[item=coin_purse]を与えて売買用の硬貨を保管していました。</text>
+		<text id="market4">今すぐ[color=770000] 桟橋小屋 [/color]に[tile=boat.ico]ボートを建てるだけです！</text>
+		<text id="farewell1">私はそこに何があるのか分からないが、私が戻る前に見つけ出すことを意味する。</text>
+		<text id="farewell2">いくつかの良いものを食べに戻してください！</text>
+		<text id="farewell3">表面の下を探検するのを忘れないでください、あなたが発見するかもしれないものを決して知りません。</text>
+		<text id="farewell4">私たちを待ってはいけない - すぐに戻ってくる。</text>
+		<text id="farewell5">あまりにも危険なものに関与しないでください。</text>
+		<text id="farewell6">そこには不確実な世界があります。</text>
+		<text id="farewell7">あなたは間違った方向に行きます、秘密はすべて東にあります！</text>
+		<text id="bandits1">ビジネスに復帰するのは素晴らしいことです！ 今私達がそれらの泥棒の盗人を取り除くことができる場合！</text>
+		<text id="bandits2">あなたは強いようです。 あなたは私たちのためにそれらを怖がらせることができると思いますか？</text>
+		<text id="bandits3">あなたは実際に盗賊を打つ！ この贈り物を感謝の念として受けてください。</text>
+		<text id="bandits4">それは私たちの幸運な日です - 私たちの獲物は私たちのところまで歩いてきました！ 私たちがMirrowsとその厄介な実験から逃げ出したので、状況はすごく進んでいます！</text>
+		<text id="ore_cave">私は別の次元に入ったように、この場所は奇妙に感じます。 私は入るたびに違う気がします。</text>
+		<text id="no_coin_purse">あなたが私たちと取引したいのであれば、[item=coin_purse]が必要です。 [var=recipe.sci1_coin_purse.sulfur] [item =硫黄]の値を与えることができます。</text>
+		<text id="make_coin_purse">[item=coin_purse]の取引[var=recipe.sci1_coin_purse.sulfur] [item=sulfur]？</text>
+		<text id="lurker">ちょっと子供、あなたはいくつかの珍しい品物をしたいですか？ あなたはどこにいてもこれらを買うことはできません！</text>
+		<text id="lurker_empty">お買い上げくださってありがとうございます。 申し訳ありませんが、払い戻しはありません。</text>
+	</section>
+	<section id="hunter">
+		<text id="tent1">私は見ず知らずの人のテントで休むべきではありません！</text>
+		<text id="tent2">これは[オブジェクト=ハンター]のテントでなければなりません。 私はそれを残しておくべきです。</text>
+		<text id="intro1">ねえ！ 私はその猪を奪うのを見た？</text>
+		<text id="intro2">うん、どうして...どうしたの？</text>
+		<text id="intro3">シンプル！ 適切なテクニックのビットが必要なのです。</text>
+		<text id="intro4">私はこのエリアを安全にしようとしています。 あなたが私に協力してくれるのなら、あなたに狩りの方法を教えることができる。</text>
+		<text id="accept1">重要なのは、相手に気づかれないことだ。 後ろから敵を撃てば、クリティカルヒットを得られる。</text>
+		<text id="accept2">余っている[item=workbench]を持っているから、これをあなたに差し上げよう - あなたの持ち物画面でそれを使って自分の武器を作ることができる！</text>
+		<text id="accept3">私は[item=bow] を得意とするので、敵に近づく必要はありませんが、近接武器を使用したい場合は[item=buckler]が攻撃をブロックするのに役立ちます！</text>
+		<text id="accept4">武器を装備するには[key=equipment]、装備した武器で攻撃するには[key=attack]、シールドでブロックするには[key=defend]を使用します。</text>
+		<text id="accept5">さて、[item=bow]を作り、[color=770000] [tile=boar] 猪 [/color]の群れを狩ってみませんか？ 狩りのヒントが必要な場合は、再び話しかけてください！</text>
+		<text id="reject1">あなたは危険だ…。 私たちのエリアから離れてください！</text>
+		<text id="reject2">まあ、大丈夫です！ 私はちょうど山に戻って行くよ！</text>
+		<text id="reject3">いくつかの狩猟技術を学ぶ準備ができていますか？</text>
+		<text id="hunt1">私たちは、このエリアを危険な生き物から時間をかけて安全にします！</text>
+		<text id="hunt2">仕事がうまくいったら、私の古い[item=backpack]をあなたに差し上げよう。荷物を持ち運ぶのに便利です。</text>
+		<text id="tip1">あなたは猪に背後から忍び寄って攻撃するために、トンネルを掘ることができる。</text>
+		<text id="tip2">[item=red_berries]は攻撃力を一時的に増加させるのに使うことができますが、あなたの健康には悪いことに注意してください。</text>
+		<text id="tip3">攻撃をしても、「効かない!」と出る場合、その敵は、あなたには強すぎます。 より良い武器や、もっと強力な攻撃が必要です。</text>
+		<text id="tent3">だから私は火の光を見たとき、暗い山腹に震え、単独で震えていた！ そして笑いを聞いた！ とても仲良く聞こえました...</text>
+		<text id="tent4">だからあなたは私たちと友達を作るために降りたのですか？</text>
+		<text id="tent5">もちろん違います。 そして私は確かにあなたを試して感動させるために雄鶏を狩っていませんでした。 どういたしまして。</text>
+		<text id="tent6">私は単に私の狩り範囲を拡大したかっただけです。</text>
+		<text id="tent7">私はこの場所についてもっと知りたいのですが、この島を超えて何かがあるかどうかを知りたいです...</text>
+		<text id="tent8">東には他の島があります。 私は山々の高いところから見た。</text>
+		<text id="tent9">そこに行けると思う？</text>
+		<text id="tent10">わからない。 その海岸は危険である。 さらに、それらの島々は私には奇妙に見えました。 危険なことがあります。</text>
+		<text id="tent11">だからあなたは、物事の仕方に満足する必要があると言っているのですか？</text>
+		<text id="tent12">私は、人生がすでに難しいときには、借りる必要はないと言っています。</text>
+		<text id="fence1">私は野生生物をここにチェックしておきたい。</text>
+		<text id="fence2">[item=workbench]を使って[var=quest.fence.fence] [item=fence]を作ることができましたか？ その後、境界を設定することができます。</text>
+		<text id="fence3">完璧。 [color=770000] [tile=boar]猪[/color]は[item=fence]を通過できませんので、和解を保護するために使用することができます。</text>
+		<text id="fence4">私はここに1つ置くでしょう、それを保護するために私たちのベースの周りに他の[item=fence]を置きます！</text>
+		<text id="wolf1">私は和解の周りに狼の子犬がぶら下がっていることに気づいた。 彼は寂しいようです。</text>
+		<text id="wolf2">彼はパックを持っていないのですか？</text>
+		<text id="wolf3">彼らは後ろに彼を残しているに違いない。</text>
+		<text id="wolf4">[var=quest.wolf.net] [item=net]、[var=quest.wolf.trap] [item=trap]、[var=quest.wolf.meat] [item=meat]を使用すると、 彼を飼いならすことができます。</text>
+		<text id="wolf5">さて、この子犬でできることを見てみましょう。</text>
+		<text id="wolf6">まあ、彼はあなたを完全に信頼しているようだ。 あなたは今、忠実な仲間を持っています。</text>
+		<text id="wolf7">あなたの[color=770000] 装備 [/color]画面の[color=770000] ペット [/color]スロットを使って[item=wolf]をフォローすることができます。</text>
+	</section>
+	<section id="mechanic">
+		<text id="introduce1">うわ！完全に壊れた！ これはひどいありさまだ！</text>
+		<text id="introduce2">何が起こった？</text>
+		<text id="introduce3">ミローズは電力を元通りに戻そうとしていて、ほとんどすべてを爆破したんだ！</text>
+		<text id="introduce4">彼らの失敗した実験の後始末を、私たちがしなければならない…みんなは直ることを期待している... くそっ！</text>
+		<text id="introduce5">でも、[item=titanium]が残っていないので、修理する方法がないわ…</text>
+		<text id="powerplant1">えっ！？　本当に[item=titanium]を持って戻ってくるとは思わなかった。</text>
+		<text id="powerplant2">ありがとう、これで電力を元に戻すことができるよ！</text>
+		<text id="powerplant3">ビジネスに戻りましょう！ 私たちは[item=coal]または[item=refined_oil]を使って発電所を動かして電力を供給することができます。 ここで[item=battery]を作ることもできます。</text>
+		<text id="powerplant4">ああ、[item=titanium]のおかげでやっと修理することができる！</text>
+		<text id="powerplant5">私には[item=titanium]を見つけることはできません！！　もうお終いだ！</text>
+		<text id="battery">いったんモバイル電源を使うと、クールなものを作ることができるので、[item=battery]を作ったときにお知らせください！</text>
+		<text id="tip1">[item=sulfur]と[item=steel_bar]を使用して[item=battery]を[color=770000]発電所[/color]に設定します。 あなたはそこにも充電することができます。</text>
+		<text id="tip2">機器に電力を供給するために、[item=battery]をインベントリに追加するだけです。</text>
+		<text id="tip3">あなたの[tile=health] [color=770000] 体力 [/color]と[tile=stamina] [color=006600]の下に合計 [tile=power][color=444400]電力[/color] 。</text>
+		<text id="factory1">ついに私たちはもう一度力を得ました。新しい機械を使いたいと思っています。</text>
+		<text id="factory2">[color=770000] 工場[/color]を設定する手助けをすれば、あらゆる種類のものを製造することができます！</text>
+		<text id="factory3">これは素晴らしいでしょう。 最後に、新しいプロジェクトで悩む！</text>
+		<text id="factory4">今度は素材を改良して[item=drill] 、[item=chainsaw] 、[item=shotgun] 、その他のクールなものを構築できます。</text>
+		<text id="elevator1">私はあなたがたくさんの採掘をしていることに気づいた。</text>
+		<text id="elevator2">表面に戻ってすべてを運ぶのを助けるための装備を持つことは便利ではないでしょうか？</text>
+		<text id="elevator3">いいね！ これをやろう！</text>
+		<text id="elevator4">上がっていく？ または私はダウンを言う必要があります！</text>
+		<text id="repair">何か修理が必要ですか？ 私はあなたのガールです！</text>
+		<text id="dragon">植物に力を与える火の呼吸をする生き物は何ですか？ それはそれを壊すことはありません！</text>
+		<text id="intro1">私よりも生存者が多い！</text>
+		<text id="intro2">うん？ しかしそれだけでは不十分です。 私たちが種として生き残るには、他の植民地に加わる必要があります。</text>
+		<text id="intro3">彼らはそれを作ったと思いますか？</text>
+		<text id="intro4">彼らはそこにいると確信しています。 それらを見つけて手を差し伸べる方法が必要です。</text>
+		<text id="intro5">私たちが途中で攻撃されたら？</text>
+		<text id="intro6">それから少なくとも試しました！ 私はここに座るつもりはないが、今のところ安全だと思っているからだ。</text>
+		<text id="mirrows1">ねえ、何が間違っているの？ あなたは見下ろす。</text>
+		<text id="mirrows2">誰もが嫌がらせをやめるようにミローズに頼んだが、彼らは耳を傾けず、私は彼らと戦いたくない。</text>
+		<text id="mirrows3">試してみるのは良いことだ。 しかし、彼らは馬のように頑固で、強さ以外のことは聞いていません。</text>
+		<text id="mirrows4">私はまだ諦めていない。 彼らがこのように力を乱すことは公正ではない。</text>
+		<text id="mirrows5">おそらく、ミローズについてできるだけ多くのことを学ぼうとします。 彼らの研究室の周りのすべての領域をチェックアウトしましたか？</text>
+		<text id="mirrows6">ミローズの研究ノートの 「 C 」ですか？ あなたは彼らと一緒に働いていたのですか？</text>
+		<text id="mirrows7">いいえ...正確ではありません。 彼らは -  [休憩=4]彼らは私の両親です。</text>
+		<text id="mirrows8">ご両親！？ あなたが娘の場合、多分彼らはあなたに耳を傾けます。 あなたは彼らと交渉してみませんか？</text>
+		<text id="mirrows9">私を信じて、私は試しました。 彼らは理由を聞くことはありません。 彼らは自分たちの「強化」に集中しすぎており、私たちの問題に対する他の解決策も考慮しません。</text>
+		<text id="mirrows10">我々は方向を変えるためには本当に強力なものが必要です。 科学では説明できないもの。</text>
+		<text id="mirrows11">これ[item=dragon_armor]についてどう思いますか？ [item=adult_dragon]の力を持っていますが、装甲のように身に着けることができます！</text>
+		<text id="mirrows12">それはとても奇妙ですが、私は間違いなくショットに値すると思います。 両親に見せてあげましょう。</text>
+		<text id="mirrows13">再び？ 今回は、あなたをサイボーグに変えるつもりです！</text>
+		<text id="mirrows14">待つ！ 攻撃しないでください、それは私です。</text>
+		<text id="mirrows15">キャス？ あなたはここで何をしているの？</text>
+		<text id="mirrows16">私はあなたにこれを見てもらいたい。 結局のところ、人をサイボーグに変える必要はありません。</text>
+		<text id="mirrows17">これはなんですか？ それは力の読みはチャートから外れていますが、人は全く作られていません！</text>
+		<text id="mirrows18">もし私があなたに言うなら、あなたの人間の実験と迫害を止めることに同意しますか？</text>
+		<text id="mirrows19">もちろん、これは私たちの研究のまったく新しいラインかもしれません！</text>
+		<text id="mirrows20">もともとこの惑星に生息していた種が竜と魔法の装備を作ったことが判明しました。 そして、その種はされているかもしれません。</text>
+		<text id="mirrows21">私たちは彼ら自身の創造物を使用しています！ どのような美味しい皮肉！</text>
+		<text id="sleep">それは何時ですか？ あなたが必要とするものは、朝まで待つことができると確信しています...</text>
+	</section>
+	<section id="innkeeper">
+		<text id="intro1">ゴールデンキーへようこそ！ 最高の（そして唯一の）部屋と砂漠のこの側に乗りなさい！</text>
+		<text id="intro2">ここは宿屋ですか？ 多くの人々が宿泊にきますか？</text>
+		<text id="intro3">かなり少数ですが、この島…サンセット・ヘブンで探検、取引、をする人たちが眠る場所を求めて訪れますよ。</text>
+		<text id="intro4">しかし、もし誰かが滞在するかどうかを知っている私たちはすぐに力を得ることはできません。 私は何度も私が行こうと誘惑されたことを教えてくれません。</text>
+		<text id="power1">素晴らしい！ 電力が戻った！</text>
+		<text id="power2">彼らのおかげでミローズに感謝します。 私たちはまだ技術をここを走り続けるためにすべての人に会費を支払うとは信じられません！</text>
+		<text id="power3">そして、彼らは発電所を揚げるだけでなく、周りに来て、それを修正するのに気にすることはできませんか？</text>
+		<text id="power4">あなたはそれらを支払うことを止めることはできませんか？</text>
+		<text id="power5">私は旅館を出ることはできませんが、もし誰かが砂漠に行き、それについてそれに直面するなら、多分私たちはこの不公平から脱却するかもしれません。</text>
+		<text id="no_power">電力が戻ってくるまで、私たちがここにとどまることはできません。</text>
+		<text id="visit">あなたは夜を過ごしたいですか？ たった50 [color=770000] [tile=coin_purse.ico]コイン[/color]、私は熱い食事を含むでしょう！</text>
+		<text id="no_money">お金が足りない？ それから、ここには泊まりません。 これはあなたが知っている慈善団体ではありません！</text>
+		<text id="scene1">私は主船がここのどこかで墜落しているのを聞いていますか？ ライフポッドなしでどうやって生き残ったのですか？</text>
+		<text id="scene2">それがまさに私たちの問題です。 Mirrowsは私たちを救った。 彼らは信じられないほどの最後の改善を行い、部門全体を閉塞から保護しました。 だから我々は彼らの負債にいる。</text>
+		<text id="scene3">しかし、今、彼らは私たちの力を破壊しました。彼らは奇妙な生き物たちを崩壊させて大混乱に陥らせています。</text>
+		<text id="scene4">私は、ミローズが最後に見られた砂漠で、いくらかの人々が行方不明になったと聞いたことさえある。</text>
+		<text id="scene5">そして、彼らは私たちがこれをすべて我慢することを期待していますか？ それに会費も支払うのですか？ あまりにも多くなってきた。</text>
+		<text id="mirrows1">ミルローズは、お金を求めて人々を実験することをやめることに同意しました！</text>
+		<text id="mirrows2">優秀な！ 多分私たちはついにここでここで少し平和を持つことができます。</text>
+		<text id="mirrows3">ここで、これを私の感謝の象徴としましょう。</text>
+		<text id="mirrows4">... [item=coal]?</text>
+		<text id="mirrows5">何？ 私は慈善団体を運営しているわけではありません。</text>
+	</section>
+	<section id="fisherman">
+		<text id="intro1">最後に再び土地に戻ってください！ あなたはあまりにも到着したように見えます！</text>
+		<text id="intro1_alt">ちょっと、そこ！ 他の生存者がここを出航しているのを見てうれしい！</text>
+		<text id="intro2">彼女に気にしないでください、それはちょうどポーリーのおはよう様です。 あなたのブーツに海水のビットを気にしないことを願っています！</text>
+		<text id="intro3">あなたは以前この島に行ったことがありますか？</text>
+		<text id="intro3_alt">それで、島が先にあるのは分かっていますか？</text>
+		<text id="intro4">確かに、この島はサンセット・ヘブンと呼ばれ、それは私が見た他のどの島よりも多くの生存者を持っています。</text>
+		<text id="intro4_alt">確かに、島はサンセット・ヘブンと呼ばれ、私が見た他のどの島よりも生存者が多い。</text>
+		<text id="intro5">主要船が墜落した場所でもあります。</text>
+		<text id="intro6">しかし、自分自身を見てください。 最近サンセット・ヘブンについて悪い噂が聞こえました...</text>
+		<text id="cat1">ねえ、私の[item=cat]ペリはもう一度私から逃げました！ あなたが私を見つけるのを助けることができると思いますか？</text>
+		<text id="cat2">私はペリが出航を避けようとしていると思っている。 ペリは水が嫌いだからね。</text>
+		<text id="cat3">あなたが私を助けてくれたら、私が釣りについて知っていることを教えましょう。</text>
+		<text id="cat4">素晴らしいです、ありがとう！ ここに予備の[item=fishing_rod]があります。釣りのヒントが必要なら、私に話してください！</text>
+		<text id="cat5">[item=toothfish]はペリの好きな食べ物です。多分あなたはそれらのいくつかで彼女を誘惑することができますか？</text>
+		<text id="cat6">ねえ、あなたは私の[item=cat]を見つけました！ ありがとう。</text>
+		<text id="cat7">しーーーーっ！、完全に彼女の上に勝ったように見えます。 彼女はあなたと一緒に幸せになるだろうと思う。 なぜ彼女を飼っていないのですか？</text>
+		<text id="cat8">猫はあなたがつかむには速すぎる!</text>
+		<text id="cat9">彼女は私の手から[item=toothfish]を奪ったが、彼女は速すぎるので、私は彼女を捕まえられない。</text>
+		<text id="cat11">ペリに[item=toothfish]を付ける？</text>
+		<text id="cat12">彼女は今回は速く走っていなかった。</text>
+		<text id="cat13">ここに来てペリ...いい子だから...</text>
+		<text id="cat15">1匹の猫が首尾よく捕獲</text>
+		<text id="tip1">釣りはすべてタイミングについてです。 桟橋の終わりに釣り竿を使用し、ライン上に何かがあるときに[key=select]を押す - あまりにも遅くまたは遅すぎると、キャッチを失うでしょう！</text>
+		<text id="tip2">それが "それを待って..."と言えば、魚はもう少し寛大な必要があります。 「今すぐ引っ張ってください」と言うまで待ちます。 もう一度[key=select]を押すと！</text>
+		<text id="tip3">いくつかの魚は捕まえにくく、より多くの鍵が必要です。 ツールチップに注目し、表示されているキーを押してください！</text>
+		<text id="scene1">私はこれが私の必要なすべてです - 私の頭の上の屋根、日差し、そして巨大な海を釣りにする。</text>
+		<text id="scene2">あなたも？ あなたの夢は何ですか？</text>
+		<text id="scene3">私は本当にこの惑星から道があるかどうかを知りたいです。</text>
+		<text id="scene4">何、なぜ！ 死の願いがありますか？ それらの事は慈悲を持っていません。</text>
+		<text id="scene5">私は彼らのことをもっと知りたいのですが、なぜ彼らは何が起こったのか...</text>
+		<text id="scene6">私の友人の声を聞いて、私が地球から打ち上げる前に、私は一人見た。 あなたが知る必要があるのは、それらを回避する方法だけです。</text>
+	</section>
+	<section id="mirrows">
+		<text id="intro1">あなたはミローズの2人ですか？ なぜあなたはサンセット・ヘブンを苦しめて、それらの変な突然変異体を作りましたか？</text>
+		<text id="intro2">あなたは理解していない！ 私たちは皆のためにこれをやっています！ 私たちは究極の武器なしに生き残ることはできません！</text>
+		<text id="intro3">彼らが私たちの最後を駆逐するために来るとき、私たちは準備ができているでしょう！ 犠牲が必要でした。</text>
+		<text id="intro4">決して来ることのない未来のために人々を犠牲にすることはできません！ みんなを救う良い方法があります！</text>
+		<text id="intro5">あなたが私たちと戦うことに決めたら、私たちはあなたと戦うしかありません。</text>
+		<text id="intro6">あなたの体が私の新しいサイボーグの発明に必要なものだと感じています！</text>
+		<text id="defeat0">信じられない！ 私たちの高度なサイバネティックスでさえ、あなたは何とか私より強いです！</text>
+		<text id="defeat1">あなたの強さの秘密を教えてください - 人類を救うための鍵になるかもしれません！</text>
+		<text id="defeat2">あなたが私の秘密を教えたら、町民を嫌うのを止め、お金を求めるのに同意しますか？</text>
+		<text id="defeat3">もちろん。 なぜ私たちはあなたがいるときにそれらの鈍い標本が必要でしょう！</text>
+		<text id="defeat4">これは私たちのための全く新しい研究ラインになります！</text>
+		<text id="defeat5">私たちの手術室を自由に使用してください。 サイバネティックな機能強化でどのように強力になっていくのか、非常に興味があります。</text>
+		<text id="tip1">手術室でサイバネティックな機能強化を取り除くことしかできません。 削除するスロットを選択し、削除を選択します。 後で拡張機能を再インストールできますが、より多くのリソースが必要になります。</text>
+		<text id="nav1">ナビゲーション画面がまだ動作しているように見えます。 これによると、私たちは現在Unoiks 428eにいます。</text>
+		<text id="nav2">ミローズがこのメモを追加しましたか？ 私はこれについて彼らに尋ねなければなりません...</text>
+		<text id="nav3">私たちは敵のホームワールドにいるのですか？ どうして知っていますか？</text>
+		<text id="nav4">我々は確信することはできません...しかし、我々はこの惑星で多くの遺跡のサンプルを取った。 彼らは技術にマッチしているだけでなく、100万年以上前のものです。</text>
+		<text id="nav5">しかし、彼らは今行っている？</text>
+		<text id="nav6">我々はこの惑星でそれらを検出していないが、彼らが出発したとしても、彼らは最終的に戻ると確信している。</text>
+		<text id="nav7">これが私たちが強く犠牲にしていた理由です。私たちがこの惑星に上陸した日から、彼らとの対決は避けられませんでした。</text>
+	</section>
+	<section id="scene.hut">
+		<text id="first1">初めて作った小屋にしては、悪くない…</text>
+		<text id="first2">助けてくれ…[pause=4] お願いじゃ…[pause=4] 避難させてくれ…</text>
+		<text id="first3">誰かが外に！？どうしよう…信頼できる人なのか？開けるか？</text>
+		<text id="first4">ありがとう！おめぇさんは、命の恩人じゃ！じゃが、これからどうなるんじゃろう？</text>
+		<text id="first5">今のところは体も暖かいし、命の危険はない.</text>
+		<text id="first6">じゃが、この先はどうなる？この無人島でどうやって生き残る？</text>
+		<text id="first7">ここがどこかもわからない。戻ることもできない私たちは、今この場所で生きていくことを考えるべきだ…</text>
+		<text id="first8">少なくとも私達はまだ生きているんだから。 まだ人生を捨てるには、早すぎる！きっと、ここでも生きていけるはずだ。</text>
+		<text id="first9">お願…い…[pause=4] たす…け…</text>
+		<text id="second1">...私がここに到着したとき、私はちょうど掘り出し始め、嵐があったことさえ気づかなかった。</text>
+		<text id="second2">しかし、私はあなたがここにいることをうれしく思っています。 私は汚れを食べるのがうんざりしていました。地下の長い一日のあいだに暖かい火のようなものはありません。</text>
+		<text id="second3">あなたはそこにもっと生存者がいると思いますか？</text>
+		<text id="second4">正直、私は誰もがクラッシュから生き残ったことに驚いています。 しかし、ここにいるので、他の人たちも生き残ったのだろうか？</text>
+		<text id="third1">今私は若者たちがこれを世界の終わりだと思っていると思っていますが、私は第三次世界大戦中も同じことを考えましたが、ここには皆あります。</text>
+		<text id="third2">私はそれを見ているだけで、状況を最大限に生かして食べ物と会社を分かち合うことができてうれしいです。</text>
+		<text id="third3">しかし、この神に捨てられた島にどれくらいの期間生きなければなりませんか？</text>
+		<text id="third4">知るか？ しかし、人生がある限り、希望があります。 おそらく、時間がたつにつれて、この島は家庭ほど良いでしょう。</text>
+		<text id="fourth1">他の生存者の知っていることを教えてください。</text>
+		<text id="fourth2">私たちの大部分は異なる島々に散在していましたが、いくつかの島にはより多くの生存者といくつかの実用技術があります。</text>
+		<text id="fourth3">私は、ほとんど無傷の船で島の噂を聞いたことがあります。</text>
+		<text id="fourth4">それはまだ飛ぶことができますか？</text>
+		<text id="fourth5">私が言ったように、私が聞いたことはすべて噂です。 しかし、それができたとしても、それは確かに死であろう。 この惑星にとどまるのがベストですが、ここで私たちを気にしているようには見えません。</text>
+		<text id="hunter1">あなたはこのようなものにとても良いです。 あなたが墜落前のハンターだったのですか？</text>
+		<text id="hunter2">Heh。 これまで私の人生で動物を殺したことはありませんでした。 私は科学者だった。 ラボの仕事。 分子。</text>
+		<text id="hunter3">ワオ。 どのようにそれをすべて把握したのですか？</text>
+		<text id="hunter4">あなたが生き残る必要があるときにできることは驚くべきことです。</text>
+		<text id="hunter5">あなたは変わる。 あなたは、あなたの古い自己がほとんど気づかない人になる。</text>
+		<text id="mirrows1">彼らはテクノロジーを再構築していますか？</text>
+		<text id="mirrows2">ええ、サンセット・ヘブンには電力と産業機器があります。</text>
+		<text id="mirrows3">しかし、そこにいる人々は、それをすべて設定したミローズにあまり満足していません。</text>
+		<text id="mirrows4">ミローズは生き残った！</text>
+		<text id="mirrows5">あなたは彼らを知っている？</text>
+		<text id="mirrows6">残念ながら。 我々は遺伝学を研究している同じ研究グループの一部であった。</text>
+		<text id="mirrows7">攻撃の後、彼らは人間の実験のようなひどいものをやり始めた。 私はもはやそれらと仕事をすることができませんでした。</text>
+		<text id="mirrows8">ねえ、私たちはここでもいくつかの技術を再構築すべきです！ 彼らがそれをすることができれば、私たちはなぜですか？</text>
+		<text id="mirrows9">それは精神だ！ この場所はまもなく家のように感じられます。</text>
+	</section>
+	<section id="medicom">
+		<text id="panel1">3/15 - われわれは地球を捨てること以外に選択肢が残っていない。 私たちの武器はそれらを傷つけることはできません、そして彼らは復讐で我々を追求します。 おそらく、別の惑星で、私たちは最終的に彼らの怒りを避けることができます。</text>
+		<text id="panel13">5/1 - 船はエスケープで大きく壊れていたが、ジャンプドライブは正常に作動した。 船が旅に耐えていると仮定すると、それは追跡者よりも先に進むはずです。</text>
+		<text id="panel2">6/30 - 私たちの目標を達成するために必要な標本の数とタイプを含む、人間の増強と生存可能性に関する新しい計画を練り上げました。 Hさんは研究グループを辞めました。</text>
+		<text id="panel3">8/5 - 目標の惑星に到達しましたが、安全に大気に入ることができず、十分なライフポッドがありません。 増強された被験者でさえ、生存率は低い。 敵の兆候はない。</text>
+		<text id="panel4">9/2 - 船体補強は進行中ですが、生存には補強が必要です。 彼らの人生はそれに依存しているにもかかわらず、デサントは手続きに抗議している。</text>
+		<text id="panel5">9/26 - もはや軌道を維持することはできません。 多くの人が増強を受け入れていますが、ライフポッドでは立ち上げられない人もいます。 うまくいけば、補強は残りのために十分であろう。</text>
+		<text id="panel6">10/4 - 緊急補強は大部分成功しましたが、生存者の推定数は、私たちが考慮に入れることのできない生命鞘を考慮しても、はるかに低いです。</text>
+		<text id="panel7">10/5 - 種の生存率は現在、大きな懸案事項です。 ほんの数百人の人では、劇的な介入なしに生き残ることはできません。 新しい研究の始まり。</text>
+		<text id="panel8">11/20 - クラッシュサイトの東側に基本インフラを設置。 実験のために新しい標本を集める。</text>
+		<text id="panel14">12/14 - 種の生存能力の研究は停滞しているが、戦闘研究は有望視されている。 サイバネティックな機能強化は、平均的な民間人を戦争機械に変えることができます。</text>
+		<text id="panel9">12/24 - Cは戦闘研究を嫌う。 彼らの復帰の準備をして種の生存率を高める代わりに、Cは星に戻り、他のsurvivors.</text>
+		<text id="panel10">1/6 - 研究室を出発して、私たちはもはや町で歓迎されなかったことを明らかにした。 セクター22の遺跡にある古い研究室への事業拠点の移転。</text>
+		<text id="panel15">1/31 - 被験者の不足のためにサイバネティック研究を自分自身に適用する。 まだ敵の兆候はありませんが、今度は敵と戦うことができます。</text>
+		<text id="panel11">2/9 - 基金の研究を助けるために村を強制する。 また、新たな試験科目（バガボンドとアウトキャスト）を取得しました。 研究は再び進んでいます。</text>
+		<text id="panel12">2/27 - バガボンドから離れて、町の人たちから試験の被験者を集めなければならなかった。 生存率調査がすぐに完了しない場合、私たちは再び被験者を使い果たします。</text>
+		<text id="broken">パネルが壊れている...</text>
+	</section>
+	<section id="system">
+		<text id="start">Unoiks 428</text>
+	</section>
+	<section id="system.desc">
+		<text id="start">G型星は地球から42光年離れていると確認された。</text>
+	</section>
+	<section id="system.planet">
+		<text id="start">Unoiks 428e</text>
+	</section>
+	<section id="system.planet.desc">
+		<text id="start">地球のような居住可能な惑星、コロニーの位置＃21。\n\n [color=ff2222] Enemy Homeworld [/color]であることが予想されます。</text>
+	</section>
+	<section id="options">
+		<text id="options">ｵﾌﾟｼｮﾝ</text>
+		<text id="paused">一時停止</text>
+		<text id="music">音楽:</text>
+		<text id="sfx">効果音:</text>
+		<text id="fullscreen">全画面:</text>
+		<text id="textspeed">文字速度:</text>
+		<text id="language">言語:</text>
+		<text id="gameplay">ｹﾞｰﾑ設定</text>
+		<text id="controls">操作</text>
+		<text id="achievements">ﾄﾛﾌｨｰ</text>
+		<text id="title">ﾀｲﾄﾙに戻る</text>
+		<text id="back">戻る</text>
+		<text id="quitgame">ﾀｲﾄﾙ画面に戻りますか？ 未保存の進行状況は失われます。</text>
+		<text id="keyboard">ｷｰﾎﾞｰﾄﾞ</text>
+		<text id="controller">ｺﾝﾄﾛｰﾗｰ</text>
+		<text id="import">ｲﾝﾎﾟｰﾄ</text>
+		<text id="export">ｴｸｽﾎﾟｰﾄ</text>
+		<text id="import_save">ﾀｲﾄﾙ画面でのみｲﾝﾎﾟｰﾄできます。</text>
+		<text id="import_html5">ｲﾝﾎﾟｰﾄするには.asavﾌｧｲﾙをｹﾞｰﾑｳｨﾝﾄﾞｳにﾄﾞﾗｯｸﾞし、保存するｽﾛｯﾄを選択します。</text>
+		<text id="file_import">ｲﾝﾎﾟｰﾄするﾃﾞｰﾀを選択する.</text>
+		<text id="file_export">どのｽﾛｯﾄをｴｸｽﾎﾟｰﾄしますか？</text>
+		<text id="import_fail">ｲﾝﾎﾟｰﾄ不可: ﾃﾞｰﾀが破損している.</text>
+		<text id="export_fail">ｴｸｽﾎﾟｰﾄ不可: ﾃﾞｰﾀが破損している.</text>
+		<text id="auto_heal">体力の回復する食べ物を自動で食べる?</text>
+		<text id="auto_stamina">持久力の回復する食べ物を自動で食べる?</text>
+		<text id="max_overweight">重量制限:</text>
+		<text id="notifications">通知:</text>
+		<text id="show_all">全表示</text>
+		<text id="hide_queue">ﾎﾞﾀﾝ非表示</text>
+		<text id="hide_element">ｴﾚﾒﾝﾄ非表示</text>
+		<text id="hide_queue_element">ﾎﾞﾀﾝとｴﾚﾒﾝﾄ非表示</text>
+		<text id="hide_critical">会心非表示</text>
+		<text id="hide_queue_critical">ﾎﾞﾀﾝと会心非表示</text>
+		<text id="hide_element_critical">ｴﾚﾒﾝﾄと会心非表示</text>
+		<text id="hide_queue_element_critical">全非表示</text>
+		<text id="move_all">全ﾎﾞﾀﾝ移動有効</text>
+		<text id="move_all_confirm">すべてのアイテムを別のインベントリに移動します。 有効にする？</text>
+		<text id="fade_ui">UI透明度:</text>
+		<text id="prompt_count">作成ｱｲﾃﾑ数</text>
+		<text id="allow_flash">点滅を許可</text>
+	</section>
+	<section id="option.descriptions">
+		<text id="auto_heal">有効にすると、健康状態がなくなると、死にかからずに在庫から健康治癒食品（利用可能な場合）を自動的に食べます。</text>
+		<text id="auto_stamina">有効にすると、スタミナが足りなくなると、体力を失う代わりに、あなたの在庫からスタミナの癒し用食べ物（もしあれば）を自動的に食べます。</text>
+		<text id="max_overweight">ゲームがあなたの動きを止める前に、あなたが過体重に歩いて死を避けるために必要な体重制限をどれくらい設定しますか。 制限を解除するには0に設定します。</text>
+		<text id="notifications">どの通知を表示するか。\n画面の下部にある通知（NPCがあなたの倉庫にアイテムを置いているようなもの）が表示されます。\nElementは要素効果/レジストポップアップです。\nCriticalはクリティカルヒット、ミス、ダッジ、ブロックされた通知です。</text>
+		<text id="move_all">転送インベントリウィンドウのすべての "&lt;" "&gt;ボタンを移動できるようにします。</text>
+		<text id="fade_ui">画面上のGUIのアルファ不透明度（ヘルスバー、ボタンなど）を設定します。</text>
+		<text id="prompt_count">有効にすると、ゲームは一度に手作りしたいアイテムの数を尋ねます。そうしないと、1つのアイテムにつき1つのアイテムが作成されます。</text>
+		<text id="allow_flash">点滅するライトに敏感な場合は、これを無効にしてください。 それはゲームでより激しいちらつきの光のいくつかを無効にします。 すべての改造がこのオプションを扱うことが保証されているわけではありません。</text>
+	</section>
+	<section id="controls">
+		<text id="left">左:</text>
+		<text id="right">右:</text>
+		<text id="up">上:</text>
+		<text id="down">下:</text>
+		<text id="select">行動:</text>
+		<text id="cancel">中止:</text>
+		<text id="inventory">ｱｲﾃﾑ:</text>
+		<text id="quest">ｸｴｽﾄ:</text>
+		<text id="equipment">装備:</text>
+		<text id="attack">攻撃:</text>
+		<text id="defend">防御:</text>
+		<text id="device">機器:</text>
+		<text id="hotkey1">Hotkey 1:</text>
+		<text id="hotkey2">Hotkey 2:</text>
+		<text id="hotkey3">Hotkey 3:</text>
+		<text id="hotkey4">Hotkey 4:</text>
+		<text id="mute">消音:</text>
+	</section>
+	<section id="cloud">
+		<text id="login">アコースティッククラウドのログイン</text>
+		<text id="logging_in">ログイン中...しばらくお待ちください...</text>
+		<text id="login_fail">ユーザーネームまたはパスワードが違います。</text>
+		<text id="connect_fail">クラウド同期に接続できませんでした。</text>
+		<text id="sync_fail">同期に失敗しました！</text>
+		<text id="button_login">Agroundクラウドにログイン</text>
+		<text id="button_logout">Agroundクラウドのログアウト</text>
+		<text id="not_logged_in">Agroundクラウドにログインしていない</text>
+		<text id="logged_in">Logged in as: {username}</text>
+		<text id="username">Username:</text>
+		<text id="password">Password:</text>
+		<text id="remember">Remember Me?</text>
+		<text id="create">Create Account</text>
+		<text id="user_error">Username must be between 3 and 24 characters.</text>
+		<text id="pass_error">Password must be between 3 and 40 characters.</text>
+		<text id="sync_slots">Syncing Slots</text>
+		<text id="all_synced">All Saves Synced!</text>
+		<text id="unsynced">You have unsynced saves!</text>
+		<text id="sync_now">Sync Now</text>
+		<text id="overwrite">There are two saves in this slot!\nWhich one would you like to keep?</text>
+		<text id="close_syncing">Your saves are currently syncing. Are you sure you wish to leave before the sync completes?</text>
+	</section>
+	<section id="modio">
+		<text id="login">私たちはmodをｲﾝｽﾄｰﾙして管理するためにmod.ioを使用します。 あなたのﾒｰﾙｱﾄﾞﾚｽを入力して始めましょう！</text>
+		<text id="email">E-Mail:</text>
+		<text id="email_error">有効なﾒｰﾙｱﾄﾞﾚｽではありません！</text>
+		<text id="enter_code">あなたのﾒｰﾙに送信された5桁のｺｰﾄﾞを入力してください：</text>
+		<text id="bad_email_error">mod.ioであなたのﾒｰﾙｱﾄﾞﾚｽを見つけることができません！</text>
+		<text id="code_error">入力したｺｰﾄﾞが正しくありませんでした。</text>
+		<text id="logged_in">mod.ioに正常にﾛｸﾞｲﾝしました！ modは自動的にﾀﾞｳﾝﾛｰﾄﾞされます！</text>
+		<text id="version">ﾊﾞｰｼﾞｮﾝ</text>
+		<text id="enable">Mod有効</text>
+		<text id="disable">Mod無効</text>
+		<text id="upload">Mod.ioにｱｯﾌﾟﾛｰﾄﾞ</text>
+		<text id="upload_fail">ｱｯﾌﾟﾛｰﾄﾞ失敗</text>
+		<text id="upload_success">ｱｯﾌﾟﾛｰﾄﾞ成功！</text>
+		<text id="button_login">Mod.ioにﾛｸﾞｲﾝ</text>
+		<text id="button_browse">Modsを閲覧</text>
+		<text id="button_logout">Mod.ioのﾛｸﾞｱｳﾄ</text>
+		<text id="not_logged_in">Mod.ioにﾛｸﾞｲﾝしていない</text>
+		<text id="preview">ｱｯﾌﾟﾛｰﾄﾞする前にpreviewﾌｫﾙﾀﾞにpreview.pngというﾌﾟﾚﾋﾞｭｰ画像を追加する必要があります。</text>
+		<text id="visit_website">ｳｪﾌﾞｻｲﾄを訪問</text>
+		<text id="disable_warning">{mod}を有効にしますか?</text>
+		<text id="bad_mod">.zipﾌｧｲﾙにはmod.xmlﾌｧｲﾙがないか、有効なmodではありません。</text>
+		<text id="import_mod">{modname} が正常にｲﾝﾎﾟｰﾄされました!</text>
+		<text id="replace_mod">同じ名前のMODを既にｲﾝﾎﾟｰﾄしています。 交換しますか？</text>
+	</section>
+	<section id="steam">
+		<text id="upload">Upload to Steam</text>
+		<text id="upload_title">Uploading {name} to Steam Workshop:</text>
+		<text id="notes">Notes:</text>
+		<text id="id">ID:</text>
+		<text id="agreement">workshopの利用規約に同意します。</text>
+		<text id="new_id">新規作成</text>
+	</section>
+	<section id="world">
+		<text id="rename">この島の名前は？</text>
+		<text id="start">ｽﾀｰﾄする島</text>
+		<text id="science1">サンセット・ヘブン</text>
+		<text id="magic1">東の島</text>
+		<text id="water_cave">水中洞窟</text>
+		<text id="colony_ship">ｺﾛﾆｰ船</text>
+	</section>
+	<section id="create.character">
+		<text id="title">ｷｬﾗ作成</text>
+		<text id="skin">肌の色:</text>
+		<text id="hair">髪の色:</text>
+		<text id="eyes">目の色:</text>
+		<text id="shirt">ｼｬﾂの色:</text>
+		<text id="pants">ﾊﾟﾝﾂの色:</text>
+		<text id="hair_style">髪型:</text>
+	</section>
+	<section id="colors">
+		<text id="black">黒</text>
+		<text id="brown">茶</text>
+		<text id="dbrown">こげ茶</text>
+		<text id="lbrown">うす茶</text>
+		<text id="blue">青</text>
+		<text id="dblue">紺</text>
+		<text id="lblue">水</text>
+		<text id="green">緑</text>
+		<text id="lgreen">黄緑</text>
+		<text id="red">赤</text>
+		<text id="yellow">黄</text>
+		<text id="orange">橙</text>
+		<text id="pink">桃</text>
+		<text id="purple">紫</text>
+		<text id="white">白</text>
+		<text id="gray">灰</text>
+		<text id="teal">青緑</text>
+		<text id="blond">金</text>
+		<text id="dblond">黄土</text>
+		<text id="custom">ｶｽﾀﾑ</text>
+	</section>
+	<section id="entry">
+		<text id="title">ｷｬﾝﾍﾟｰﾝ選択</text>
+		<text id="default">初期化</text>
+		<text id="default_desc">基本版 Aground.</text>
+	</section>
+</lang>
