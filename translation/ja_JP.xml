@@ -11,7 +11,7 @@
 		<text id="save">保存データ</text>
 		<text id="del_save">データ消去</text>
 		<text id="save_corrupt">データが壊れています! プレイヤーが存在しない世界にいます。</text>
-		<text id="save_incomplete">Save incomplete - some objects/items/areas may be missing. This is usually because you are missing a mod or the save is from a different version of the game.</text>
+    <text id="save_incomplete">保存に失敗 - いくつかのオブジェクト・アイテム・エリアが不足しているかも。 大抵modや、異なるバージョンが影響しています。</text>
 		<text id="fuel">燃料</text>
 		<text id="add_fuel">燃料追加</text>
 		<text id="add_rations">食糧追加</text>
@@ -33,12 +33,12 @@
 		<text id="reject">拒否</text>
 		<text id="sell">売る</text>
 		<text id="buy">買う</text>
-		<text id="drop_item">どれだけ捨てますか？</text>
+		<text id="drop_item">どれだけ捨てる？</text>
 		<text id="eat_item">どれだけ食べる？</text>
 		<text id="drink_item">どれだけ飲む？</text>
 		<text id="store_item">どれだけ保管？</text>
 		<text id="retrieve_item">どれくらい出す？</text>
-		<text id="cancel_item">How many would you like to cancel?</text>
+		<text id="cancel_item">どれくらいｷｬﾝｾﾙする？</text>
 		<text id="sell_item">どれだけ売る？</text>
 		<text id="buy_item">どのくらい買う？</text>
 		<text id="requires">-- 材料 --</text>
@@ -160,11 +160,11 @@
 		<text id="random">ﾗﾝﾀﾞﾑ</text>
 		<text id="efficiency">性能</text>
 		<text id="victory">勝利!</text>
-		<text id="item_found">New Item Discovered!</text>
-		<text id="more">+{count} More...</text>
-		<text id="dismantle_tip">To build this structure, you need to move or remove overlapping structures. You can do this using [item=dismantle] from your inventory.</text>
-		<text id="delete_save">Are you sure you wish to delete this slot?</text>
-		<text id="full">Cannot consume items until the [tile=stat.full] timer runs out!</text>
+		<text id="item_found">新しいアイテムを発見!</text>
+		<text id="more">あと+{count}個...</text>
+		<text id="dismantle_tip">これを作るには、建物を移動か削除してください。これ[item=dismantle]を持ち物から使えます。</text>
+		<text id="delete_save">この保存ﾃﾞｰﾀを消しますか？</text>
+		<text id="full">[tile=stat.full]ﾀｲﾏｰが終わるまで、ｱｲﾃﾑを使うことはできません。</text>
 	</section>
 	<section id="stats">
 		<text id="view">状態表示</text>
@@ -187,7 +187,7 @@
 		<text id="sight">視力</text>
 		<text id="bargaining">交渉</text>
 		<text id="trap">罠</text>
-		<text id="oxygen">Oxygen</text>
+		<text id="oxygen">酸素</text>
 		<text id="time">{mod} ： {time}s</text>
 		<text id="max">{mod} ({current}/{max})</text>
 	</section>
@@ -209,7 +209,7 @@
 		<text id="sight">移動や採掘の際に、より多くの資源を出現させます。</text>
 		<text id="bargaining">アイテムの販売コストを増加させます。</text>
 		<text id="trap">網の捕縛量を増加させます。</text>
-		<text id="oxygen">Increases how long you can survive without breathing.</text>
+    <text id="oxygen">呼吸無しで生き残れる時間を増やします。</text>
 	</section>
 	<section id="skill">
 		<text id="allocate">ｽｷﾙﾎﾟｲﾝﾄの割り当て</text>
@@ -245,8 +245,8 @@
 		<text id="enrage_prompt">あなたと永久的に敵対することになりますが、[item=adult_dragon]を怒らせますか？</text>
 		<text id="enable_attack">攻撃する</text>
 		<text id="disable_attack">攻撃しない</text>
-		<text id="enable_flight">Enable Flight</text>
-		<text id="disable_flight">Disable Flight</text>
+		<text id="enable_flight">戦う</text>
+		<text id="disable_flight">戦わない</text>
 		<text id="summon">呼ぶ</text>
 		<text id="uncraft">作らない</text>
 		<text id="set_time">時間設定</text>
@@ -410,11 +410,11 @@
 		<text id="water_sword">水の剣</text>
 		<text id="plant_sword">地の剣</text>
 		<text id="drain_sword">吸血の剣</text>
-        <text id="ice_axe">Ice Axe</text>
-        <text id="fire_axe">Fire Axe</text>
-        <text id="water_axe">Water Axe</text>
-        <text id="plant_axe">Plant Axe</text>
-        <text id="drain_axe">Drain Axe</text>
+        <text id="ice_axe">氷の斧</text>
+        <text id="fire_axe">火の斧</text>
+        <text id="water_axe">水の斧</text>
+        <text id="plant_axe">地の斧</text>
+        <text id="drain_axe">吸血の斧</text>
 		<text id="goggles">魂のｺﾞｰｸﾞﾙ</text>
 		<text id="furnace">炉</text>
 		<text id="campfire">焚火</text>
@@ -429,8 +429,8 @@
 		<text id="jetpack">ｼﾞｪｯﾄﾊﾟｯｸ</text>
 		<text id="shadow_cape">陰の肩掛け</text>
 		<text id="golem">ゴーレム</text>
-		<text id="gold_golem">Gold Golem</text>
-		<text id="purple_golem">Amethyst Golem</text>
+		<text id="gold_golem">金のゴーレム</text>
+		<text id="purple_golem">水晶のゴーレム</text>
 		<text id="earth_armor">大地の鎧</text>
 		<text id="earth_helm">大地の兜</text>
 		<text id="earth_hammer">大地のハンマー</text>
@@ -457,7 +457,7 @@
 		<text id="lab_blueprint">研究所の設計図</text>
 		<text id="wyrm_pen_blueprint">ウィルムの飼育小屋の設計図</text>
 		<text id="dock_blueprint">桟橋の設計図</text>
-		<text id="warehouse_blueprint">Warehouse Blueprint</text>
+		<text id="warehouse_blueprint">倉庫の設計図</text>
 		<text id="wheat_seed">小麦の種</text>
 		<text id="orchard_seed">りんごの種</text>
 		<text id="sugar_seed">ｻﾄｳｷﾋﾞの種</text>
@@ -470,15 +470,15 @@
 		<text id="ice_bush_seed">氷のベリーの種</text>
 		<text id="helium_sac">ヘリウム袋</text>
 		<text id="steel_axe">鋼の斧</text>
-		<text id="steel_hammer">Steel Hammer</text>
+		<text id="steel_hammer">鋼のハンマー</text>
 		<text id="spider">蜘蛛</text>
-		<text id="hide_slot">Hide Slot</text>
-		<text id="spirit_detector">Spirit Detector</text>
-		<text id="power_plant_blueprint">Power Plant Blueprint</text>
-		<text id="workshop_upgrade">Factory Blueprint</text>
-		<text id="elevator_blueprint">Elevator Blueprint</text>
-		<text id="powerline_blueprint">Powerline Blueprint</text>
-		<text id="purple_tree_seed">Purple Tree Seed</text>
+		<text id="hide_slot">隠しスロット</text>
+		<text id="spirit_detector">魂探知機</text>
+		<text id="power_plant_blueprint">発電所の設計図</text>
+		<text id="workshop_upgrade">工場の設計図</text>
+		<text id="elevator_blueprint">エレベータの設計図</text>
+		<text id="powerline_blueprint">電力線の設計図</text>
+		<text id="purple_tree_seed">水晶の木の種</text>
 	</section>
 	<section id="item.descriptions">
 		<text id="boat">世界を帆走する。</text>
