@@ -520,8 +520,8 @@
 		<text id="dismantle">[tile=blueprint.ico] [color=770000]設計図[/color]で作られた構造物を解体します.</text>
 		<text id="collect">地上のアイテムを収集します。</text>
 		<text id="plants">植物</text>
-		<text id="plant_cost">Plant Cost</text>
-		<text id="place_cost">Place Cost</text>
+		<text id="plant_cost">植物コスト</text>
+		<text id="place_cost">場所コスト</text>
 		<text id="area_name_sign">島の名前を変更できます。</text>
 		<text id="equipOn">装備する</text>
 		<text id="underwater">水中で使用できます。</text>
@@ -529,11 +529,11 @@
 		<text id="leftRight">前後に発砲します。</text>
 		<text id="element.resist">エレメンタル攻撃に抵抗。</text>
 		<text id="pierce">敵を突き抜けます。</text>
-		<text id="no_kill">Does not kill (stops at 1hp).</text>
-		<text id="spirit_detector">Detects nearby life sources.</text>
-		<text id="flying">Flying</text>
-		<text id="swimming">Swimming</text>
-		<text id="hammer">Builds blueprints on hit.</text>
+		<text id="no_kill">死なない!(1hpで踏ん張る)</text>
+		<text id="spirit_detector">近くの生命を検出</text>
+		<text id="flying">飛ぶ</text>
+		<text id="swimming">泳ぐ</text>
+    <text id="hammer">当たったら設計図を作る</text>
 	</section>
 	<section id="achievement.names">
 		<text id="hut">休憩所</text>
@@ -658,8 +658,8 @@
 		<text id="golemech">機械ｺﾞｰﾚﾑを建造</text>
 		<text id="build">{structure} を建築しますか？</text>
 		<text id="dismantle">{structure} を解体しますか？</text>
-		<text id="plant_cost">Would you like to plant {structure} for the following resources?</text>
-		<text id="place_cost">Would you like to place {structure} for the following resources?</text>
+		<text id="plant_cost">この植物 {structure} を植えますか?</text>
+		<text id="place_cost">これ {structure} を配置しますか?</text>
 		<text id="dragon_lair">竜の巣:</text>
 		<text id="change_appearance">外観を変更する</text>
 		<text id="forge">鍛冶を起動する.</text>
@@ -701,8 +701,8 @@
 		<text id="operate_other">動物を操作</text>
 		<text id="crop">収穫</text>
 		<text id="stall">飼育小屋管理</text>
-		<text id="summon_boat">Summon Boat</text>
-		<text id="summon_dragon">Summon Dragon</text>
+		<text id="summon_boat">船を召喚</text>
+		<text id="summon_dragon">ドラゴン召喚</text>
 	</section>
 	<section id="object.tooltip">
 		<text id="bush">摘む</text>
@@ -723,8 +723,8 @@
 		<text id="familiar">ペット:</text>
 		<text id="attack">武器:</text>
 		<text id="engine">動力:</text>
-		<text id="vanity">Select a vanity item to change your appearance without changing your actual equipment.</text>
-		<text id="vanity_fail">You cannot set a vanity item for this slot.</text>
+		<text id="vanity">化粧アイテムを選択すると、外観だけ変更できます</text>
+		<text id="vanity_fail">化粧アイテムはここにセットできません</text>
 	</section>
 	<section id="capture">
 		<text id="caught">捕まえた!</text>
@@ -735,7 +735,7 @@
 		<text id="weight">重量ｵｰﾊﾞｰ!</text>
 		<text id="stamina">持久力が無くて体力が低下!</text>
 		<text id="oxygen">酸素が無くて体力が低下!</text>
-		<text id="crush">Below Dive Depth, Losing Health!</text>
+		<text id="crush">深く潜りすぎて体力が低下!</text>
 		<text id="growing">まだ成長中！</text>
 		<text id="additions">ｽﾛｯﾄは残っていません！</text>
 		<text id="durability">傷ついて使用できない！</text>
@@ -746,7 +746,7 @@
 		<text id="place_no_room">ｵﾌﾞｼﾞｪｸﾄを置くには、もっと広くないといけない.</text>
 		<text id="no_place">ここには置けない!</text>
 		<text id="no_use">ここでは使えない!</text>
-		<text id="place_height">You cannot place that this high up.</text>
+		<text id="place_height">高い場所に置けない!</text>
 		<text id="structure_surface">上面には建築できない.</text>
 		<text id="structure_underwater">これは水中では建築できない.</text>
 		<text id="structure_water">これは水上にしか建築できません.</text>
@@ -759,14 +759,14 @@
 		<text id="structure_vehicle">車の中からは作れない.</text>
 		<text id="plant_structure">作物や建造物の上には植えられない.</text>
 		<text id="plant_grass">肥えた土の上にだけ植えることができます.</text>
-		<text id="place_rooms">You must place this entirely in a single room.</text>
+		<text id="place_rooms">これは1つの部屋に置く必要があります</text>
 		<text id="no_effect">何の効果もありません。</text>
 		<text id="drop_instead">代わりに捨てる？</text>
 		<text id="cannot_fire">{weapon}無しで、{projectile}は、発射できない.</text>
 		<text id="no_projectiles">{weapon}不可: {projectile}が無い.</text>
 		<text id="max_items">これ以上アイテムを追加できない！</text>
 		<text id="max_fuel">それ以上の燃料は追加できない！</text>
-		<text id="max_repair">It is already fully repaired!</text>
+		<text id="max_repair">すでに修理はすんでいる!</text>
 		<text id="max_rations">もう食料を加えられない！</text>
 		<text id="max_feed">これ以上飼料は追加できない！</text>
 		<text id="max_coins">これ以上ｺｲﾝを持てない！</text>
@@ -781,7 +781,7 @@
 		<text id="load_fail">ﾌｧｲﾙが見つからない為、ｹﾞｰﾑを読み込めませんでした。 再ｲﾝｽﾄｰﾙする必要があります。</text>
 		<text id="load_fail_js">ﾌｧｲﾙが見つからない為、ｹﾞｰﾑを読み込めませんでした。ﾍﾟｰｼﾞを再読み込みするには、 Shift+Refresh を試してください.</text>
 		<text id="incomplete">これは未実装です。 ｱｯﾌﾟﾃﾞｰﾄを待つ必要があります。</text>
-		<text id="no_flying">You can't do that while flying!</text>
+		<text id="no_flying">飛んでるときはできません！</text>
 		<text id="sleep_underwater">水中で寝ることはできません！</text>
 		<text id="sleep_vehicle">車中では寝ることはできません！</text>
 		<text id="flight_weight">{item}で飛ぶには、重すぎます!</text>
@@ -793,13 +793,13 @@
 		<text id="one_structure">これは、島に１つしか建築できません.</text>
 		<text id="no_use_vehicle">車中では、できません.</text>
 		<text id="no_use_underwater">水泳中では、できません.</text>
-		<text id="remove_cyborg">Do you want to remove the {item}? It will be gone for good and you will have to re-install it at the surgery lab if you want it back.</text>
-		<text id="not_enough">Not enough {item}!</text>
-		<text id="skill_points">You do not have enough skill points remaining to increase this skill!</text>
-		<text id="have_blueprint">You already have that blueprint!</text>
-		<text id="collect_progress">Are you sure you wish to remove this item? All progress will be cancelled.</text>
-		<text id="inventory_full">You cannot add any more items!</text>
-		<text id="cooldown">You must wait for the attack to cooldown before you can use it again.</text>
+    <text id="remove_cyborg">{item}を削除しますか？削除後元に戻したいなら、手術室で再インストールが必要です</text>
+		<text id="not_enough">{item}は十分ではない!</text>
+		<text id="skill_points">このスキルを上げるのに十分なｽｷﾙﾎﾟｲﾝﾄは残ってない!</text>
+		<text id="have_blueprint">もう設計図を持っている!</text>
+    <text id="collect_progress">このアイテムを削除しますか？すべての進捗はキャンセルされます。</text>
+		<text id="inventory_full">もうアイテムを持てない!</text>
+		<text id="cooldown">再び使用するにはクールダウンが必要だ</text>
 	</section>
 	<section id="market">
 		<text id="closed">夜になった.</text>
@@ -847,7 +847,7 @@
 		<text id="spirit_gem">精神力</text>
 		<text id="alter_gem">ウィルムを研究</text>
 		<text id="oldone">魔法ｴﾈﾙｷﾞｰ</text>
-		<text id="minecart">Laying Rails</text>
+		<text id="minecart">敷設レール</text>
 	</section>
 	<section id="quest.description">
 		<text id="hut">嵐から避難するために [color=550000]小屋[/color] を建てる必要がある.</text>
