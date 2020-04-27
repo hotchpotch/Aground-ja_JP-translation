@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<lang id="ja_JP" name="Japanese" version="1.5.3">
+<?xml version="1.0" encoding="utf-8" ?>
+<lang id="ja_JP" name="Japanese" font="fonts/ja_JP.fnt" version="2.0.5">
 	<section id="common">
 		<text id="blocked">効かない!</text>
 		<text id="resist">{element} リセット!</text>
@@ -7,9 +7,11 @@
 		<text id="miss">ミス！</text>
 		<text id="dodged">回避!</text>
 		<text id="critical_hit">クリティカル!</text>
+		<text id="no_effect">No Effect</text>
 		<text id="save">保存データ</text>
 		<text id="del_save">データ消去</text>
 		<text id="save_corrupt">データが壊れています! プレイヤーが存在しない世界にいます。</text>
+		<text id="save_incomplete">Save incomplete - some objects/items/areas may be missing. This is usually because you are missing a mod or the save is from a different version of the game.</text>
 		<text id="fuel">燃料</text>
 		<text id="add_fuel">燃料追加</text>
 		<text id="add_rations">食糧追加</text>
@@ -36,6 +38,7 @@
 		<text id="drink_item">どれだけ飲む？</text>
 		<text id="store_item">どれだけ保管？</text>
 		<text id="retrieve_item">どれくらい出す？</text>
+		<text id="cancel_item">How many would you like to cancel?</text>
 		<text id="sell_item">どれだけ売る？</text>
 		<text id="buy_item">どのくらい買う？</text>
 		<text id="requires">-- 材料 --</text>
@@ -50,6 +53,8 @@
 		<text id="workshop">工房</text>
 		<text id="storehouse">倉庫</text>
 		<text id="dockhouse">桟橋小屋</text>
+		<text id="market_placeholder">Market</text>
+		<text id="powerline1">Powerline</text>
 		<text id="power_plant">発電所</text>
 		<text id="warehouse">倉庫</text>
 		<text id="farm">納屋</text>
@@ -71,7 +76,6 @@
 		<text id="options">ｵﾌﾟｼｮﾝ</text>
 		<text id="exit">終了</text>
 		<text id="forums">コミュ</text>
-		<text id="mods">Mods</text>
 		<text id="empty">空き</text>
 		<text id="empty_slot">&lt; 空き ｽﾛｯﾄ &gt;</text>
 		<text id="corrupt_slot">破損ｽﾛｯﾄ</text>
@@ -96,11 +100,13 @@
 		<text id="storehouse_add">{npc}は{storehouse}に{item}を{count}追加しました</text>
 		<text id="auto_eat">体力を回復するために{item}を{count}使用しました</text>
 		<text id="auto_eat_stamina">{item}を{count}使って持久力を回復</text>
+		<text id="auto_eat_oxygen">Used {count} {item} to restore oxygen</text>
 		<text id="drop_all">全ての{item}を捨てますか？ 元には戻せませんよ？</text>
 		<text id="sign_message">[item=sign] ﾒｯｾｰｼﾞ:</text>
 		<text id="transform">どれだけ必要？ {into}?</text>
 		<text id="collect_complete">全て回収</text>
 		<text id="set_sticky">切替 [tile=sticky] ｱｲﾃﾑ付箋</text>
+		<text id="set_first">Set First Item</text>
 		<text id="fishing_line">きた!？</text>
 		<text id="fishing_fail">外れた!</text>
 		<text id="fishing_hooked">まだ...</text>
@@ -120,8 +126,10 @@
 		<text id="restore_power">全バッテリー充電!</text>
 		<text id="restore_power_partial">できるだけバッテリーを充電します。</text>
 		<text id="rations">食糧</text>
+		<text id="time">Time</text>
 		<text id="auto_feed">{item}に{list}を送りますか？</text>
 		<text id="auto_fuel">{item}に燃料として{list}を使う？</text>
+		<text id="auto_repair">Repair {item} with the following?{list}</text>
 		<text id="retransform">{item} は壊れそう! 修理するには？{list}</text>
 		<text id="uses">使う</text>
 		<text id="enchantment">施術</text>
@@ -129,8 +137,10 @@
 		<text id="durability">耐久性</text>
 		<text id="damage">打撃</text>
 		<text id="capture">捕獲</text>
+		<text id="capture_type">Capture Type</text>
 		<text id="spirits">精神</text>
 		<text id="flight">飛行力:</text>
+		<text id="depth">Dive Depth:</text>
 		<text id="knockback">ノックバック:</text>
 		<text id="fight">戦闘</text>
 		<text id="run_away">逃げる</text>
@@ -149,8 +159,12 @@
 		<text id="select_dir">方向選択:\n\n[key=left][key=up][key=down][key=right]</text>
 		<text id="random">ﾗﾝﾀﾞﾑ</text>
 		<text id="efficiency">性能</text>
-		<text id="move_dir">動く [key=left][key=up][key=down][key=right]</text>
 		<text id="victory">勝利!</text>
+		<text id="item_found">New Item Discovered!</text>
+		<text id="more">+{count} More...</text>
+		<text id="dismantle_tip">To build this structure, you need to move or remove overlapping structures. You can do this using [item=dismantle] from your inventory.</text>
+		<text id="delete_save">Are you sure you wish to delete this slot?</text>
+		<text id="full">Cannot consume items until the [tile=stat.full] timer runs out!</text>
 	</section>
 	<section id="stats">
 		<text id="view">状態表示</text>
@@ -173,6 +187,7 @@
 		<text id="sight">視力</text>
 		<text id="bargaining">交渉</text>
 		<text id="trap">罠</text>
+		<text id="oxygen">Oxygen</text>
 		<text id="time">{mod} ： {time}s</text>
 		<text id="max">{mod} ({current}/{max})</text>
 	</section>
@@ -194,6 +209,7 @@
 		<text id="sight">移動や採掘の際に、より多くの資源を出現させます。</text>
 		<text id="bargaining">アイテムの販売コストを増加させます。</text>
 		<text id="trap">網の捕縛量を増加させます。</text>
+		<text id="oxygen">Increases how long you can survive without breathing.</text>
 	</section>
 	<section id="skill">
 		<text id="allocate">ｽｷﾙﾎﾟｲﾝﾄの割り当て</text>
@@ -213,6 +229,7 @@
 		<text id="feed">飼料</text>
 		<text id="feed_all">全飼料</text>
 		<text id="fuel_all">全燃料</text>
+		<text id="repair_all">Repair All</text>
 		<text id="collect">回収</text>
 		<text id="open">開く</text>
 		<text id="carve">刻む</text>
@@ -228,6 +245,8 @@
 		<text id="enrage_prompt">あなたと永久的に敵対することになりますが、[item=adult_dragon]を怒らせますか？</text>
 		<text id="enable_attack">攻撃する</text>
 		<text id="disable_attack">攻撃しない</text>
+		<text id="enable_flight">Enable Flight</text>
+		<text id="disable_flight">Disable Flight</text>
 		<text id="summon">呼ぶ</text>
 		<text id="uncraft">作らない</text>
 		<text id="set_time">時間設定</text>
@@ -391,6 +410,11 @@
 		<text id="water_sword">水の剣</text>
 		<text id="plant_sword">地の剣</text>
 		<text id="drain_sword">吸血の剣</text>
+        <text id="ice_axe">Ice Axe</text>
+        <text id="fire_axe">Fire Axe</text>
+        <text id="water_axe">Water Axe</text>
+        <text id="plant_axe">Plant Axe</text>
+        <text id="drain_axe">Drain Axe</text>
 		<text id="goggles">魂のｺﾞｰｸﾞﾙ</text>
 		<text id="furnace">炉</text>
 		<text id="campfire">焚火</text>
@@ -405,6 +429,8 @@
 		<text id="jetpack">ｼﾞｪｯﾄﾊﾟｯｸ</text>
 		<text id="shadow_cape">陰の肩掛け</text>
 		<text id="golem">ゴーレム</text>
+		<text id="gold_golem">Gold Golem</text>
+		<text id="purple_golem">Amethyst Golem</text>
 		<text id="earth_armor">大地の鎧</text>
 		<text id="earth_helm">大地の兜</text>
 		<text id="earth_hammer">大地のハンマー</text>
@@ -431,6 +457,7 @@
 		<text id="lab_blueprint">研究所の設計図</text>
 		<text id="wyrm_pen_blueprint">ウィルムの飼育小屋の設計図</text>
 		<text id="dock_blueprint">桟橋の設計図</text>
+		<text id="warehouse_blueprint">Warehouse Blueprint</text>
 		<text id="wheat_seed">小麦の種</text>
 		<text id="orchard_seed">りんごの種</text>
 		<text id="sugar_seed">ｻﾄｳｷﾋﾞの種</text>
@@ -443,7 +470,15 @@
 		<text id="ice_bush_seed">氷のベリーの種</text>
 		<text id="helium_sac">ヘリウム袋</text>
 		<text id="steel_axe">鋼の斧</text>
+		<text id="steel_hammer">Steel Hammer</text>
 		<text id="spider">蜘蛛</text>
+		<text id="hide_slot">Hide Slot</text>
+		<text id="spirit_detector">Spirit Detector</text>
+		<text id="power_plant_blueprint">Power Plant Blueprint</text>
+		<text id="workshop_upgrade">Factory Blueprint</text>
+		<text id="elevator_blueprint">Elevator Blueprint</text>
+		<text id="powerline_blueprint">Powerline Blueprint</text>
+		<text id="purple_tree_seed">Purple Tree Seed</text>
 	</section>
 	<section id="item.descriptions">
 		<text id="boat">世界を帆走する。</text>
@@ -485,6 +520,8 @@
 		<text id="dismantle">[tile=blueprint.ico] [color=770000]設計図[/color]で作られた構造物を解体します.</text>
 		<text id="collect">地上のアイテムを収集します。</text>
 		<text id="plants">植物</text>
+		<text id="plant_cost">Plant Cost</text>
+		<text id="place_cost">Place Cost</text>
 		<text id="area_name_sign">島の名前を変更できます。</text>
 		<text id="equipOn">装備する</text>
 		<text id="underwater">水中で使用できます。</text>
@@ -492,6 +529,11 @@
 		<text id="leftRight">前後に発砲します。</text>
 		<text id="element.resist">エレメンタル攻撃に抵抗。</text>
 		<text id="pierce">敵を突き抜けます。</text>
+		<text id="no_kill">Does not kill (stops at 1hp).</text>
+		<text id="spirit_detector">Detects nearby life sources.</text>
+		<text id="flying">Flying</text>
+		<text id="swimming">Swimming</text>
+		<text id="hammer">Builds blueprints on hit.</text>
 	</section>
 	<section id="achievement.names">
 		<text id="hut">休憩所</text>
@@ -616,6 +658,8 @@
 		<text id="golemech">機械ｺﾞｰﾚﾑを建造</text>
 		<text id="build">{structure} を建築しますか？</text>
 		<text id="dismantle">{structure} を解体しますか？</text>
+		<text id="plant_cost">Would you like to plant {structure} for the following resources?</text>
+		<text id="place_cost">Would you like to place {structure} for the following resources?</text>
 		<text id="dragon_lair">竜の巣:</text>
 		<text id="change_appearance">外観を変更する</text>
 		<text id="forge">鍛冶を起動する.</text>
@@ -657,6 +701,8 @@
 		<text id="operate_other">動物を操作</text>
 		<text id="crop">収穫</text>
 		<text id="stall">飼育小屋管理</text>
+		<text id="summon_boat">Summon Boat</text>
+		<text id="summon_dragon">Summon Dragon</text>
 	</section>
 	<section id="object.tooltip">
 		<text id="bush">摘む</text>
@@ -677,6 +723,8 @@
 		<text id="familiar">ペット:</text>
 		<text id="attack">武器:</text>
 		<text id="engine">動力:</text>
+		<text id="vanity">Select a vanity item to change your appearance without changing your actual equipment.</text>
+		<text id="vanity_fail">You cannot set a vanity item for this slot.</text>
 	</section>
 	<section id="capture">
 		<text id="caught">捕まえた!</text>
@@ -687,6 +735,7 @@
 		<text id="weight">重量ｵｰﾊﾞｰ!</text>
 		<text id="stamina">持久力が無くて体力が低下!</text>
 		<text id="oxygen">酸素が無くて体力が低下!</text>
+		<text id="crush">Below Dive Depth, Losing Health!</text>
 		<text id="growing">まだ成長中！</text>
 		<text id="additions">ｽﾛｯﾄは残っていません！</text>
 		<text id="durability">傷ついて使用できない！</text>
@@ -697,12 +746,12 @@
 		<text id="place_no_room">ｵﾌﾞｼﾞｪｸﾄを置くには、もっと広くないといけない.</text>
 		<text id="no_place">ここには置けない!</text>
 		<text id="no_use">ここでは使えない!</text>
+		<text id="place_height">You cannot place that this high up.</text>
 		<text id="structure_surface">上面には建築できない.</text>
 		<text id="structure_underwater">これは水中では建築できない.</text>
 		<text id="structure_water">これは水上にしか建築できません.</text>
 		<text id="structure_tile">建築するには、もっと広くないといけない.</text>
 		<text id="structure_overlap">建築物の上に建築はできません.</text>
-		<text id="structure_barn">納屋がないと作れない.</text>
 		<text id="structure_adjacent">これは、{structure}の隣に構築する必要があります.</text>
 		<text id="structure_adjacent_left">これは、{structure}の左側に構築する必要があります.</text>
 		<text id="structure_adjacent_right">これは、{structure}の右側に構築する必要があります.</text>
@@ -710,14 +759,14 @@
 		<text id="structure_vehicle">車の中からは作れない.</text>
 		<text id="plant_structure">作物や建造物の上には植えられない.</text>
 		<text id="plant_grass">肥えた土の上にだけ植えることができます.</text>
-		<text id="plant_barn">納屋がないと作物を植えられません.</text>
-		<text id="plant_vehicle">車の中には植えられない.</text>
+		<text id="place_rooms">You must place this entirely in a single room.</text>
 		<text id="no_effect">何の効果もありません。</text>
 		<text id="drop_instead">代わりに捨てる？</text>
 		<text id="cannot_fire">{weapon}無しで、{projectile}は、発射できない.</text>
 		<text id="no_projectiles">{weapon}不可: {projectile}が無い.</text>
 		<text id="max_items">これ以上アイテムを追加できない！</text>
 		<text id="max_fuel">それ以上の燃料は追加できない！</text>
+		<text id="max_repair">It is already fully repaired!</text>
 		<text id="max_rations">もう食料を加えられない！</text>
 		<text id="max_feed">これ以上飼料は追加できない！</text>
 		<text id="max_coins">これ以上ｺｲﾝを持てない！</text>
@@ -732,8 +781,7 @@
 		<text id="load_fail">ﾌｧｲﾙが見つからない為、ｹﾞｰﾑを読み込めませんでした。 再ｲﾝｽﾄｰﾙする必要があります。</text>
 		<text id="load_fail_js">ﾌｧｲﾙが見つからない為、ｹﾞｰﾑを読み込めませんでした。ﾍﾟｰｼﾞを再読み込みするには、 Shift+Refresh を試してください.</text>
 		<text id="incomplete">これは未実装です。 ｱｯﾌﾟﾃﾞｰﾄを待つ必要があります。</text>
-		<text id="no_pickaxe">あなたはもはやピックアックスが装備されていないので、カメラは動かされました。 あなたは[キー=機器]を押すことによってピックアックスを装備し、機器を管理することができます。</text>
-		<text id="sleep_flying">飛行中に眠ることはできません！</text>
+		<text id="no_flying">You can't do that while flying!</text>
 		<text id="sleep_underwater">水中で寝ることはできません！</text>
 		<text id="sleep_vehicle">車中では寝ることはできません！</text>
 		<text id="flight_weight">{item}で飛ぶには、重すぎます!</text>
@@ -745,6 +793,13 @@
 		<text id="one_structure">これは、島に１つしか建築できません.</text>
 		<text id="no_use_vehicle">車中では、できません.</text>
 		<text id="no_use_underwater">水泳中では、できません.</text>
+		<text id="remove_cyborg">Do you want to remove the {item}? It will be gone for good and you will have to re-install it at the surgery lab if you want it back.</text>
+		<text id="not_enough">Not enough {item}!</text>
+		<text id="skill_points">You do not have enough skill points remaining to increase this skill!</text>
+		<text id="have_blueprint">You already have that blueprint!</text>
+		<text id="collect_progress">Are you sure you wish to remove this item? All progress will be cancelled.</text>
+		<text id="inventory_full">You cannot add any more items!</text>
+		<text id="cooldown">You must wait for the attack to cooldown before you can use it again.</text>
 	</section>
 	<section id="market">
 		<text id="closed">夜になった.</text>
@@ -792,6 +847,7 @@
 		<text id="spirit_gem">精神力</text>
 		<text id="alter_gem">ウィルムを研究</text>
 		<text id="oldone">魔法ｴﾈﾙｷﾞｰ</text>
+		<text id="minecart">Laying Rails</text>
 	</section>
 	<section id="quest.description">
 		<text id="hut">嵐から避難するために [color=550000]小屋[/color] を建てる必要がある.</text>
@@ -827,6 +883,7 @@
 		<text id="spirit_gem">[item=spirit_gem] を使ってｽﾋﾟﾘｯﾄを捕獲して欲しい.</text>
 		<text id="alter_gem">彼の[item=wyrm] 研究を終わらせる為に、もっと助けが必要です!</text>
 		<text id="oldone">魔法ｴﾈﾙｷﾞｰの源を見つけて欲しい</text>
+		<text id="minecart">wants to set up a [item=minecart] to make mining easier.</text>
 	</section>
 	<section id="vehicle">
 		<text id="dismount">降りる</text>
@@ -838,6 +895,10 @@
 		<text id="battery">ﾊﾞｯﾃﾘｰから充電</text>
 		<text id="explain">[color=770000]ﾋﾝﾄ:[/color] 乗り物や動物に乗っているときは、 [key=equipment] を押して餌や燃料を選ぶことができます。</text>
 		<text id="flight_height">この車両はそれ以上飛べない！</text>
+		<text id="deploy">Deploy</text>
+		<text id="pack_up">Pack Up</text>
+		<text id="boat_pack_up">If you pack up the boat now, you'll end up swimming with the fishes!</text>
+		<text id="in_use">Unable to operate vehicle: another player is already operating it!</text>
 	</section>
 	<section id="npc">
 		<text id="talk">話す</text>
@@ -867,6 +928,7 @@
 		<text id="storehouse2">では、 [color=770000]倉庫[/color] を建ててくれる!？</text>
 		<text id="storehouse3">どう？大工さんも達成感を得られたでしょ！？生き残れる希望が見えたんじゃない？</text>
 		<text id="storehouse4">うん…実際、これは便利なものや。 たくさんの物を持ち運んで疲れてしまうことを避けることができる…これなら生きていくこともできるかもしれんのぅ…</text>
+		<text id="storehouse5">We can quickly drop off all that extra weight by using the Move All buttons, and use [key=quest] to toggle starred items - starred items will stay in your inventory when you hit Move All.</text>
 		<text id="farmer">わしらは[object=farmer]と取引をするべきじゃ。奴がうまい食べ物を育てる手助けをしようぞ.</text>
 		<text id="miner">おめぇは[object=miner]が、地下から現れるのを見たか？彼女が何を欲しがっとるのか、確認したほうがえぇ。</text>
 		<text id="kitchen1">なぜ [color=770000]調理場[/color]を建てると思うんや? [item=meat]は食べられるが、調理すると、さらにうまくなるからや。</text>
@@ -875,6 +937,7 @@
 		<text id="kitchen4">[item=wood] か [item=coal] があれば、[color=770000]調理場[/color]で料理できるじゃろ。</text>
 		<text id="kitchen5">いくつかの[item=cheese]をわしが欲しがっていることを知っとるか？</text>
 		<text id="kitchen6">[var=quest.kitchen2.wood] [item=wood] と [var=quest.kitchen2.steel_bar] [item=steel_bar]で、[color=770000]調理場[/color]をｱｯﾌﾟｸﾞﾚｰﾄﾞすれば[item=cheese] と新しい料理のﾚｼﾋﾟを得られるんや.</text>
+		<text id="no_kitchen">What happened to my beautiful [color=770000]Kitchen[/color]? You better build a new one ASAP! You can build it using a [item=kitchen_blueprint].</text>
 		<text id="kitchen7">おめぇさんは、材料を全部持っとるな？では、[color=770000]調理場[/color]をｱｯﾌﾟｸﾞﾚｰﾄﾞしようかの!</text>
 		<text id="kitchen8">新しいレシピのいくつかを試してみるとええ！ 食文化の発展を感じられるじゃろ！？</text>
 		<text id="farm">腹が減ったのぅ... おめぇさんが[color=770000]農場[/color]を建ててくれると、わしゃ信じとる！</text>
@@ -933,6 +996,9 @@
 		<text id="equip1">[color=770000][tile=stone] 石[/color]で [item=gold]を採掘するには、[item=iron_pickaxe] か [item=steel_pickaxe]　を装備する必要があるわ。[key=equipment]を押して、忘れずに装備してね。</text>
 		<text id="equip2">[key=equipment]を押して装備の画面を開くと、装備やﾋﾟｯｹﾙを管理できるわ。</text>
 		<text id="hotkey">[color=770000]ホットキー[/color] にアイテムを登録するのなら、\n 持ち物画面でアイテムを[key=hotkey1], [key=hotkey2], [key=hotkey3] か [key=hotkey4] でクリックしてね。</text>
+		<text id="minecart1">One thing every miner needs is a good [item=minecart] and [item=rail] system! Ores are heavy, and having a way to easily transport them to the [color=770000]Storehouse[/color] would be amazing.</text>
+		<text id="minecart2">You built a [item=minecart] and [item=rail]s? Perfect, let's place them right away!</text>
+		<text id="minecart3">Here, I placed the [item=minecart] and a small [item=rail] system! You can expand it and move [item=rail]s using a [item=crowbar] to pry them up!</text>
 	</section>
 	<section id="trader">
 		<text id="steal">[item={item}] が[color=770000]倉庫[/color]から盗まれた!</text>
@@ -960,6 +1026,11 @@
 		<text id="reject">送り出す</text>
 		<text id="sail">なんて美しい日なんだろう…出航に相応しいじゃない？</text>
 		<text id="pirate">今までありがとう！全部盗んだ！？誰もそんなことするわけないじゃないか。</text>
+		<text id="shipping1">Now that you have items spread across multiple islands, wouldn't it be nice to be able to transfer them from storehouse to storehouse? With my new shipping service, you can - for a small fee!</text>
+		<text id="shipping2">What island would you like to ship items from?</text>
+		<text id="shipping3">I can ship items from [color=770000]{area}[/color] for 0.20 [color=770000][tile=coin_purse.ico] Coins[/color] per weight. Let me know what items you want me to ship:</text>
+		<text id="shipping4">What island would you like to ship the selected items to for {coins} [color=770000][tile=coin_purse.ico] Coins[/color]?</text>
+		<text id="shipping5">The items are on their way - you should see them there the next time you visit. Let me know if there are any other items you'd like to ship, and a pleasure doing business with you!</text>
 	</section>
 	<section id="alchemist">
 		<text id="introduce1">この惑星にはまだ見たことのない多くのものがあるんだよ。 ボクは実験をして、魔法を発見したんだ！</text>
@@ -1077,8 +1148,10 @@
 	</section>
 	<section id="player">
 		<text id="storm1">さ、寒い…[pause=1] つ、疲れた…[pause=1] ひ、避難所を…避難所を作らないと…ここに材料は…あっ!…木がある！…これで…</text>
-		<text id="storm2">[color=770000]小屋[/color]を建築できるかもしれない… [var=quest.hut.wood] [item=wood] だけ集めれば…</text>
 		<text id="storm3">私は疲れ切っていて、 [tile=stamina][color=006600]持久力[/color]がいつもよりも速く減ってしまうが、[item=wood]を！[item=wood] を集めて [color=770000]小屋[/color]を作るまでは…なんとか...</text>
+		<text id="hut1">What is this structure? It looks like someone stopped in the middle of making a shelter. I bet I could finish it with [var=quest.hut.wood] [item=wood].</text>
+		<text id="hut2">I have {count} of [var=quest.hut.wood] [item=wood] needed to finish this [color=770000]Hut[/color]. I need to gather more fallen branches.</text>
+		<text id="hut3">I dropped off {added} [item=wood] at the [color=770000]Hut[/color]. I need {remaining} more to finish it!</text>
 		<text id="storehouse1">この斧は使えるかも…これで資源を蓄える[color=770000]倉庫[/color]を建てることができた.</text>
 		<text id="storehouse2">私は[var=quest.storehouse.wood] [item=wood] と [var=quest.storehouse.berries] [item=berries]で、倉庫が作れると信じている.</text>
 		<text id="storehouse3">よかった！ この倉庫を建てましょう！</text>
@@ -1127,6 +1200,7 @@
 		<text id="tip1">あなたは猪に背後から忍び寄って攻撃するために、トンネルを掘ることができる。</text>
 		<text id="tip2">[item=red_berries]は攻撃力を一時的に増加させるのに使うことができますが、あなたの健康には悪いことに注意してください。</text>
 		<text id="tip3">攻撃をしても、「効かない!」と出る場合、その敵は、あなたには強すぎます。 より良い武器や、もっと強力な攻撃が必要です。</text>
+		<text id="tip4">Setting [item=arrow]s to a hotkey lets you fire them as long as the [item=bow] is in your inventory, even if it's not equipped!</text>
 		<text id="tent3">だから私は火の光を見たとき、暗い山腹に震え、単独で震えていた！ そして笑いを聞いた！ とても仲良く聞こえました...</text>
 		<text id="tent4">だからあなたは私たちと友達を作るために降りたのですか？</text>
 		<text id="tent5">もちろん違います。 そして私は確かにあなたを試して感動させるために雄鶏を狩っていませんでした。 どういたしまして。</text>
@@ -1349,6 +1423,8 @@
 	</section>
 	<section id="system.planet.desc">
 		<text id="start">地球のような居住可能な惑星、コロニーの位置＃21。\n\n [color=ff2222] Enemy Homeworld [/color]であることが予想されます。</text>
+		<text id="start.dwarf">A small but dense terrestrial planet close to the star. It has no atmosphere, but is likely to hold valuable ores and [item=exotic_matter].</text>
+		<text id="start.gas">An ice giant with a stormy atmosphere and strong gravitational pull.</text>
 	</section>
 	<section id="options">
 		<text id="options">ｵﾌﾟｼｮﾝ</text>
@@ -1359,6 +1435,7 @@
 		<text id="textspeed">文字速度:</text>
 		<text id="language">言語:</text>
 		<text id="gameplay">ｹﾞｰﾑ設定</text>
+		<text id="ui">UI Options</text>
 		<text id="controls">操作</text>
 		<text id="achievements">ﾄﾛﾌｨｰ</text>
 		<text id="title">ﾀｲﾄﾙに戻る</text>
@@ -1391,6 +1468,17 @@
 		<text id="fade_ui">UI透明度:</text>
 		<text id="prompt_count">作成ｱｲﾃﾑ数</text>
 		<text id="allow_flash">点滅を許可</text>
+		<text id="notify_away">NPC Notifications when Away</text>
+		<text id="blueprint_all">Show Blueprints in All tab?</text>
+		<text id="mine_walkways">Allow mining walkways?</text>
+		<text id="warn_toss">Confirm when discarding all items.</text>
+		<text id="item_discover">Show new item discovered popup.</text>
+		<text id="blueprint_place">Use resources when placing blueprints.</text>
+		<text id="talk_quest">Give NPC priority with no quests.</text>
+		<text id="auto_collect">Auto Collect items.</text>
+		<text id="hotkey_switch">Switch Equipment hotkeys.</text>
+		<text id="storehouse_priority">Prioritize Storehouse Inventory.</text>
+		<text id="difficulty">Difficulty:</text>
 	</section>
 	<section id="option.descriptions">
 		<text id="auto_heal">有効にすると、健康状態がなくなると、死にかからずに在庫から健康治癒食品（利用可能な場合）を自動的に食べます。</text>
@@ -1401,6 +1489,13 @@
 		<text id="fade_ui">画面上のGUIのアルファ不透明度（ヘルスバー、ボタンなど）を設定します。</text>
 		<text id="prompt_count">有効にすると、ゲームは一度に手作りしたいアイテムの数を尋ねます。そうしないと、1つのアイテムにつき1つのアイテムが作成されます。</text>
 		<text id="allow_flash">点滅するライトに敏感な場合は、これを無効にしてください。 それはゲームでより激しいちらつきの光のいくつかを無効にします。 すべての改造がこのオプションを扱うことが保証されているわけではありません。</text>
+		<text id="notify_away">When enabled, NPCs will notify you when they add to storehouses on any island. When disabled, they will only notify you when they add to storehouses on the current island.</text>
+		<text id="mine_walkways">Disable to make walkways unmineable so you don't collect them by accident. Enable to allow mining walkways so you can collect and re-arrange them.</text>
+		<text id="blueprint_place">Disable to place blueprints immediately and add resources to start building them later.</text>
+		<text id="talk_quest">Disable to stop NPCs from blocking access to structures/items behind them when they have no quests to give or complete.</text>
+		<text id="auto_collect">Automatically collects items when mining, picking berries or defeating an enemy with melee weapons.</text>
+		<text id="hotkey_switch">When using a hotkey to equip an item, switch that hotkey with what was previously equipped.</text>
+		<text id="storehouse_priority">Add/remove items to/from the storehouse by default, instead of the player's inventory.</text>
 	</section>
 	<section id="controls">
 		<text id="left">左:</text>
@@ -1419,7 +1514,12 @@
 		<text id="hotkey2">Hotkey 2:</text>
 		<text id="hotkey3">Hotkey 3:</text>
 		<text id="hotkey4">Hotkey 4:</text>
+		<text id="hotkey5">Hotkey 5:</text>
+		<text id="hotkey6">Hotkey 6:</text>
+		<text id="hotkey7">Hotkey 7:</text>
+		<text id="hotkey8">Hotkey 8:</text>
 		<text id="mute">消音:</text>
+		<text id="chat">Chat:</text>
 	</section>
 	<section id="cloud">
 		<text id="login">アコースティッククラウドのログイン</text>
@@ -1443,6 +1543,7 @@
 		<text id="sync_now">Sync Now</text>
 		<text id="overwrite">There are two saves in this slot!\nWhich one would you like to keep?</text>
 		<text id="close_syncing">Your saves are currently syncing. Are you sure you wish to leave before the sync completes?</text>
+		<text id="confirm_logout">Are you sure you wish to logout?</text>
 	</section>
 	<section id="modio">
 		<text id="login">私たちはmodをｲﾝｽﾄｰﾙして管理するためにmod.ioを使用します。 あなたのﾒｰﾙｱﾄﾞﾚｽを入力して始めましょう！</text>
@@ -1493,6 +1594,9 @@
 		<text id="shirt">ｼｬﾂの色:</text>
 		<text id="pants">ﾊﾟﾝﾂの色:</text>
 		<text id="hair_style">髪型:</text>
+		<text id="shirt_style">Shirt Style:</text>
+		<text id="beard_style">Facial Hair:</text>
+		<text id="fur">Fur Color:</text>
 	</section>
 	<section id="colors">
 		<text id="black">黒</text>
@@ -1515,6 +1619,19 @@
 		<text id="blond">金</text>
 		<text id="dblond">黄土</text>
 		<text id="custom">ｶｽﾀﾑ</text>
+	</section>
+	<section id="offsets">
+		<text id="open">Open</text>
+		<text id="closed">Closed</text>
+	</section>
+	<section id="difficulty">
+		<text id="easiest">Easiest</text>
+		<text id="easier">Easier</text>
+		<text id="default">Normal</text>
+		<text id="harder">Harder</text>
+		<text id="hardest">Hardest</text>
+		<text id="1hko">1 Hit Death</text>
+		<text id="creative">Creative</text>
 	</section>
 	<section id="entry">
 		<text id="title">ｷｬﾝﾍﾟｰﾝ選択</text>
