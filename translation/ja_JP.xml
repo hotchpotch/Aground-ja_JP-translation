@@ -996,9 +996,10 @@
 		<text id="equip1">[color=770000][tile=stone] 石[/color]で [item=gold]を採掘するには、[item=iron_pickaxe] か [item=steel_pickaxe]　を装備する必要があるわ。[key=equipment]を押して、忘れずに装備してね。</text>
 		<text id="equip2">[key=equipment]を押して装備の画面を開くと、装備やﾋﾟｯｹﾙを管理できるわ。</text>
 		<text id="hotkey">[color=770000]ホットキー[/color] にアイテムを登録するのなら、\n 持ち物画面でアイテムを[key=hotkey1], [key=hotkey2], [key=hotkey3] か [key=hotkey4] でクリックしてね。</text>
-		<text id="minecart1">One thing every miner needs is a good [item=minecart] and [item=rail] system! Ores are heavy, and having a way to easily transport them to the [color=770000]Storehouse[/color] would be amazing.</text>
-		<text id="minecart2">You built a [item=minecart] and [item=rail]s? Perfect, let's place them right away!</text>
-		<text id="minecart3">Here, I placed the [item=minecart] and a small [item=rail] system! You can expand it and move [item=rail]s using a [item=crowbar] to pry them up!</text>
+    <text id="minecart1">
+      鉱石掘りには鉱石は重いから[color=770000]倉庫[/color]に簡単に運びたい。そんな鉱石掘りに[item=minecart]と[item=rail]があると便利に運べるよ!</text>
+		<text id="minecart2">[item=minecart]と[item=rail]は作った? いいわね, 早速設置しましょう!</text>
+		<text id="minecart3">ここに[item=minecart]と小さな[item=rail]が出来上がり!それを展開して[item=rail]を移動して[item=crowbar]で持ち上げられるわ!</text>
 	</section>
 	<section id="trader">
 		<text id="steal">[item={item}] が[color=770000]倉庫[/color]から盗まれた!</text>
