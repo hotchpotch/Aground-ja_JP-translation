@@ -3,13 +3,13 @@
 
 ## これは何？
 
-Aground に日本語翻訳を当てるツールです。主に MacOS (たぶん Linux でも動きます) で Aground を楽しみたい方用です。オフィシャルではありません。
+Aground に日本語翻訳を当てるツールです。主に MacOS (たぶん Linux でも動きます) で Aground を楽しみたい方用です。オフィシャルの翻訳ではありません。
 
-翻訳ファイルは、[@CastleOrange1](https://twitter.com/CastleOrange1) さんのファイルを元に(というかほぼ全て)しています。@Castleorange1 さん、翻訳ファイルの公開ありがとうございます。
+翻訳ファイルは、[@CastleOrange1](https://twitter.com/CastleOrange1) さんのファイルを元に(というか殆どが元ファイルのまま)しています。@Castleorange1 さん、翻訳ファイルの公開ありがとうございます。
 
 - https://twitter.com/castleorange1/status/1073614689509072897
 
-Windows ユーザは、上記ツールを利用することで、 Aground 日本語翻訳の大半が動くと思います。
+Windows ユーザは、@CastleOrange1 さんの上記ツールを利用することで、 Aground 日本語翻訳の大半が動くと思います。
 
 ## 日本語化
 
@@ -21,6 +21,9 @@ cd Aground-ja_jp-translation
 ruby aground_ja.rb
 # もしくは steam の Aground のディレクトリを直接指定する
 # ruby aground_ja.rb ~/Library/Application Support/Steam/steamapps/common/Aground/
+
+# Windows なら以下のようにAgroundアプリを指すことでうまく動くかも(未確認)
+# ruby aground_ja.rb 'C:\Program Files (x86)\Steam\steamapps\common\Aground'
 ```
 
 を実行すると、翻訳ファイルが当たるでしょう。
@@ -29,3 +32,4 @@ ruby aground_ja.rb
 # その他
 
 フォントは[美咲フォント](https://littlelimit.net/misaki.htm)を利用しています。
+
