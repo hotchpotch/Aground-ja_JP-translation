@@ -928,7 +928,7 @@
 		<text id="storehouse2">では、 [color=770000]倉庫[/color] を建ててくれる!？</text>
 		<text id="storehouse3">どう？大工さんも達成感を得られたでしょ！？生き残れる希望が見えたんじゃない？</text>
 		<text id="storehouse4">うん…実際、これは便利なものや。 たくさんの物を持ち運んで疲れてしまうことを避けることができる…これなら生きていくこともできるかもしれんのぅ…</text>
-    <text id="storehouse5">すべて移動ﾎﾞﾀﾝを押すと余計な重いものをすぐに減らせ、[key=quest]を使用してｽﾀｰ付きｱｲﾃﾑを切り替えれるぞ。ｽﾀｰ付きｱｲﾃﾑは移動しないんじゃ。</text>
+    <text id="storehouse5">すべて移動ﾎﾞﾀﾝを押すと、スター付き以外の余計な重いものをすぐに減らせる。[key=quest]を押すと、ｱｲﾃﾑにｽﾀｰをつけたり消したりできるぞ。</text>
 		<text id="farmer">わしらは[object=farmer]と取引をするべきじゃ。奴がうまい食べ物を育てる手助けをしようぞ.</text>
 		<text id="miner">おめぇは[object=miner]が、地下から現れるのを見たか？彼女が何を欲しがっとるのか、確認したほうがえぇ。</text>
 		<text id="kitchen1">なぜ [color=770000]調理場[/color]を建てると思うんや? [item=meat]は食べられるが、調理すると、さらにうまくなるからや。</text>
@@ -1464,38 +1464,38 @@
 		<text id="hide_element_critical">ｴﾚﾒﾝﾄと会心非表示</text>
 		<text id="hide_queue_element_critical">全非表示</text>
 		<text id="move_all">全ﾎﾞﾀﾝ移動有効</text>
-		<text id="move_all_confirm">すべてのアイテムを別のインベントリに移動します。 有効にする？</text>
+		<text id="move_all_confirm">すべてのアイテムを別の倉庫に移動します。 有効にする？</text>
 		<text id="fade_ui">UI透明度:</text>
 		<text id="prompt_count">作成ｱｲﾃﾑ数</text>
 		<text id="allow_flash">点滅を許可</text>
-		<text id="notify_away">NPC Notifications when Away</text>
-		<text id="blueprint_all">Show Blueprints in All tab?</text>
-		<text id="mine_walkways">Allow mining walkways?</text>
-		<text id="warn_toss">Confirm when discarding all items.</text>
-		<text id="item_discover">Show new item discovered popup.</text>
-		<text id="blueprint_place">Use resources when placing blueprints.</text>
-		<text id="talk_quest">Give NPC priority with no quests.</text>
-		<text id="auto_collect">Auto Collect items.</text>
-		<text id="hotkey_switch">Switch Equipment hotkeys.</text>
-		<text id="storehouse_priority">Prioritize Storehouse Inventory.</text>
-		<text id="difficulty">Difficulty:</text>
+		<text id="notify_away">島不在時のNPC通知</text>
+		<text id="blueprint_all">全タブに設計図を表示</text>
+		<text id="mine_walkways">歩道での採掘を許可</text>
+		<text id="warn_toss">アイテムを破棄する時に確認</text>
+		<text id="item_discover">新アイテム発見時にﾎﾟｯﾌﾟｱｯﾌﾟ</text>
+		<text id="blueprint_place">設計図配置時に物資を使う</text>
+    <text id="talk_quest">クエストがないときのNPC</text>
+		<text id="auto_collect">アイテムの自動取得</text>
+		<text id="hotkey_switch">装備ホットキーの切り替え</text>
+		<text id="storehouse_priority">倉庫の在庫を優先</text>
+		<text id="difficulty">難易度:</text>
 	</section>
 	<section id="option.descriptions">
-		<text id="auto_heal">有効にすると、健康状態がなくなると、死にかからずに在庫から健康治癒食品（利用可能な場合）を自動的に食べます。</text>
-		<text id="auto_stamina">有効にすると、スタミナが足りなくなると、体力を失う代わりに、あなたの在庫からスタミナの癒し用食べ物（もしあれば）を自動的に食べます。</text>
-		<text id="max_overweight">ゲームがあなたの動きを止める前に、あなたが過体重に歩いて死を避けるために必要な体重制限をどれくらい設定しますか。 制限を解除するには0に設定します。</text>
+		<text id="auto_heal">有効にすると、体力がなくなると、死なずに持物から体力治癒食品（利用可能な場合）を自動的に食べます。</text>
+		<text id="auto_stamina">有効にすると、スタミナが足りなくなると、体力を失う代わりに、持物からスタミナの癒し用食べ物（もしあれば）を自動的に食べます。</text>
+		<text id="max_overweight">ゲームがあなたの動きを止める前に、あなたが過体重で歩いて死な無いために必要な体重制限をどれくらい設定しますか。 制限を解除するには0に設定します。</text>
 		<text id="notifications">どの通知を表示するか。\n画面の下部にある通知（NPCがあなたの倉庫にアイテムを置いているようなもの）が表示されます。\nElementは要素効果/レジストポップアップです。\nCriticalはクリティカルヒット、ミス、ダッジ、ブロックされた通知です。</text>
 		<text id="move_all">転送インベントリウィンドウのすべての "&lt;" "&gt;ボタンを移動できるようにします。</text>
 		<text id="fade_ui">画面上のGUIのアルファ不透明度（ヘルスバー、ボタンなど）を設定します。</text>
 		<text id="prompt_count">有効にすると、ゲームは一度に手作りしたいアイテムの数を尋ねます。そうしないと、1つのアイテムにつき1つのアイテムが作成されます。</text>
 		<text id="allow_flash">点滅するライトに敏感な場合は、これを無効にしてください。 それはゲームでより激しいちらつきの光のいくつかを無効にします。 すべての改造がこのオプションを扱うことが保証されているわけではありません。</text>
-		<text id="notify_away">When enabled, NPCs will notify you when they add to storehouses on any island. When disabled, they will only notify you when they add to storehouses on the current island.</text>
-		<text id="mine_walkways">Disable to make walkways unmineable so you don't collect them by accident. Enable to allow mining walkways so you can collect and re-arrange them.</text>
-		<text id="blueprint_place">Disable to place blueprints immediately and add resources to start building them later.</text>
-		<text id="talk_quest">Disable to stop NPCs from blocking access to structures/items behind them when they have no quests to give or complete.</text>
-		<text id="auto_collect">Automatically collects items when mining, picking berries or defeating an enemy with melee weapons.</text>
-		<text id="hotkey_switch">When using a hotkey to equip an item, switch that hotkey with what was previously equipped.</text>
-		<text id="storehouse_priority">Add/remove items to/from the storehouse by default, instead of the player's inventory.</text>
+    <text id="notify_away">有効時、全島の倉庫にNPCが追加時に通知。無効では現在の島のみ通知。</text>
+    <text id="mine_walkways">あやまって歩道を収集しないように。有効時は歩道を収集して再配置できる。</text>
+    <text id="blueprint_place">設計図をすぐに配置し、建築に向けたリソースの自動追加を無効</text>
+    <text id="talk_quest">クエストがないとき、NPCが構造物・アイテムへのアクセスブロックを無効</text>
+    <text id="auto_collect">採掘・ベリー狩り・近接攻撃で敵を倒した時、アイテムを自動収集</text>
+    <text id="hotkey_switch">ホットキーを利用してアイテムを装備した場合、以前装備していたものをそのホットキーに割当る</text>
+    <text id="storehouse_priority">プレイヤーの持ち物の代わりに、デフォルトで倉庫にアイテムを追加削除します。</text>
 	</section>
 	<section id="controls">
 		<text id="left">左:</text>
@@ -1594,9 +1594,9 @@
 		<text id="shirt">ｼｬﾂの色:</text>
 		<text id="pants">ﾊﾟﾝﾂの色:</text>
 		<text id="hair_style">髪型:</text>
-		<text id="shirt_style">Shirt Style:</text>
-		<text id="beard_style">Facial Hair:</text>
-		<text id="fur">Fur Color:</text>
+		<text id="shirt_style">ｼｬﾂｽﾀｲﾙ:</text>
+		<text id="beard_style">顔毛:</text>
+		<text id="fur">顔毛色:</text>
 	</section>
 	<section id="colors">
 		<text id="black">黒</text>
