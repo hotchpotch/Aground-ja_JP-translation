@@ -494,7 +494,7 @@
 		<text id="undrain">出血減退</text>
 		<text id="transform_other">ｱｲﾃﾑを変換します。</text>
 		<text id="fill">穴を埋める。</text>
-		<text id="collect_rail">ﾚｰﾙとｹｰﾌﾞﾙを引き上げます。</text>
+		<text id="collect_rail">ﾚｰﾙとｹｰﾌﾞﾙを引上げ再利用できます。</text>
 		<text id="storehouse">ｱｲﾃﾑを格納します。</text>
 		<text id="sign">ﾒｯｾｰｼﾞを表示します。</text>
 		<text id="view_hidden">魂を明らかにする。</text>
@@ -524,7 +524,7 @@
 		<text id="place_cost">場所コスト</text>
 		<text id="area_name_sign">島の名前を変更できます。</text>
 		<text id="equipOn">装備する</text>
-		<text id="underwater">水中で使用できます。</text>
+		<text id="underwater">水中でも使用できます。</text>
 		<text id="passTile">タイルを通過します。</text>
 		<text id="leftRight">前後に発砲します。</text>
 		<text id="element.resist">エレメンタル攻撃に抵抗。</text>
@@ -803,7 +803,7 @@
 	</section>
 	<section id="market">
 		<text id="closed">夜になった.</text>
-		<text id="restock">すぐに新しい在庫が必要です！</text>
+		<text id="restock">新しい在庫が入荷するよ!</text>
 		<text id="no_power">しんじられない、[color=770000]発電所[/color] が停止した! どうすればいいの?</text>
 	</section>
 	<section id="quests">
@@ -953,7 +953,7 @@
 		<text id="farm5">見んしゃい、この素晴らしい[color=770000]農場[/color]を! もっと拡張したいならもっと種を作らんとあかんな。</text>
 		<text id="kitchen">生の [item=wheat] は美味ない...[object=builder] は、 [color=770000]調理場[/color]を建てて料理をする事を提案しちょる.</text>
 		<text id="pen1">[color=770000]農場[/color]には 家畜が足らん。 [color=770000][tile=boar] 猪[/color] を [item=net]で捕獲できんもんかのぉ?</text>
-		<text id="pen2">[var=quest.pen.pig] [item=pig] と [var=quest.pen.wood] [item=wood]に[color=770000]飼育小屋[/color]を追加しといたで.</text>
+		<text id="pen2">[var=quest.pen.pig] [item=pig] と [var=quest.pen.wood] [item=wood]に[color=770000]飼育小屋[/color]で飼いたいんや.</text>
 		<text id="pen3">こんなにもｼﾞｭｰｼｰな [item=pig] のような物を見たことがあるやろか？</text>
 		<text id="pen4">飼育小屋で[item=meat] と [item=milk]が獲れるんじゃ!</text>
 		<text id="pen5">ここに [item=pen_blueprint] があるんで、もっと多くの飼育小屋を作ることができるとよ!</text>
@@ -997,7 +997,7 @@
 		<text id="equip2">[key=equipment]を押して装備の画面を開くと、装備やﾋﾟｯｹﾙを管理できるわ。</text>
 		<text id="hotkey">[color=770000]ホットキー[/color] にアイテムを登録するのなら、\n 持ち物画面でアイテムを[key=hotkey1], [key=hotkey2], [key=hotkey3] か [key=hotkey4] でクリックしてね。</text>
     <text id="minecart1">
-      鉱石掘りには鉱石は重いから[color=770000]倉庫[/color]に簡単に運びたい。そんな鉱石掘りに[item=minecart]と[item=rail]があると便利に運べるよ!</text>
+      鉱石は重いから[color=770000]倉庫[/color]に簡単に運びたいわね。そんなときに[item=minecart]と[item=rail]があると便利に運べるよ!</text>
 		<text id="minecart2">[item=minecart]と[item=rail]は作った? いいわね, 早速設置しましょう!</text>
 		<text id="minecart3">ここに[item=minecart]と小さな[item=rail]が出来上がり!それを展開して[item=rail]を移動して[item=crowbar]で持ち上げられるわ!</text>
 	</section>
@@ -1184,44 +1184,44 @@
 	<section id="hunter">
 		<text id="tent1">私は見ず知らずの人のテントで休むべきではありません！</text>
 		<text id="tent2">これは[オブジェクト=ハンター]のテントでなければなりません。 私はそれを残しておくべきです。</text>
-		<text id="intro1">ねえ！ 私はその猪を奪うのを見た？</text>
-		<text id="intro2">うん、どうして...どうしたの？</text>
-		<text id="intro3">シンプル！ 適切なテクニックのビットが必要なのです。</text>
-		<text id="intro4">私はこのエリアを安全にしようとしています。 あなたが私に協力してくれるのなら、あなたに狩りの方法を教えることができる。</text>
-		<text id="accept1">重要なのは、相手に気づかれないことだ。 後ろから敵を撃てば、クリティカルヒットを得られる。</text>
-		<text id="accept2">余っている[item=workbench]を持っているから、これをあなたに差し上げよう - あなたの持ち物画面でそれを使って自分の武器を作ることができる！</text>
-		<text id="accept3">私は[item=bow] を得意とするので、敵に近づく必要はありませんが、近接武器を使用したい場合は[item=buckler]が攻撃をブロックするのに役立ちます！</text>
-		<text id="accept4">武器を装備するには[key=equipment]、装備した武器で攻撃するには[key=attack]、シールドでブロックするには[key=defend]を使用します。</text>
-		<text id="accept5">さて、[item=bow]を作り、[color=770000] [tile=boar] 猪 [/color]の群れを狩ってみませんか？ 狩りのヒントが必要な場合は、再び話しかけてください！</text>
-		<text id="reject1">あなたは危険だ…。 私たちのエリアから離れてください！</text>
+		<text id="intro1">おい！私が猪を狩るのを見たかい？</text>
+		<text id="intro2">うん...どうしたの？</text>
+		<text id="intro3">簡単さ！適切なテクニックがあればだけれどね。</text>
+		<text id="intro4">私はこの場所を平和にしようとしてるのさ。私に協力するなら、狩りのテクニックを教えるよ。</text>
+		<text id="accept1">重要なのは、相手に気づかれないことだ。後ろから敵を撃てば、クリティカルヒットになる。</text>
+		<text id="accept2">余っている[item=workbench]があるから、これを差し上げよう。持ち物画面でそれを使って自分の武器を作ることができるよ！</text>
+		<text id="accept3">私は[item=bow]が得意だから、敵に近づく必要はないけど、近接武器を使用したい場合は[item=buckler]が攻撃をブロックするのに役立つぞ！</text>
+		<text id="accept4">武器を装備するには[key=equipment]、装備した武器で攻撃するには[key=attack]、シールドでブロックするには[key=defend]を使うよ。</text>
+		<text id="accept5">さて、[item=bow]を作り、[color=770000] [tile=boar] 猪 [/color]の群れを狩ってみようか？ 狩りのヒントが必要な場合は、再び話しかけてね！</text>
+		<text id="reject1">あなたは危険だ…。 私たちのエリアから離れて！</text>
 		<text id="reject2">まあ、大丈夫です！ 私はちょうど山に戻って行くよ！</text>
-		<text id="reject3">いくつかの狩猟技術を学ぶ準備ができていますか？</text>
-		<text id="hunt1">私たちは、このエリアを危険な生き物から時間をかけて安全にします！</text>
-		<text id="hunt2">仕事がうまくいったら、私の古い[item=backpack]をあなたに差し上げよう。荷物を持ち運ぶのに便利です。</text>
-		<text id="tip1">あなたは猪に背後から忍び寄って攻撃するために、トンネルを掘ることができる。</text>
-		<text id="tip2">[item=red_berries]は攻撃力を一時的に増加させるのに使うことができますが、あなたの健康には悪いことに注意してください。</text>
-		<text id="tip3">攻撃をしても、「効かない!」と出る場合、その敵は、あなたには強すぎます。 より良い武器や、もっと強力な攻撃が必要です。</text>
-		<text id="tip4">Setting [item=arrow]s to a hotkey lets you fire them as long as the [item=bow] is in your inventory, even if it's not equipped!</text>
-		<text id="tent3">だから私は火の光を見たとき、暗い山腹に震え、単独で震えていた！ そして笑いを聞いた！ とても仲良く聞こえました...</text>
-		<text id="tent4">だからあなたは私たちと友達を作るために降りたのですか？</text>
-		<text id="tent5">もちろん違います。 そして私は確かにあなたを試して感動させるために雄鶏を狩っていませんでした。 どういたしまして。</text>
-		<text id="tent6">私は単に私の狩り範囲を拡大したかっただけです。</text>
-		<text id="tent7">私はこの場所についてもっと知りたいのですが、この島を超えて何かがあるかどうかを知りたいです...</text>
-		<text id="tent8">東には他の島があります。 私は山々の高いところから見た。</text>
+		<text id="reject3">いくつかの狩猟テクを学ぶ準備は整ったかい？</text>
+		<text id="hunt1">私は、このエリアを危険な生き物から時間をかけて平和にするのさ！</text>
+		<text id="hunt2">仕事がうまくいったら、私の古い[item=backpack]をあなたに差し上げよう。荷物を持ち運ぶのに便利さ。</text>
+		<text id="tip1">猪に背後から忍び寄って攻撃するために、トンネルを掘れるぞ。</text>
+		<text id="tip2">[item=red_berries]は攻撃力を一時的に増加させるのに使えるが、健康には悪いことに注意だ。</text>
+		<text id="tip3">攻撃しても「効かない!」と出る場合、その敵は強すぎる。 より良い武器や、もっと強力な攻撃が必要だ。</text>
+		<text id="tip4">[item=arrow]をホットキーに登録すると、[item=bow]の残りが持ち物にある限り、弓を装備してなくても発射できるぞ!</text>
+		<text id="tent3">私は火の光を見たとき、暗い山腹に一人で震えていた...そして笑い声を聞いたんだ！仲の良さそうなね...</text>
+    <text id="tent4">だからあなたは、私達と友だちになるため降りてきたの?</text>
+		<text id="tent5">もちろん違うよ。そして私は感心させるためにイノシシを狩っていたんじゃないよ、本当に。</text>
+		<text id="tent6">単に狩りの範囲をを広げたかっただけさ。</text>
+		<text id="tent7">私はこの場所についてもっと知りたいのです。この島を超えて何かがあるかどうかを知りたい...</text>
+		<text id="tent8">東には他の島があるぞ。 私は山の高いところから見た。</text>
 		<text id="tent9">そこに行けると思う？</text>
-		<text id="tent10">わからない。 その海岸は危険である。 さらに、それらの島々は私には奇妙に見えました。 危険なことがあります。</text>
-		<text id="tent11">だからあなたは、物事の仕方に満足する必要があると言っているのですか？</text>
-		<text id="tent12">私は、人生がすでに難しいときには、借りる必要はないと言っています。</text>
-		<text id="fence1">私は野生生物をここにチェックしておきたい。</text>
-		<text id="fence2">[item=workbench]を使って[var=quest.fence.fence] [item=fence]を作ることができましたか？ その後、境界を設定することができます。</text>
-		<text id="fence3">完璧。 [color=770000] [tile=boar]猪[/color]は[item=fence]を通過できませんので、和解を保護するために使用することができます。</text>
-		<text id="fence4">私はここに1つ置くでしょう、それを保護するために私たちのベースの周りに他の[item=fence]を置きます！</text>
-		<text id="wolf1">私は和解の周りに狼の子犬がぶら下がっていることに気づいた。 彼は寂しいようです。</text>
-		<text id="wolf2">彼はパックを持っていないのですか？</text>
-		<text id="wolf3">彼らは後ろに彼を残しているに違いない。</text>
-		<text id="wolf4">[var=quest.wolf.net] [item=net]、[var=quest.wolf.trap] [item=trap]、[var=quest.wolf.meat] [item=meat]を使用すると、 彼を飼いならすことができます。</text>
-		<text id="wolf5">さて、この子犬でできることを見てみましょう。</text>
-		<text id="wolf6">まあ、彼はあなたを完全に信頼しているようだ。 あなたは今、忠実な仲間を持っています。</text>
+		<text id="tent10">わからない。 ただ海岸は危険だよ。 なおかつ、島々は奇妙に見えたぞ。 危険そうだ。</text>
+		<text id="tent11">現状に満足しろ、っていってるの？</text>
+		<text id="tent12">ただでさえ大変なんだから、わざわざトラブルに自ら行く必要はない、と言ってるんだよ</text>
+		<text id="fence1">私は野生生物をここでチェックしておきたい。</text>
+		<text id="fence2">[item=workbench]を使って[var=quest.fence.fence] [item=fence]を作れたかな？ その後、柵を設置することができるぞ。</text>
+    <text id="fence3">完璧。 [color=770000] [tile=boar]猪[/color]は[item=fence]を通過できないから、保護するために使えるよ</text>
+		<text id="fence4">ここに1つ置いて、私たちの集落の周りにも他の[item=fence]を置こう！</text>
+		<text id="wolf1">集落の周りにｵｵｶﾐの子供がぶら下がっていることに気づいた。寂しいようだ。</text>
+		<text id="wolf2">彼は食料を持ってないの？</text>
+    <text id="wolf3">置き去りにされてしまったに違いない</text>
+		<text id="wolf4">[var=quest.wolf.net] [item=net]、[var=quest.wolf.trap] [item=trap]、[var=quest.wolf.meat] [item=meat]を使用すると、 彼を飼いならすことができる。</text>
+		<text id="wolf5">さて、このｵｵｶﾐでできることを見てみよう。</text>
+		<text id="wolf6">こいつはあんたを完全に信頼しているようだ。 忠実な仲間ができたな。</text>
 		<text id="wolf7">あなたの[color=770000] 装備 [/color]画面の[color=770000] ペット [/color]スロットを使って[item=wolf]をフォローすることができます。</text>
 	</section>
 	<section id="mechanic">
@@ -1470,7 +1470,7 @@
 		<text id="prompt_count">作成ｱｲﾃﾑ数</text>
 		<text id="allow_flash">点滅を許可</text>
 		<text id="notify_away">島不在時のNPC通知</text>
-		<text id="blueprint_all">全タブに設計図を表示</text>
+		<text id="blueprint_all">『全部』タブに設計図を表示</text>
 		<text id="mine_walkways">歩道での採掘を許可</text>
 		<text id="warn_toss">アイテムを破棄する時に確認</text>
 		<text id="item_discover">新アイテム発見時にﾎﾟｯﾌﾟｱｯﾌﾟ</text>
