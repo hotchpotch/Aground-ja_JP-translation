@@ -19,33 +19,48 @@ ja_xml = aground_lang_dir.join "#{ja_lang}.xml"
 
 font_ja_dir = Pathname.new(__FILE__).parent
 
-def get_transration(source)
+def get_sections(source)
   regexps = {
     section: %r{<section\s+id="(.+?)">(.+?)</section>}m,
     text: %r{<text\s+id="(.+?)">(.*?)</text>}m,
   }
 
-  translations = {}
+  results = {}
   sections = source.scan(regexps[:section])
   sections.each do |section, data|
-    translations[section] = data.scan(regexps[:text])
+    results[section] = data.scan(regexps[:text]).to_h
   end
-  translations
+  results.to_h
 end
 
-def replace_transrations(orig, lang, language, translations)
+def replace_translations(orig, translation_source, lang, language)
+  counter = {
+    total: 0,
+    translated: 0,
+  }
+
+  translations = get_sections translation_source
+
   source = orig.clone
+  source_sections = get_sections source
+
   source.sub!(' id="en_US"', %Q{ id="#{lang}"})
   source.sub!(' name="English" ', %Q{ name="#{language}" font="fonts/#{lang}.fnt" })
-  translations.each do |section, texts|
+
+  source_sections.each do |section, texts|
     texts.each do |text_id, text|
-      re = Regexp.new(%Q{(<section\s+id="#{section}">.*?<text\s+id="#{text_id}">)(.*?)(</text>.*?</section>)}, Regexp::MULTILINE)
-      if source.match(re)
-        source.gsub!(re) { "#{$1}#{text}#{$3}" }
+      counter[:total] += 1
+      if target_text = translations[section]&.send('[]', text_id)
+        re = Regexp.new(%Q{(<section\s+id="#{section}">.*?<text\s+id="#{text_id}">)(.*?)(</text>.*?</section>)}, Regexp::MULTILINE)
+        if matched = source.match(re) && target_text != text
+          counter[:translated] += 1
+          source.gsub!(re) { "#{$1}#{target_text}#{$3}" }
+        end
       end
     end
   end
-  source
+  counter[:per] = sprintf('%5.2f', counter[:translated].to_f / counter [:total] * 100)
+  [source, counter]
 end
 
 def update_languages_xml(source, lang)
@@ -59,11 +74,12 @@ def update_languages_xml(source, lang)
   end
 end
 
-translations = get_transration(source_ja_xml.read)
-ja_xml_source = replace_transrations(en_xml.read, ja_lang, 'Japanese', translations)
+replaced_source, counter = replace_translations(en_xml.read, source_ja_xml.read, ja_lang, 'Japanese')
 
-puts "日本語 xml ファイルに書き込みます\n-> #{ja_xml}"
-ja_xml.open('w') {|f| f.puts ja_xml_source }
+puts "ソース文言: #{counter[:total]}, 翻訳済み: #{counter[:translated]} (#{counter[:per]}%)"
+
+puts "日本語 xml ファイルを書き込みます\n-> #{ja_xml}"
+ja_xml.open('w') {|f| f.puts replaced_source }
 
 puts "フォントファイルをコピーします"
 
